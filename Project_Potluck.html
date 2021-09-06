@@ -1,234 +1,9 @@
-<!DOCTYPE HTML>
-
-<html>
-
-<head>
-
-  <title>Yiran MA | Portfolio</title>
-  <link rel="icon" type="image/png" href="images/logo.png">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Barlow:200, 300,400,500,600,700" rel="stylesheet">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <!-- google fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-  <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
-
-  <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-
-  <!-- end google fonts -->
-
-  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-90414112-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-  <script src="js/animate.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.3/jquery.scrollTo.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery.localscroll@2.0.0/jquery.localScroll.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/1.5.6/jquery.mixitup.min.js"
-    integrity="sha512-UmZ15zGovMYyCpLp2ZA/sDpaDSorklcTAW3Rd0767fRDWT8WmLqhzr5kisseQmKtk4qIAxxjWV83fwKp3ncmkQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
-
-
-
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $('#btn').localScroll({ duration: 800 });
-    });
-  </script>
-
-  <script>
-
-
-
-    $(function () {
-
-      var pull = $('#pull');
-
-      menu = $('nav ul');
-
-      menuHeight = menu.height();
-
-
-
-      $(pull).on('click', function (e) {
-
-        e.preventDefault();
-
-        menu.slideToggle();
-
-      });
-
-
-
-      $(window).resize(function () {
-
-        var w = $(window).width();
-
-        if (w > 320 && menu.is(':hidden')) {
-
-          menu.removeAttr('style');
-
-        }
-
-      });
-
-    });
-
-  </script>
-
-</head>
-
-<!-- <body id="body" class="animate-bottom"> -->
-
-<!-- <body  onload="myFunction()">
-<div class="rects-container" id="loader">
-  <div class="rect-1"></div>
-  <div class="rect-2"></div>
-  <div class="rect-3"></div>
-</div>
-</div> -->
-
-<body id="body" class="animate-bottom" style="display: block;">
-
-  <!-- <div id="body" style="display:none;" class="animate-bottom"> -->
-
-  <div class="body">
-
-    <div class="wrap">
-
-      <div class="wrapper">
-
-        <!-- start header-->
-
-        <div class="header1">
-
-          <div class="logo">
-
-            <a href="index.htm"><img src="images/mylogo.png" alt=""></a>
-
-          </div>
-
-          <div class="cssmenu">
-
-            <ul>
-
-              <li><a href="index.htm">Home</a></li>
-
-              <li class="active"><a href="index.htm#port-top">Portfolio</a></li>
-
-              <!-- <li><a href="GraphicDesign.html">Graphics</a></li> -->
-
-              <!-- <li ><a href="Gallery.html">Gallery</a></li> -->
-
-              <li><a href="about.html">About Me</a></li>
-
-              <div class="clear"></div>
-
-
-            </ul>
-
-          </div>
-
-          <div class="clear"></div>
-
-          <div class="top-nav">
-
-            <nav class="clearfix">
-
-              <ul>
-
-                <li><a href="index.htm">Home</a></li>
-
-                <li><a href="index.htm#port-top">Portfolio</a></li>
-
-                <!-- <li><a href="GraphicDesign.html">Graphics</a></li> -->
-
-                <!-- <li ><a href="Gallery.html">Gallery</a></li> -->
-
-                <li><a href="about.html">About Me</a></li>
-
-              </ul>
-
-              <a href="#" id="pull">Menu</a>
-
-            </nav>
-
-          </div>
-
-        </div>
-
-
-
-
-        <!-- start content -->
-
-        <div class="main1">
-
-          <div class="content">
-
-
-
-
-
-
-
-            <div class="blog" id="top">
-
-              <div class="progressive-image">
-                <div class="loadingImage" style="background: url('images/Potluck/header_sm.png')"
-                  data-image="images/Potluck/header.png">
-                </div>
-                <div class="overlay"></div>
-              </div>
-
-
-
-              <img src="images/Potluck/header.png" style="margin-top: 20px; display: none">
-              <!-- 
-       <div class="progressive-image">
-          <div class="loadingImage"
-             style="background: url('images/Potluck/header_sm.png')"
-             data-image="images/Potluck/header.png">
-          </div>
-          <div class="overlay"></div>
-        </div> -->
-
-
-              <!--         <h2>Potluck  </h2> -->
-
-
-              <!--  <div class="clear">
+---
+layout: post
+hero-image: /assets/images/Potluck/header.png
+---
+
+<!--  <div class="clear">
        <hr size="0.5" noshade="noshade" color="#CCCCCC"/>
      </div>
 
@@ -237,126 +12,90 @@
         <h6>Position: Rotate leadership; Focus on research
         </h6>
         <h6>Key words: User study, Product design</h6> -->
+<div class="blog_list">
+  <div class="blog_para">
+    <br />
 
-            </div>
+    <div class="cont1 cont">
+      <br />
 
-            <div class="blog_list">
+      <h5>Motivation</h5>
+    </div>
 
+    <div class="row">
+      <div class="col-md-6 col-sm-11">
+        <p>
+          In Georgia Tech, an approximately 5500 new international students
+          arrive on campus each year. Good dining is an important part in
+          overall adaptation to a new life abroad, but we have found the
+          following experience widely shared among new international students
+          (including ourselves):
+        </p>
+        <p
+          style="
+            font-style: oblique;
+            color: #999;
+            align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+          "
+        >
+          “You are an international student attending Georgia Tech. While
+          visiting the cafeteria you are confused by the many unfamiliar food
+          choices and have difficulty understanding the menu. You cannot name
+          the foods and do not know what foods you would enjoy. You are afraid
+          to ask the server for information about the food because there is a
+          long line and that would inconvenience those behind you.”
+        </p>
+        <p>
+          We are inspired to find a solution to help international students
+          adapt to dining on campus in a better way.
+        </p>
+      </div>
+      <div class="col-md-6 col-sm-11" style="padding-left: 20px">
+        <img src="/assets/images/Potluck/ProblemSpace.png" />
+      </div>
+    </div>
 
+    <div class="clear"></div>
 
+    <br />
 
+    <div class="cont2 cont">
+      <h5>User Research</h5>
 
+      <h7> Phase#1 Natural observation</h7>
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="para">
+            We carried out four 30-minute observation sessions in different
+            on-campus dining places. We sticked to non-participatory principle
+            and took notes of international student's behavior when they order
+            food.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-              <div class="blog_para">
+<div style="background-color: #fafafa">
+  <div class="blog_list" style="padding-top: 20px">
+    <h7> Phase#2 Task Analysis</h7>
+  </div>
 
-                <br />
+  <div class="row" style="margin-left: 14%; margin-right: 10%">
+    <div class="col-lg-6">
+      <img src="/assets/images/Potluck/TA1.png" />
+    </div>
 
+    <div class="col-lg-6">
+      <img src="/assets/images/Potluck/TA2.png" width="100%" />
+    </div>
+  </div>
+</div>
 
-
-
-                <div class="cont1 cont">
-
-                  <br />
-
-                  <h5>Motivation</h5>
-
-
-
-                </div>
-
-
-                <div class="row">
-                  <div class="col-md-6 col-sm-11 ">
-                    <p>
-
-                      In Georgia Tech, an approximately 5500 new international students arrive on campus each year. Good
-                      dining is an important part in overall adaptation to a new life abroad, but we have found the
-                      following experience widely shared among new international students (including ourselves):
-
-                    </p>
-                    <p style=" font-style:oblique;color: #999; align: center; margin-top: 20px; margin-bottom: 20px">
-                      “You are an international student attending Georgia Tech. While visiting the cafeteria you are
-                      confused by the many unfamiliar food choices and have difficulty understanding the menu. You
-                      cannot name the foods and do not know what foods you would enjoy. You are afraid to ask the server
-                      for information about the food because there is a long line and that would inconvenience those
-                      behind you.” </p>
-                    <p>
-
-                      We are inspired to find a solution to help international students adapt to dining on campus in a
-                      better way.
-                    </p>
-                  </div>
-                  <div class="col-md-6 col-sm-11" style="padding-left: 20px; ">
-                    <img src="images/Potluck/ProblemSpace.png">
-                  </div>
-
-                </div>
-
-
-
-
-                <div class="clear"></div>
-
-
-
-
-
-
-                <br />
-
-
-                <div class="cont2 cont">
-                  <h5>User Research </h5>
-
-                  <h7> Phase#1 Natural observation</h7>
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <p class="para">
-                        We carried out four 30-minute observation sessions in different on-campus dining places. We
-                        sticked to non-participatory principle and took notes of international student's behavior when
-                        they order food.
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-
-
-
-
-
-
-
-            <div style="background-color: #FAFAFA">
-
-              <div class="blog_list" style="padding-top: 20px">
-
-                <h7> Phase#2 Task Analysis</h7>
-              </div>
-
-
-
-
-              <div class="row" style="margin-left: 14%;margin-right: 10%">
-                <div class="col-lg-6">
-                  <img src="images/Potluck/TA1.png" />
-                </div>
-
-                <div class="col-lg-6">
-                  <img src="images/Potluck/TA2.png" width="100%" />
-                </div>
-
-              </div>
-
-
-
-            </div>
-
-
-            <!--         <div class="row">
+<!--         <div class="row">
           <div class="col-lg-6" style="margin-top:50px; ">
             <div style="font-size:13px">
               <table class="table ">
@@ -402,152 +141,136 @@
          </div>
          <div class="col-lg-6">
           <!--  <div class="magnify">
-            <div class="large" style="background: url('images/Potluck/TA.png') no-repeat;" width="80%" ></div>
+            <div class="large" style="background: url('/assets/images/Potluck/TA.png') no-repeat;" width="80%" ></div>
 
-            <img class="small" src="images/Potluck/TA.png" width="100%" />
+            <img class="small" src="/assets/images/Potluck/TA.png" width="100%" />
 
           </div> -->
 
-            <!--  <img  src="images/Potluck/TA.png" width="100%" />
+<!--  <img  src="/assets/images/Potluck/TA.png" width="100%" />
         </div>
 
         </div> -->
 
-            <div class="blog_list">
-              <div class="blog_para">
+<div class="blog_list">
+  <div class="blog_para">
+    <div class="row">
+      <div class="col-lg-6"></div>
+      <br />
+    </div>
 
+    <h7> Phase#3 Contextual Interview</h7>
 
-                <div class="row">
-                  <div class="col-lg-6">
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          After natural observations, we need to further learn about our users’
+          feelings, values and problems when dining on campus. We want to
+          identify how users’ personal traits relate to their problems.
+          Therefore, the team together carried out eight contextual interviews
+          with first-year international students. We recruited students from 5
+          different contries. We included native as well as non-native English
+          speakers, students who are new to the US as well as students who have
+          been in the US for several years. We randomly assigned participants to
+          three different kinds of dining places on campus-cafeteria, fast food
+          store and buffet.
+        </p>
+        <br />
 
+        <p>
+          In a typical session, we observe the participant order at one of the
+          typical dining place on campus that he or she is not familiar with.
+          Then we ask questions about his or her experience when ordering,
+          opinion on the food, and other general questions about attitudes and
+          habits.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="/assets/images/Potluck/CI.jpg" />
+      </div>
+    </div>
 
+    <br />
+    <br />
+    <br />
+    <h7> Phase#4 Affinity Mapping</h7>
 
+    <div class="row">
+      <div class="col-lg-6">
+        <p class="para1">
+          An affinity map was created based on the findings from contextual
+          interviews and observations to help the team make better sense of the
+          (unexpectedly tons of) data collected.
+        </p>
 
-                  </div>
-                  <br />
-                </div>
+        <p class="para1">
+          Process: We started by reading the notes out loud and sticking it on
+          the wall. We looked out for similar notes to put under the previous
+          notes, or create a new column if no match was found. The blue sticky
+          notes are highlights of their own columns, written in the user's tone
+          of voice. Then, the pink notes were introduced to group the various
+          ideas shown on the blue notes. We then summed up the afficnity map by
+          categorizing the pink notes with green ones.
+        </p>
+      </div>
+      <div class="col-lg-6" align="center">
+        <img src="/assets/images/Potluck/AM3.png" />
+      </div>
+    </div>
+    <br />
+  </div>
+</div>
 
+<div class="row" align="center" style="max-width: 100%">
+  <img src="/assets/images/Potluck/AM.png" width="100%" />
+</div>
 
-
-
-
-
-                <h7> Phase#3 Contextual Interview</h7>
-
-                <div class="row">
-
-                  <div class="col-md-6">
-
-                    <p> After natural observations, we need to further learn about our users’ feelings, values and
-                      problems when dining on campus. We want to identify how users’ personal traits relate to their
-                      problems. Therefore, the team together carried out eight contextual interviews with first-year
-                      international students. We recruited students from 5 different contries. We included native as
-                      well as non-native English speakers, students who are new to the US as well as students who have
-                      been in the US for several years. We randomly assigned participants to three different kinds of
-                      dining places on campus-cafeteria, fast food store and buffet.
-                    </p>
-                    <br />
-
-                    <p>
-
-
-                      In a typical session, we observe the participant order at one of the typical dining place on
-                      campus that he or she is not familiar with. Then we ask questions about his or her experience when
-                      ordering, opinion on the food, and other general questions about attitudes and habits.
-                    </p>
-
-                  </div>
-                  <div class="col-md-6">
-
-                    <img src="images/Potluck/CI.jpg">
-                  </div>
-
-                </div>
-
-
-
-                <br />
-                <br />
-                <br />
-                <h7> Phase#4 Affinity Mapping</h7>
-
-                <div class="row">
-                  <div class="col-lg-6">
-                    <p class="para1">An affinity map was created based on the findings from contextual interviews and
-                      observations to help the team make better sense of the (unexpectedly tons of) data collected. </p>
-
-                    <p class="para1">Process: We started by reading the notes out loud and sticking it on the wall. We
-                      looked out for similar notes to put under the previous notes, or create a new column if no match
-                      was found. The blue sticky notes are highlights of their own columns, written in the user's tone
-                      of voice. Then, the pink notes were introduced to group the various ideas shown on the blue notes.
-                      We then summed up the afficnity map by categorizing the pink notes with green ones.</p>
-
-
-                  </div>
-                  <div class="col-lg-6" align="center">
-                    <img src="images/Potluck/AM3.png">
-                  </div>
-
-
-                </div>
-                <br />
-              </div>
-            </div>
-          </div>
-
-          <div class="row" align="center" style="max-width: 100%">
-            <img src="images/Potluck/AM.png" width="100%">
-          </div>
-
-
-
-          <!-- 
+<!-- 
         <div class="row" align="center">
-          <a href="images/Potluck/AM.png" class="b-link-stripe b-animate-go   swipebox"  title="Affinity Map"><img src="images/Potluck/AM.png" 					 alt=""/></a>
+          <a href="/assets/images/Potluck/AM.png" class="b-link-stripe b-animate-go   swipebox"  title="Affinity Map"><img src="/assets/images/Potluck/AM.png" 					 alt=""/></a>
         </div> -->
 
-          <br />
+<br />
 
+<div class="blog_list">
+  <h7> Phase#5 Survey</h7>
 
-          <div class="blog_list">
-            <h7> Phase#5 Survey</h7>
+  <div class="row">
+    <div class="col-lg-6">
+      <p class="para">
+        Up to this point we have already got some interesting findings that went
+        beyond our initial hypothesis. However, the participants so far are
+        limited to first year graduate students on campus, and the data is
+        mostly quantitative. To verify and generalize the findings, we need to
+        get a larger sample of users.
+      </p>
 
+      <p class="para">
+        Therefore, we distributed a survey through social media groups of
+        international students. There are 60 valid responses.
+      </p>
+      <br />
+    </div>
+    <div class="col-lg-6">
+      <img src="/assets/images/Potluck/SurveyFindings.png" width="85%" />
+    </div>
+  </div>
+  <br />
+  <br />
+  <br />
+  <div class="row">
+    <div class="col-lg-6">
+      Based on the findings from the observations, contextual interviews and
+      surveys, we were able to summarize our user needs as shown on the right.
+    </div>
+    <div class="col-lg-6" style="vertical-align: central" align="center">
+      <img src="/assets/images/Potluck/UserNeeds.png" width="90%" />
+    </div>
+  </div>
+  <br />
+  <br />
 
-
-            <div class="row">
-              <div class="col-lg-6">
-                <p class="para">Up to this point we have already got some interesting findings that went beyond our
-                  initial hypothesis. However, the participants so far are limited to first year graduate students on
-                  campus, and the data is mostly quantitative. To verify and generalize the findings, we need to get a
-                  larger sample of users.
-                <p class="para">Therefore, we distributed a survey through social media groups of international
-                  students. There are 60 valid responses. </p>
-                <br />
-              </div>
-              <div class="col-lg-6">
-                <img src="images/Potluck/SurveyFindings.png" width="85%">
-
-
-              </div>
-            </div>
-            <br />
-            <br />
-            <br />
-            <div class="row">
-
-              <div class="col-lg-6">
-                Based on the findings from the observations, contextual interviews and surveys, we were able to
-                summarize our user needs as shown on the right.
-              </div>
-              <div class="col-lg-6" style="vertical-align:central" align="center">
-                <img src="images/Potluck/UserNeeds.png" width="90%">
-
-              </div>
-            </div>
-            <br />
-            <br />
-
-            <!-- 
+  <!-- 
         <h7 > Phase#6 Personas</h7>
         <div class = "row">
           <div class="col-lg-6">
@@ -555,26 +278,24 @@
           </div>
         </div> -->
 
-
-            <!--  <div class="row" align="center">
+  <!--  <div class="row" align="center">
           <div class="col-lg-4">
-            <img src="images/Potluck/PrimaryPersona.png">
+            <img src="/assets/images/Potluck/PrimaryPersona.png">
           </div>
            <div class="col-lg-4">
-            <img src="images/Potluck/SecondaryPersona1.png">
+            <img src="/assets/images/Potluck/SecondaryPersona1.png">
           </div>
            <div class="col-lg-4">
-            <img src="images/Potluck/SecondaryPersona2.png">
+            <img src="/assets/images/Potluck/SecondaryPersona2.png">
           </div>
 
         </div> -->
 
-            <br />
+  <br />
 
-
-            <!-- <div class="row" style="margin-top: 20px; margin-bottom: 10px;">
+  <!-- <div class="row" style="margin-top: 20px; margin-bottom: 10px;">
           <div class="col-lg-5" align = "left">
-            <img src="images/Potluck/PrimaryPersona.png"       alt="" />
+            <img src="/assets/images/Potluck/PrimaryPersona.png"       alt="" />
             </div>
           <div class="col-lg-7" >
             <h7 style="margin-top: 20px; margin-bottom: 10px;font-size: 1em">  Primary Persona</h7>
@@ -595,7 +316,7 @@
              <p class="para1" >The second persona is Ram, who has been in the United States for 1 and a half years. Ram is meant to represent certain trends that we noticed in our data. What we found in our research was that despite being in the US for a year or two, international students were still unfamiliar with American foods and uncertain about the process of ordering. This means that Ram shares many of the same problems as the first persona. The major difference is that Ram is more outgoing and less concerned with asking questions and taking his time ordering. The unfortunate consequence that we found was when ordering the talking back-and-forth to the server only reveals more issues and causes more confusing in the ordering process. Ram places a higher priority on knowing what foods actually are, and if he would find them tasty. While Ram is willing to try foods, he may not like them and is often disappointed when he orders something that isn’t like what he wanted. </p>
            </div>
            <div class="col-lg-6" align="center"		>
-            <a href="images/Potluck/SecondaryPersona1.png" class="b-link-stripe b-animate-go   swipebox"  title="SecondaryPersona1"><img src="images/Potluck/SecondaryPersona1.png" 					 alt="" /></a>
+            <a href="/assets/images/Potluck/SecondaryPersona1.png" class="b-link-stripe b-animate-go   swipebox"  title="SecondaryPersona1"><img src="/assets/images/Potluck/SecondaryPersona1.png" 					 alt="" /></a>
           </div>
         </div>		
 
@@ -605,68 +326,79 @@
             <p class="para1"  >Pablo, is a graduate student that has lived in the United States for over 3 years. He could be considered more of an “expert user” among international students. Pablo has been in the US long enough that he is familiar with common American foods and the cultural process of ordering. He still has several difficulties, but Pablo has different priorities than the other personas. Pablo is more of a connoisseur and wants to try new and tasty foods. His issue is that many times when he tries something new, the food is not good. Many of these experiences means that Pablo is not eating the variety of foods that he would like. Pablo is more influenced by price information, and coupons and sales may be more effective incentives. He already knows what many common foods are, and is much more interested in trying new tasty foods. </p>
           </div>
           <div class="col-lg-6"  align="center"	>
-            <a href="images/Potluck/SecondaryPersona2.png" class="b-link-stripe b-animate-go   swipebox"  title="SecondaryPersona1"><img src="images/Potluck/SecondaryPersona2.png" 					 alt="" /></a>
+            <a href="/assets/images/Potluck/SecondaryPersona2.png" class="b-link-stripe b-animate-go   swipebox"  title="SecondaryPersona1"><img src="/assets/images/Potluck/SecondaryPersona2.png" 					 alt="" /></a>
           </div>
         </div>	 -->
-            <br />
+  <br />
 
-            <div class="cont3 cont">
-              <br />
-              <h5>Design Process</h5>
-              <br />
+  <div class="cont3 cont">
+    <br />
+    <h5>Design Process</h5>
+    <br />
 
-              <h7> Phase#1 Idea Divergence and Convergence </h7>
+    <h7> Phase#1 Idea Divergence and Convergence </h7>
 
-              <div class="row">
-                <div class="col-lg-6">
-                  <p> Based on the research findings presented above, our team held a brainstorming session and came up
-                    with 40+ ideas that could potentially solve the problem. We then organized the ideas into Big Idea
-                    Vignettes. After converging the number of ideas to about 14, we further voted on the ideas according
-                    to two dimensions: feasibility and impact. </p>
-                </div>
-                <div class="col-lg-6" align="center"><a href="images/Potluck/DesignProcess.png"
-                    class="b-link-stripe b-animate-go   swipebox" title="Design Process"><img
-                      src="images/Potluck/DesignProcess.png" alt="" width="95%" /></a></div>
-              </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <p>
+          Based on the research findings presented above, our team held a
+          brainstorming session and came up with 40+ ideas that could
+          potentially solve the problem. We then organized the ideas into Big
+          Idea Vignettes. After converging the number of ideas to about 14, we
+          further voted on the ideas according to two dimensions: feasibility
+          and impact.
+        </p>
+      </div>
+      <div class="col-lg-6" align="center">
+        <a
+          href="/assets/images/Potluck/DesignProcess.png"
+          class="b-link-stripe b-animate-go swipebox"
+          title="Design Process"
+          ><img
+            src="/assets/images/Potluck/DesignProcess.png"
+            alt=""
+            width="95%"
+        /></a>
+      </div>
+    </div>
 
+    <!-- <h7  > Phase#2 Idea Convergence</h7> -->
+    <br />
+    <br />
 
+    <div class="row">
+      <div class="col-lg-6">
+        <p>
+          We narrowed down to three design ideas based on the feasibility-impact
+          grid: Food Game, AR Menu, and Social Network of Food. These three
+          ideas target similar user needs but solve the problem with different
+          approaches.
+        </p>
 
+        <p>
+          We then developed low-fi prototypes for the three ideas respectively.
+        </p>
+      </div>
+      <div class="col-lg-6" align="center">
+        <img src="/assets/images/Potluck/ideas.png" width="98%" />
+      </div>
+    </div>
+    <br />
 
-              <!-- <h7  > Phase#2 Idea Convergence</h7> -->
-              <br />
-              <br />
+    <br />
 
+    <h7> Phase#2 Wireframing</h7>
 
-              <div class="row">
-                <div class="col-lg-6">
-                  <p>We narrowed down to three design ideas based on the feasibility-impact grid: Food Game, AR Menu,
-                    and Social Network of Food. These three ideas target similar user needs but solve the problem with
-                    different approaches. </p>
-
-                  <p>We then developed low-fi prototypes for the three ideas respectively. </p>
-                </div>
-                <div class="col-lg-6" align="center"><img src="images/Potluck/ideas.png" width="98%" /></div>
-              </div>
-              <br />
-
-
-              <br />
-
-              <h7> Phase#2 Wireframing</h7>
-
-
-              <div class="row">
-
-                <div class="col-lg-6">
-
-
-
-                  <p style="margin-left:5px;">Here is one of the design : AR Menu. The key idea here is to make use of
-                    google glass to provide real time information of food. In this case, users won’t be embarrassed from
-                    asking questions to the server or not understanding the server.
-                    <br />
-                  </p>
-                  <!-- <p style="margin-left:5px;">Storyline:</p>
+    <div class="row">
+      <div class="col-lg-6">
+        <p style="margin-left: 5px">
+          Here is one of the design : AR Menu. The key idea here is to make use
+          of google glass to provide real time information of food. In this
+          case, users won’t be embarrassed from asking questions to the server
+          or not understanding the server.
+          <br />
+        </p>
+        <!-- <p style="margin-left:5px;">Storyline:</p>
               <ul style="margin-left:18px;">
                 <li>This is the first time for Yan to dine at Tech Square. She has never ordered at a restaurant at Moe’s before, and she has little knowledge on Mexican food overall. Fortunately, she has downloaded the Food Detector App on her Google Glass. </li>
                 <li>On walking in the restaurant, the glass detects the location and surroundings and prompts her to start the app. Feeling the need to learn more about this new restaurant, she chooses the “I am feeling curious” mode. </li>
@@ -674,106 +406,93 @@
                 <li>On seeing “Homewrecker”, she is confused about what the name means, but the glass tells her the origin of the name, as well as the real flavor of this kind of dish. She also finds out that 4 of her friends has LIKED this food on social media. These knowledge makes Homewrecker look more compelling to her. </li>
                 <li>She has no idea about the procedure yet. But she doesn’t need to worry, because she could order along with the prompts on her glass. There are detailed steps listed in the second page for the food. She now feels confident enough to walk straight to the window for a fabulous adventure of trying new food. </li>
               </ul> -->
-                  <br />
-                </div>
-              </div>
-              <div class="row">
-                <img src="images/Potluck/AR_Menu.png">
-
-              </div>
-            </div>
-
-
-            <br />
-
-
-
-            <h7> Phase#3 Final Product Idea</h7>
-
-
-
-
-            <div class="row">
-
-              <div class="col-lg-6">
-                <p>We collected feedbacks on the three ideas from classmates and teaching staff, and integrated features
-                  into one design. The final idea is an app that gamify the process of trying out (and sharing) new food
-                  within a social network of friends. It also provides clear information about the menu, food and
-                  instructions for the order procedure.</p>
-
-              </div>
-              <div class="col-lg-6" align="center">
-                <img src="images/Potluck/finalIdea.png" width="90%">
-              </div>
-
-
-
-            </div>
-
-
-
-            <h7> Phase#4 Low-fi Prototype & Heuristic Evaluation</h7>
-
-
-            <div class="row" style="margin-top:10px">
-              <div class="col-lg-6">
-                <p>
-                  We conducted a heuristic evaluation with two UX experts on the low-fi prototype. The main feedbacks
-                  include: 1) The hierachy with a menu in the side-drawer is not straightforward easy to use; 2) In
-                  addition to negative reaction to friends' recommendations, there should be way to express positive
-                  reactions too. </p>
-                <p> After improving the low-fi prototype, we moved on to create the hi-fi prototype in Sketch &
-                  inVision.</p>
-              </div>
-              <div class="col-lg-6">
-                <img src="images/Potluck/sketching.png">
-
-
-              </div>
-
-            </div>
-            <br />
-            <br />
-            <br />
-
-          </div>
-        </div>
+        <br />
       </div>
+    </div>
+    <div class="row">
+      <img src="/assets/images/Potluck/AR_Menu.png" />
+    </div>
+  </div>
 
+  <br />
 
+  <h7> Phase#3 Final Product Idea</h7>
 
+  <div class="row">
+    <div class="col-lg-6">
+      <p>
+        We collected feedbacks on the three ideas from classmates and teaching
+        staff, and integrated features into one design. The final idea is an app
+        that gamify the process of trying out (and sharing) new food within a
+        social network of friends. It also provides clear information about the
+        menu, food and instructions for the order procedure.
+      </p>
+    </div>
+    <div class="col-lg-6" align="center">
+      <img src="/assets/images/Potluck/finalIdea.png" width="90%" />
+    </div>
+  </div>
 
+  <h7> Phase#4 Low-fi Prototype & Heuristic Evaluation</h7>
 
+  <div class="row" style="margin-top: 10px">
+    <div class="col-lg-6">
+      <p>
+        We conducted a heuristic evaluation with two UX experts on the low-fi
+        prototype. The main feedbacks include: 1) The hierachy with a menu in
+        the side-drawer is not straightforward easy to use; 2) In addition to
+        negative reaction to friends' recommendations, there should be way to
+        express positive reactions too.
+      </p>
+      <p>
+        After improving the low-fi prototype, we moved on to create the hi-fi
+        prototype in Sketch & inVision.
+      </p>
+    </div>
+    <div class="col-lg-6">
+      <img src="/assets/images/Potluck/sketching.png" />
+    </div>
+  </div>
+  <br />
+  <br />
+  <br />
+</div>
 
+<!-- <div class="row" style="background-color: #22242F; margin-right: 0px ;"   > -->
+<div class="blog_list">
+  <h5>Final Design & Feature Breakdown</h5>
+  <h7 style="color: #4f6c8d; font-weight: 600"> New User Experience Flow</h7>
+</div>
+<div
+  class="row"
+  style="background-color: #efefef; margin-right: 0px; margin-top: 30px"
+>
+  <img src="/assets/images/Potluck/hifi1.png" width="100%" />
+</div>
+<div class="blog_list" style="margin-top: 80px">
+  <h7 style="color: #4f6c8d; font-weight: 600">
+    Gamification and Social Design
+  </h7>
+</div>
+<div
+  class="row"
+  style="background-color: #efefef; margin-right: 0px; margin-top: 30px"
+>
+  <img src="/assets/images/Potluck/hifi2.png" width="100%" />
+</div>
+<div class="blog_list" style="margin-top: 80px">
+  <h7 style="color: #4f6c8d; font-weight: 600"> Solving Key User Needs </h7>
+</div>
+<div
+  class="row"
+  style="background-color: #efefef; margin-right: 0px; margin-top: 30px"
+>
+  <img src="/assets/images/Potluck/hifi3.png" width="100%" />
+</div>
 
-      <!-- <div class="row" style="background-color: #22242F; margin-right: 0px ;"   > -->
-      <div class="blog_list">
-        <h5> Final Design & Feature Breakdown</h5>
-        <h7 style="color: #4F6C8D;font-weight: 600"> New User Experience Flow</h7>
+<!-- </div> -->
 
-      </div>
-      <div class="row" style=" background-color: #EFEFEF;margin-right: 0px; margin-top: 30px">
-
-        <img src="images/Potluck/hifi1.png" width=100% />
-      </div>
-      <div class="blog_list" style="margin-top: 80px">
-        <h7 style="color: #4F6C8D;font-weight: 600"> Gamification and Social Design </h7>
-      </div>
-      <div class="row" style=" background-color: #EFEFEF;margin-right: 0px;margin-top: 30px">
-
-        <img src="images/Potluck/hifi2.png" width=100% />
-      </div>
-      <div class="blog_list" style="margin-top: 80px">
-        <h7 style="color: #4F6C8D;font-weight: 600"> Solving Key User Needs </h7>
-      </div>
-      <div class="row" style=" background-color: #EFEFEF;margin-right: 0px;margin-top: 30px">
-
-        <img src="images/Potluck/hifi3.png" width=100% />
-      </div>
-
-      <!-- </div> -->
-
-      <!--  <div class="col-lg-3 col-md-1"  >
+<!--  <div class="col-lg-3 col-md-1"  >
 
   </div>
    <div class="col-lg-3 col-md-5" style="color:#FFF; margin-top: 10%; padding-left: 3%;">
@@ -783,7 +502,7 @@
   </div>
   <div class="col-lg-6 col-md-6" >
     <video width="300" height="600" autoplay loop style="float: left; margin-left: 8%">
-      <source src="images/Potluck/signup.mov">
+      <source src="/assets/images/Potluck/signup.mov">
     </video>
   </div>
 </div>
@@ -792,7 +511,7 @@
   
   <div class="col-lg-6 col-md-6">
     <video width="310" height="600" autoplay  loop  style="float: right; margin-right: 8%">
-      <source src="images/Potluck/friends.mov">
+      <source src="/assets/images/Potluck/friends.mov">
     </video>
   </div>
    <div class="col-lg-3 col-md-5" style="color:#FFF; margin-top: 10%; padding-left: 5%;">
@@ -803,9 +522,9 @@
 
   </div>
    -->
-      <!-- </div> -->
+<!-- </div> -->
 
-      <!-- <div class="row" style="background-color: #22242F; margin: 0px;max-width: 100%;"   >
+<!-- <div class="row" style="background-color: #22242F; margin: 0px;max-width: 100%;"   >
 
   <div class="col-lg-3 col-md-1"  >
 
@@ -818,16 +537,16 @@
   </div>
   <div class="col-lg-6 col-md-6">
     <video width="300" height="600" autoplay loop  style="float: left; margin-left: 8%">
-      <source src="images/Potluck/order.mov">
+      <source src="/assets/images/Potluck/order.mov">
     </video>
   </div>
 </div> -->
 
-      <!-- <div class="row" style="background-color: #22242F; margin: 0px; max-width: 100%; " >
+<!-- <div class="row" style="background-color: #22242F; margin: 0px; max-width: 100%; " >
   
   <div class="col-lg-6 col-md-6">
     <video width="300" height="600" autoplay loop  style="float: right;margin-right: 8%">
-      <source src="images/Potluck/restaurants.mov">
+      <source src="/assets/images/Potluck/restaurants.mov">
     </video>
   </div>
    <div class="col-lg-3 col-md-5" style="color:#FFF; margin-top: 10%; padding-left: 5%;">
@@ -840,11 +559,11 @@
   </div>
 </div> -->
 
-      <!-- <div class="row" style="background-color: #22242F; margin: 0px;max-width: 100%;"   >
+<!-- <div class="row" style="background-color: #22242F; margin: 0px;max-width: 100%;"   >
 
  <div class="col-lg-6 col-md-6">
     <video width="300" height="600" autoplay loop  style="float: right; margin-right: : 8%">
-      <source src="images/Potluck/food.mov">
+      <source src="/assets/images/Potluck/food.mov">
     </video>
   </div>
 
@@ -859,12 +578,12 @@
 
   </div>
 </div> -->
-      <!-- 
+<!-- 
 <div class="row" style="background-color: #22242F; padding-bottom: 40px; max-width: 100%;  margin: 0px;" >
   
   <div class="col-lg-6 col-md-6">
     <video width="300" height="600" autoplay loop  style="float: right;margin-right: 8%">
-      <source src="images/Potluck/me.mov">
+      <source src="/assets/images/Potluck/me.mov">
     </video>
   </div>
   <div class="col-lg-3 col-md-5" style="color:#FFF; margin-top: 10%; padding-left: 5%;">
@@ -878,304 +597,166 @@
   </div>
 </div> -->
 
-
-
-      <div class="blog_list">
-        <!-- <h7  > Phase#6 Interactive Hi-fi Prototype (inVision)</h7>
+<div class="blog_list">
+  <!-- <h7  > Phase#6 Interactive Hi-fi Prototype (inVision)</h7>
 <br />
 <div align="center" style="margin-top:10px">
   <iframe width="438" height="930" src="//invis.io/JCFDYQ0R8NH" frameborder="0" allowfullscreen></iframe>
 </div> -->
 
+  <div class="cont4 cont">
+    <h5>Evaluation</h5>
+    <br />
+
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="/assets/images/Potluck/Evaluation.png" />
+
+        <p>
+          The results are not shown in detail to comply with Georgia Tech IRB
+          regulations.
+        </p>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div class="cont5 cont">
+    <h5>Action Plan</h5>
+    <div class="row">
+      <div class="col-lg-6">
+        <p class="para">
+          We prioritized the issues according to its serverity and impact, and
+          generated this action plan for future iterations.
+        </p>
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-lg-8">
+        <img src="/assets/images/Potluck/ActionPlan1.png" />
+      </div>
+    </div>
+
+    <div></div>
+  </div>
+  <br />
+  <div class="cont6 cont">
+    <h5>Acknowledgements</h5>
+    <div class="row">
+      <div class="col-lg-6">
+        <p class="para">
+          This project is made possible by team Potluck: Phillip Roberts, Mahesh
+          Ramesh Kumar, Zhonghe Wen and Yiran Ma. Every team member contirbuted
+          equally to each research and design activity.
+        </p>
+        <p class="para">
+          All graphics in this article are made by the author (Yiran Ma) unless
+          specified.
+        </p>
+      </div>
+    </div>
+
+    <!--  <h5>Poster</h5>
 
 
 
+ <div align="center"><a href="/assets/images/Potluck/HCIposterlarge.png" class="b-link-stripe b-animate-go   swipebox"  title="Project Overview"><img src="/assets/images/Potluck/HCIposterlarge.png"           alt=""width="100%"></a></div> -->
+  </div>
 
+  <br />
+  <br />
 
-
-
-
-        <div class="cont4 cont">
-          <h5>Evaluation</h5>
-          <br />
-
-          <div class="row">
-            <div class="col-lg-6">
-              <img src="images/Potluck/Evaluation.png">
-
-              <p>
-                The results are not shown in detail to comply with Georgia Tech IRB regulations.
-              </p>
-            </div>
-          </div>
-
-        </div>
-        <br />
-        <div class="cont5 cont">
-          <h5>Action Plan</h5>
-          <div class="row">
-            <div class="col-lg-6">
-              <p class="para">
-                We prioritized the issues according to its serverity and impact, and generated this action plan for
-                future iterations.
-              </p>
-            </div>
-          </div>
-          <br />
-          <div class="row">
-            <div class="col-lg-8">
-
-              <img src="images/Potluck/ActionPlan1.png">
-            </div>
-
-          </div>
-
-          <div>
-
-          </div>
-
-        </div>
-        <br />
-        <div class="cont6 cont">
-          <h5>Acknowledgements</h5>
-          <div class="row">
-            <div class="col-lg-6">
-              <p class="para"> This project is made possible by team Potluck: Phillip Roberts, Mahesh Ramesh Kumar,
-                Zhonghe Wen and Yiran Ma. Every team member contirbuted equally to each research and design activity.
-              </p>
-              <p class="para">All graphics in this article are made by the author (Yiran Ma) unless specified.</p>
-
-            </div>
-
-          </div>
-
-          <!--  <h5>Poster</h5>
-
-
-
- <div align="center"><a href="images/Potluck/HCIposterlarge.png" class="b-link-stripe b-animate-go   swipebox"  title="Project Overview"><img src="images/Potluck/HCIposterlarge.png"           alt=""width="100%"></a></div> -->
-
-        </div>
-
-
-        <br />
-        <br />
-
-        <!-- <div class="read_more" align="left">
+  <!-- <div class="read_more" align="left">
 
   <a class="btn" href="index.htm#port-top">Back to Portfolio</a>&nbsp;&nbsp;&nbsp;or, try the following links : 
 </div> -->
 
-        <div style="  color: #FFFFFF" id="btn">
-          <div class="row">
-            <div class="col-md-2 col-sm-12" style="margin-top: 20px;" align="center">
-              <a href="index.htm#port-top" class="btn">
-
-
-                Back to Portfolio
-
-
-              </a>
-            </div>
-
-            <div class="col-sm-7">
-            </div>
-            <div class="col-md-2 col-sm-12" style="margin-top: 20px; float:center;" align="center">
-              <a href="Minibay.html#top" class="btn" style="float: center">
-
-
-                NEXT UP: MINIBAY
-
-
-              </a>
-            </div>
-
-            <div class="clear"></div>
-
-            <br />
-            <br />
-
-
-          </div>
-        </div>
-
+  <div style="color: #ffffff" id="btn">
+    <div class="row">
+      <div class="col-md-2 col-sm-12" style="margin-top: 20px" align="center">
+        <a href="index.htm#port-top" class="btn"> Back to Portfolio </a>
       </div>
 
-      <!-- </div>
-</div>
-</div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-      <div class="clear"></div>
-      <script type="text/javascript">
-        $(document).ready(function () {
-
-          var native_width = 0;
-          var native_height = 0;
-
-          //Now the mousemove function
-          $(".magnify").mousemove(function (e) {
-            //When the user hovers on the image, the script will first calculate
-            //the native dimensions if they don't exist. Only after the native dimensions
-            //are available, the script will show the zoomed version.
-            if (!native_width && !native_height) {
-              //This will create a new image object with the same image as that in .small
-              //We cannot directly get the dimensions from .small because of the 
-              //width specified to 200px in the html. To get the actual dimensions we have
-              //created this image object.
-              var image_object = new Image();
-              image_object.src = $(".small").attr("src");
-
-              //This code is wrapped in the .load function which is important.
-              //width and height of the object would return 0 if accessed before 
-              //the image gets loaded.
-              native_width = image_object.width;
-              native_height = image_object.height;
-            }
-            else {
-              //x/y coordinates of the mouse
-              //This is the position of .magnify with respect to the document.
-              var magnify_offset = $(this).offset();
-              //We will deduct the positions of .magnify from the mouse positions with
-              //respect to the document to get the mouse positions with respect to the 
-              //container(.magnify)
-              var mx = e.pageX - magnify_offset.left;
-              var my = e.pageY - magnify_offset.top;
-
-              //Finally the code to fade out the glass if the mouse is outside the container
-              if (mx < $(this).width() && my < $(this).height() && mx > 0 && my > 0) {
-                $(".large").fadeIn(100);
-              }
-              else {
-                $(".large").fadeOut(100);
-              }
-              if ($(".large").is(":visible")) {
-                //The background position of .large will be changed according to the position
-                //of the mouse over the .small image. So we will get the ratio of the pixel
-                //under the mouse pointer with respect to the image and use that to position the 
-                //large image inside the magnifying glass
-                var rx = Math.round(mx / $(".small").width() * native_width - $(".large").width() / 2) * -1;
-                var ry = Math.round(my / $(".small").height() * native_height - $(".large").height() / 2) * -1;
-                var bgp = rx + "px " + ry + "px";
-
-                //Time to move the magnifying glass with the mouse
-                var px = mx - $(".large").width() / 2;
-                var py = my - $(".large").height() / 2;
-                //Now the glass moves with the mouse
-                //The logic is to deduct half of the glass's width and height from the 
-                //mouse coordinates to place it with its center at the mouse coordinates
-
-                //If you hover on the image now, you should see the magnifying glass in action
-                $(".large").css({ left: px, top: py, backgroundPosition: bgp });
-              }
-            }
-          })
-        })
-      </script>
-    </div>
-
-  </div>
-
-  </div>
-
-  </div>
-
-
-
-
-
-  <!---->
-
-
-
-
-  </div>
-
-  <!-- start footer copy -->
-
-  <div class="footer_bg">
-    <div class="wrap">
-
-      <div class="wrapper">
-
-        <div class="copy">
-
-          <br />
-          <br />
-
-          <p style="color: #FFFFFF">&copy; 2018. Yiran MA. All rights reserved.</p>
-          <br />
-
-        </div>
-
+      <div class="col-sm-7"></div>
+      <div
+        class="col-md-2 col-sm-12"
+        style="margin-top: 20px; float: center"
+        align="center"
+      >
+        <a href="Minibay.html#top" class="btn" style="float: center">
+          NEXT UP: MINIBAY
+        </a>
       </div>
-
     </div>
   </div>
-
-
-
-
-
-</html>
 </div>
-
-
-</div>
-
 <script type="text/javascript">
+  $(document).ready(function () {
+    var native_width = 0;
+    var native_height = 0;
 
-  $(function () {
+    //Now the mousemove function
+    $(".magnify").mousemove(function (e) {
+      //When the user hovers on the image, the script will first calculate
+      //the native dimensions if they don't exist. Only after the native dimensions
+      //are available, the script will show the zoomed version.
+      if (!native_width && !native_height) {
+        //This will create a new image object with the same image as that in .small
+        //We cannot directly get the dimensions from .small because of the
+        //width specified to 200px in the html. To get the actual dimensions we have
+        //created this image object.
+        var image_object = new Image();
+        image_object.src = $(".small").attr("src");
 
-    $('.progressive-image').each(function () {
+        //This code is wrapped in the .load function which is important.
+        //width and height of the object would return 0 if accessed before
+        //the image gets loaded.
+        native_width = image_object.width;
+        native_height = image_object.height;
+      } else {
+        //x/y coordinates of the mouse
+        //This is the position of .magnify with respect to the document.
+        var magnify_offset = $(this).offset();
+        //We will deduct the positions of .magnify from the mouse positions with
+        //respect to the document to get the mouse positions with respect to the
+        //container(.magnify)
+        var mx = e.pageX - magnify_offset.left;
+        var my = e.pageY - magnify_offset.top;
 
-      var image = new Image();
-      var previewImage = $(this).find('.loadingImage');
-      var newImage = $(this).find('.overlay');
+        //Finally the code to fade out the glass if the mouse is outside the container
+        if (mx < $(this).width() && my < $(this).height() && mx > 0 && my > 0) {
+          $(".large").fadeIn(100);
+        } else {
+          $(".large").fadeOut(100);
+        }
+        if ($(".large").is(":visible")) {
+          //The background position of .large will be changed according to the position
+          //of the mouse over the .small image. So we will get the ratio of the pixel
+          //under the mouse pointer with respect to the image and use that to position the
+          //large image inside the magnifying glass
+          var rx =
+            Math.round(
+              (mx / $(".small").width()) * native_width -
+                $(".large").width() / 2
+            ) * -1;
+          var ry =
+            Math.round(
+              (my / $(".small").height()) * native_height -
+                $(".large").height() / 2
+            ) * -1;
+          var bgp = rx + "px " + ry + "px";
 
-      image.onload = function () {
-        newImage.css('background-image', 'url(' + image.src + ')');
-        newImage.css('opacity', '1');
-        console.log('complete');
-      };
+          //Time to move the magnifying glass with the mouse
+          var px = mx - $(".large").width() / 2;
+          var py = my - $(".large").height() / 2;
+          //Now the glass moves with the mouse
+          //The logic is to deduct half of the glass's width and height from the
+          //mouse coordinates to place it with its center at the mouse coordinates
 
-      image.src = previewImage.data('image');
-
+          //If you hover on the image now, you should see the magnifying glass in action
+          $(".large").css({ left: px, top: py, backgroundPosition: bgp });
+        }
+      }
     });
-
   });
 </script>
-
-<script>
-  var myVar;
-
-  function myFunction() {
-    myVar = setTimeout(showPage, 500);
-    myVar = setTimeout(hidePage, 600);
-  }
-
-  function showPage() {
-
-
-    document.getElementById("body").style.display = "block";
-    document.getElementById("hide").style.display = "block";
-  }
-
-  function hidePage() {
-    document.getElementById("loader").style.display = "none";
-  }
-</script>
-</div>
-</body>
-
-</html>

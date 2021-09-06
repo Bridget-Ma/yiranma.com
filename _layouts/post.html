@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="body">
+  <div class="wrap">
+    <div class="wrapper">
+      {% include header.html %}
+      <div class="main">
+        <div class="content">
+          <div class="blog" id="top">
+            <img src="{{page.hero-image}}" style="margin-top: 20px" />
+            {{content}}
+          </div>
+        </div>
+      </div>
+      {% include footer.html %}
+      <script type="text/javascript">
+        $(function () {
+          $(".progressive-image").each(function () {
+            var image = new Image();
+            var previewImage = $(this).find(".loadingImage");
+            var newImage = $(this).find(".overlay");
+
+            image.onload = function () {
+              newImage.css("background-image", "url(" + image.src + ")");
+              newImage.css("opacity", "1");
+              console.log("complete");
+            };
+
+            image.src = previewImage.data("image");
+          });
+        });
+      </script>
+    </div>
+  </div>
+</div>

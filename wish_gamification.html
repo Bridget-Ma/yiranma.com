@@ -1,546 +1,71 @@
-<!DOCTYPE HTML>
-
-<html>
-
-<head>
-
-	<title>Yiran MA | Portfolio</title>
-
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="icon" type="image/png" href="images/logo.png">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700" rel="stylesheet">
-	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-	<!-- end google fonts -->
-	<!-- light box -->
-	<link rel="stylesheet" href="css/iconfont.css">
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" />
-	<!-- <link rel="stylesheet" href="css/swipebox.css"> -->
-	<!-- <script src="js/jquery.swipebox.js"></script> -->
-	<!-- <link rel="stylesheet" href="css/swipebox.css"> -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-		integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.3/jquery.scrollTo.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/jquery.localscroll@2.0.0/jquery.localScroll.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/1.5.6/jquery.mixitup.min.js"
-		integrity="sha512-UmZ15zGovMYyCpLp2ZA/sDpaDSorklcTAW3Rd0767fRDWT8WmLqhzr5kisseQmKtk4qIAxxjWV83fwKp3ncmkQ=="
-		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-	<!-- <script type="text/javascript" src="js/jquery.lightbox.js"></script> -->
-	<!-- <script type="text/javascript" src="js/iconfont.js"></script> -->
-
-
-	<!-- <script type="text/javascript">
-		$(document).ready(function () {
-			$('#nav').localScroll({ duration: 800 });
-		});
-	</script>
-	<script type="text/javascript">
-
-		$(function () {
-
-			$('.blog_para p a').lightBox();
-
-		});
-
-	</script> -->
-
-	<!--Google Analytics-->
-	<script>
-		(function (i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date(); a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-		ga('create', 'UA-90414112-1', 'auto');
-		ga('send', 'pageview');
-
-	</script>
-
-	<!--nav-->
-
-	<style type="text/css">
-		.par {
-			/*	float: center;
-	text-align: center;*/
-
-			margin-left: 20%;
-			margin-right: 20%;
-			margin-top: 15px;
-			margin-bottom: 15px;
-			font-size: 15pt;
-			font-weight: 400;
-			line-height: 1.8;
-			color: #192A32;
-
-		}
-
-		b {
-			font-weight: 600;
-			font-size: 16pt;
-			line-height: 1.8;
-			vertical-align: top;
-
-		}
-
-		i {
-			font-weight: 500;
-			font-size: 15pt;
-			line-height: 1.8;
-			vertical-align: top;
-			font-style: italic;
-
-		}
-
-		.par1 {
-
-			margin-left: 22%;
-			margin-right: 22%;
-			font-size: 15pt;
-			font-weight: 200;
-			font-style: italic;
-			line-height: 1.5;
-			margin-top: 50px;
-			margin-bottom: 50px;
-			color: #48636F;
-			border-left: 3px solid rgba(102, 204, 153, .94);
-			padding-left: 20px;
-
-
-		}
-
-		.par2 {
-
-			margin-left: 20%;
-			margin-right: 20%;
-			font-size: 14pt;
-			font-weight: 400;
-
-			/*float: center;*/
-			/*text-align: center;*/
-			/*text-transform: uppercase;*/
-			line-height: 1.6;
-			margin-top: 5px;
-			margin-bottom: 6px;
-			/* color: #48636F;
-			 */
-			/* color: rgba(32, 155, 114, 0.84); */
-
-			/* border-left: 3px solid rgba(72, 176, 37, .84); */
-			/*border-right: 2px solid rgba(0,0,0,.84);*/
-			padding-bottom: 5px;
-			padding-left: 30px;
-			/* font-style: italic; */
-
-
-		}
-
-		.par3 {
-
-			margin-left: 18%;
-			margin-right: 18%;
-			margin-top: 10px;
-			margin-bottom: 10px;
-			font-size: 13pt;
-
-		}
-
-		.par4 {
-
-			/*margin-left: 18%;*/
-			/*margin-right: 43%;*/
-			font-size: 12pt;
-			font-weight: 600;
-			/*float: center;*/
-			/*text-align: center;*/
-			text-transform: uppercase;
-			line-height: 1.5;
-			/*margin-top: 100px;*/
-			/*margin-bottom: 50px;*/
-			border-left: 2px solid rgba(0, 0, 0, .84);
-			/*border-right: 2px solid rgba(0,0,0,.84);*/
-			padding-bottom: 2px;
-			padding-left: 20px;
-
-
-		}
-
-		.par5 {
-
-			margin-left: 22%;
-			margin-right: 22%;
-			margin-top: 20px;
-			margin-bottom: 20px;
-			font-size: 13pt;
-
-		}
-
-
-
-
-		.blog_list h6 {
-			/*float: center;
-	text-align: center;*/
-			margin-left: 20%;
-			color: #5629c2;
-			font-size: 24pt;
-			font-weight: 700;
-			/* text-transform: uppercase; */
-			margin-top: 120px;
-			margin-bottom: 50px;
-			max-width: 50%
-		}
-
-
-		.blog_list h5 {
-			/*float: center;
-	text-align: center;*/
-			margin-left: 20%;
-			color: #5629c2;
-			font-size: 16pt;
-			font-weight: 600;
-			text-transform: uppercase;
-			margin-top: 60px;
-			margin-bottom: 30px;
-			max-width: 50%
-		}
-
-		.caption {
-
-			margin-left: 10%;
-			margin-right: 10%;
-			text-align: center;
-			margin-top: 10px;
-			font-size: 14pt;
-			/*	font-style: italic;*/
-			font-weight: 400;
-			color: #495157;
-			margin-bottom: 50px;
-
-
-		}
-
-		.black {
-			font-weight: 600;
-			float: none;
-			margin: 0px;
-			vertical-align: top;
-		}
-
-		@media only screen and (max-width: 1024px) {
-
-			.par {
-
-				margin-left: 2%;
-				margin-right: 2%;
-				margin-top: 20px;
-				margin-bottom: 20px;
-				font-size: 13pt;
-
-			}
-
-			.par1 {
-
-				margin-left: 5%;
-				margin-right: 5%;
-				font-size: 15pt;
-				font-weight: 200;
-				font-style: italic;
-				line-height: 1.5;
-				margin-top: 40px;
-				margin-bottom: 30px;
-				color: #6D6D6D;
-
-
-			}
-
-			.par2 {
-
-				margin-left: 5%;
-				margin-right: 5%;
-				font-size: 15pt;
-				font-weight: 500;
-				/*font-style: italic;*/
-				line-height: 1.5;
-				margin-top: 10px;
-				margin-bottom: 10px;
-				border-left: 3px solid rgba(0, 0, 0, .84);
-				padding-bottom: 2px;
-				padding-left: 20px;
-
-
-			}
-
-			.par3 {
-
-				margin-left: 2%;
-				margin-right: 2%;
-				margin-top: 10px;
-				margin-bottom: 10px;
-
-			}
-
-			.par5 {
-
-				margin-left: 2%;
-				margin-right: 2%;
-				margin-top: 20px;
-				margin-bottom: 20px;
-				font-size: 13pt;
-
-			}
-
-			.caption {
-
-				margin-left: 5%;
-				margin-right: 5%;
-				text-align: center;
-				margin-top: 5px;
-				/*	font-style: italic;*/
-				font-weight: 400;
-				color: #48636F;
-				margin-bottom: 40px;
-
-			}
-
-			.blog_list h6 {
-				/* float: center;
-				text-align: center; */
-				margin-left: 2%;
-
-			}
-
-
-			.blog_list h5 {
-				/*float: center;
-	text-align: center;*/
-				margin-left: 2%;
-				color: #000000;
-				font-size: 14pt;
-				font-weight: 600;
-				text-transform: uppercase;
-				margin-top: 30px;
-				margin-bottom: 30px;
-				max-width: 50%
-			}
-
-
-
-
-
-		}
-	</style>
-
-
-
-	<script>
-
-
-
-		$(function () {
-
-			var pull = $('#pull');
-
-			menu = $('nav ul');
-
-			menuHeight = menu.height();
-
-
-
-			$(pull).on('click', function (e) {
-
-				e.preventDefault();
-
-				menu.slideToggle();
-
-			});
-
-
-
-			$(window).resize(function () {
-
-				var w = $(window).width();
-
-				if (w > 320 && menu.is(':hidden')) {
-
-					menu.removeAttr('style');
-
-				}
-
-			});
-
-		});
-
-
-
-	</script>
-
-
-
-
-</head>
-
-<body id="body" class="animate-bottom" style="display: block;">
-
-
-	<div class="body">
-
-		<div class="wrap">
-
-			<div class="wrapper">
-
-				<!-- start header-->
-
-				<div class="header1">
-
-					<div class="logo">
-
-						<a href="index.htm"><img src="images/mylogo.png" alt=""></a>
-
-					</div>
-
-					<div class="cssmenu">
-
-						<ul>
-
-							<li><a href="index.htm">Home</a></li>
-
-							<li class="active"><a href="index.htm#port-top">Portfolio</a></li>
-
-							<!-- <li><a href="GraphicDesign.html">Graphics</a></li> -->
-
-							<!-- <li ><a href="Gallery.html">Gallery</a></li> -->
-
-							<li><a href="about.html">About Me</a></li>
-
-							<div class="clear"></div>
-
-
-						</ul>
-
-					</div>
-
-					<div class="clear"></div>
-
-					<div class="top-nav">
-
-						<nav class="clearfix">
-
-							<ul>
-
-								<li><a href="index.htm">Home</a></li>
-
-								<li><a href="index.htm#port-top">Portfolio</a></li>
-
-								<!-- <li><a href="GraphicDesign.html">Graphics</a></li> -->
-
-								<!-- <li ><a href="Gallery.html">Gallery</a></li> -->
-
-								<li><a href="about.html">About Me</a></li>
-
-							</ul>
-
-							<a href="#" id="pull">Menu</a>
-
-						</nav>
-
-
-					</div>
-
-				</div>
-
-				<!-- start content -->
-
-				<div class="main1">
-
-					<div class="content">
-
-
-
-
-
-
-
-						<div class="blog" id="top">
-
-							<img src="images/wish_gamification/Showcase.png" style="margin-top: 20px;  ">
-
-							<div class="blog_list">
-
-								<div class="blog_para" style="margin-top: 100px">
-
-
-									<h6>Background</h6>
-
-
-									<p class="par">
-										Wish is an ecommerce platform that serves an overlooked segment of
-										value-conscious shoppers. This means that for Wish's users, a little bit of
-										monetary motivation goes a long way. This made Incentives an important sector of
-										the business. It’s also a very exciting field to design for: I was able to
-										experiment with some wild ideas to elevate
-										the shopping experience on Wish, especially through <b>gamification</b>.</p>
-
-
-									<div align="center">
-										<img src="images/wishbrands/wish.png" style="margin-top: 20px; width: 1000px ">
-										<p class="caption">&#8593; Wish Android App
-										</p>
-									</div>
-
-
-									<h6>Incentives Framework</h6>
-									<p class="par">
-										To better understand and build up incentive programs on Wish, I worked with my
-										PM to establish an incentives framework. We identified <b>5 key goals</b> along
-										with the
-										existing features that serve each goal. It helped us understand which area
-										within the framework needs more attention (e.g. Retention 1, or long term
-										retention only
-										has one program); We also were able to see how some program has a bigger impact
-										as it touches on many different key goals, e.g. the <i>Blitz Buy game</i> .
-									</p>
-									<div align="center">
-										<img src="images/wish_gamification/framework.png"
-											style="margin-top: 0px; width: 1000px ">
-										<p class="caption">&#8593; Incentives framework and existing programs
-										</p>
-									</div>
-
-
-
-									<h6>Project 1: Blitz Buy Re-engagement
-									</h6>
-									<p class="par">
-										Blitz Buy was the first and most impactful gamification feature in the app to
-										date. Currently, when users spin the wheel, they will unlock a feed of 10-100
-										items that have an extra discount. This feed is highly customized based on the
-										user’s recent views. We learned that users has a <b>much higher conversion
-											rate</b> on
-										this feed compared to the main feed </p>
-									<div align="center">
-										<img src="images/wish_gamification/OldBlitzBuy.png"
-											style="margin-top: 20px; width: 1000px ">
-										<p class="caption">&#8593; Blitz Buy Before the Revamp</p>
-									</div>
-									<p class="par">
-										Currently, <b>5%</b> of the user go to the blitz buy tab, yet it has proven a
-										huge
-										potential to generate sales. What if we can increase this number and drive more
-										people to play the game? </p>
-
-									<h5>Ideation</h5>
-
-									<!-- <p class="par">
+---
+layout: post
+hero-image: /assets/images/wish_gamification/Showcase.png
+---
+
+<div class="blog_list">
+  <div class="blog_para" style="margin-top: 100px">
+    <h6>Background</h6>
+
+    <p class="par">
+      Wish is an ecommerce platform that serves an overlooked segment of
+      value-conscious shoppers. This means that for Wish's users, a little bit
+      of monetary motivation goes a long way. This made Incentives an important
+      sector of the business. It’s also a very exciting field to design for: I
+      was able to experiment with some wild ideas to elevate the shopping
+      experience on Wish, especially through <b>gamification</b>.
+    </p>
+
+    <div align="center">
+      <img
+        src="/assets/images/wishbrands/wish.png"
+        style="margin-top: 20px; width: 1000px"
+      />
+      <p class="caption">&#8593; Wish Android App</p>
+    </div>
+
+    <h6>Incentives Framework</h6>
+    <p class="par">
+      To better understand and build up incentive programs on Wish, I worked
+      with my PM to establish an incentives framework. We identified
+      <b>5 key goals</b> along with the existing features that serve each goal.
+      It helped us understand which area within the framework needs more
+      attention (e.g. Retention 1, or long term retention only has one program);
+      We also were able to see how some program has a bigger impact as it
+      touches on many different key goals, e.g. the <i>Blitz Buy game</i> .
+    </p>
+    <div align="center">
+      <img
+        src="/assets/images/wish_gamification/framework.png"
+        style="margin-top: 0px; width: 1000px"
+      />
+      <p class="caption">&#8593; Incentives framework and existing programs</p>
+    </div>
+
+    <h6>Project 1: Blitz Buy Re-engagement</h6>
+    <p class="par">
+      Blitz Buy was the first and most impactful gamification feature in the app
+      to date. Currently, when users spin the wheel, they will unlock a feed of
+      10-100 items that have an extra discount. This feed is highly customized
+      based on the user’s recent views. We learned that users has a
+      <b>much higher conversion rate</b> on this feed compared to the main feed
+    </p>
+    <div align="center">
+      <img
+        src="/assets/images/wish_gamification/OldBlitzBuy.png"
+        style="margin-top: 20px; width: 1000px"
+      />
+      <p class="caption">&#8593; Blitz Buy Before the Revamp</p>
+    </div>
+    <p class="par">
+      Currently, <b>5%</b> of the user go to the blitz buy tab, yet it has
+      proven a huge potential to generate sales. What if we can increase this
+      number and drive more people to play the game?
+    </p>
+
+    <h5>Ideation</h5>
+
+    <!-- <p class="par">
 										Some initial concepts include:</p>
 
 									<p class="par2">
@@ -562,51 +87,53 @@
 									<p class="par2">7. Injecting floating icon in feed
 									</p> -->
 
-									<p class="par">After brainstorming different solutions, the team and I narrowed down
-										to the following ideas:
-									</p>
+    <p class="par">
+      After brainstorming different solutions, the team and I narrowed down to
+      the following ideas:
+    </p>
 
+    <div align="center">
+      <img
+        src="/assets/images/wish_gamification/EntryPoint.png"
+        style="margin-top: 20px; width: 1000px"
+      />
+      <p class="caption">
+        &#8593; Variations of tab bar and feed entry points that we tested in
+        the experiment period
+      </p>
+    </div>
 
-									<div align="center">
-										<img src="images/wish_gamification/EntryPoint.png"
-											style="margin-top: 20px; width: 1000px ">
-										<p class="caption">&#8593; Variations of tab bar and feed entry points that we
-											tested in the experiment
-											period</p>
-									</div>
+    <div align="center">
+      <img
+        src="/assets/images/wish_gamification/FloatingButton.gif"
+        width="300"
+        class="displayblock1"
+        style="border-radius: 25px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2)"
+      />
+      <p class="caption">&#8593; Floating Button Design Implementation</p>
+    </div>
 
-									<div align="center">
-										<img src="images/wish_gamification/FloatingButton.gif" width="300"
-											class="displayblock1"
-											style=" border-radius: 25px; box-shadow: 0 2px 10px rgba(0,0,0,.2); ">
-										<p class="caption">
-											&#8593; Floating Button Design Implementation
-										</p>
-									</div>
+    <h5>Results</h5>
 
-									<h5>Results</h5>
+    <p class="par">
+      After rounds of experiments, we found out that
+      <b>the combination of red dot and a floating button</b> on the feed has
+      the biggest impact on our key metrics: It increased GMV by <b>2%</b> and
+      traffic to the conversion on blitz buy tab by ~<b>120%</b>
+      consistently.
+    </p>
 
+    <div align="center">
+      <img
+        src="/assets/images/wish_gamification/AddtoCart.png"
+        style="margin-top: 20px; max-width: 500px"
+      />
+      <p class="caption">
+        &#8593; Blitz Buy Conversion Trend over a 3 week experiment period
+      </p>
+    </div>
 
-									<p class="par">
-										After rounds of experiments, we found out that <b>the combination of red dot and
-											a
-											floating button</b> on the feed has the biggest impact on our key metrics:
-										It
-										increased GMV by <b>2%</b> and traffic to the conversion on blitz buy tab by
-										~<b>120%</b>
-										consistently.
-									</p>
-
-
-									<div align="center">
-										<img src="images/wish_gamification/AddtoCart.png"
-											style="margin-top: 20px; max-width: 500px; ">
-										<p class="caption">&#8593; Blitz Buy Conversion Trend over a 3 week experiment
-											period</p>
-									</div>
-
-
-									<!-- <p class="par" style="font-weight: 600">
+    <!-- <p class="par" style="font-weight: 600">
 										Project goals:
 									</p>
 									<p class="par2">
@@ -629,62 +156,67 @@
 									<p class="par2">3. Add to cart rate and GMV</p>
 									<p class="par2">4. Overall GMV (neutral or positive)</p> -->
 
+    <h6>Ok, but...</h6>
 
-									<h6>Ok, but...</h6>
+    <p class="par">
+      Although the two additions have proven to be successful, they are also
+      very <b>aggressive</b> as a feature to keep showing to everyone in the
+      app, and the effectiveness will be sure to wear off in the long term due
+      to <b>fatigue</b>.
+    </p>
+    <p class="par">
+      To understand how to make the features more effective and less intrusive,
+      I carried out a <b>user testing</b> to understand the impact of this
+      design on a qualitative level.
+    </p>
 
-									<p class="par">Although the two additions have proven to be successful, they are
-										also very <b>aggressive</b> as a feature to keep showing to everyone in the app,
-										and the effectiveness will be sure to wear off in the long term due to
-										<b>fatigue</b>.
-									</p>
-									<p class="par">To understand how to make the features more effective and less
-										intrusive, I carried
-										out a <b>user testing</b> to understand the impact of this design on a
-										qualitative
-										level.
-									</p>
+    <h5>Persona</h5>
 
-									<h5>Persona</h5>
+    <p class="par">
+      A pattern emerged from the user study: there are
+      <b>two distinct groups</b> of users on Wish when it comes to
+      incentive/gamification programs. Below is some key characteristics of the
+      two groups respectively.
+    </p>
 
-									<p class="par">A pattern emerged from the user study: there are <b>two distinct
-											groups</b> of users on Wish when it comes to incentive/gamification
-										programs. Below
-										is some key characteristics of the two groups respectively.
-									</p>
+    <div align="center" style="margin-top: 80px; margin-bottom: 50px">
+      <div>
+        <img
+          src="/assets/images/wish_gamification/Persona1.png"
+          style="border-radius: 10px; width: 600px; margin-bottom: 40px"
+        />
+      </div>
+      <div>
+        <img
+          src="/assets/images/wish_gamification/Persona2.png"
+          style="border-radius: 10px; width: 600px"
+        />
+      </div>
+    </div>
 
+    <h5>Research Findings</h5>
 
+    <p class="par">
+      We found out that the <b>floating button</b> is effective to drive
+      exploration for new & casual users, yet more intrusive to power users.
+      This is because the floating button can inspire curiosity of new/causal
+      users who are not yet aware of the game, while power users have already
+      built out the habit of going to the Blitz Buy tab regularly.
+    </p>
+    <p class="par">
+      As for the <b>red dot</b> on the Blitz Buy tab, the effect is also
+      two-fold: Power users welcome the feature as it reminds them to go check
+      out the tab on a daily basis, yet new and casual users easily neglect the
+      tabs.
+    </p>
+    <p class="par">
+      Participants also voiced that they wouldn't pay much attention to either
+      feature if they are in the app all the time, validating the assumption
+      that persistent exposure of these reinforcement features will reduce the
+      effectiveness in the long run.
+    </p>
 
-									<div align="center" style="margin-top: 80px; margin-bottom: 50px; ">
-
-										<div><img src="images/wish_gamification/Persona1.png"
-												style=" border-radius: 10px; width: 600px; margin-bottom: 40px;"></div>
-										<div><img src="images/wish_gamification/Persona2.png"
-												style="  border-radius: 10px; width: 600px;"></div>
-
-									</div>
-
-									<h5>Research Findings</h5>
-
-									<p class="par">We found out that the <b>floating button</b> is effective to drive
-										exploration for new & casual users, yet more intrusive to power users. This is
-										because the floating button can inspire curiosity of new/causal users who are
-										not yet aware of the game, while power users have already built out the habit of
-										going to the Blitz Buy tab regularly.
-									</p>
-									<p class="par">As for the <b>red dot</b> on the Blitz Buy tab, the effect is also
-										two-fold:
-										Power users welcome the feature as it reminds them to go check out the tab on a
-										daily basis, yet new and casual users easily neglect the tabs.
-
-									</p>
-									<p class="par">Participants also voiced that they wouldn't pay much attention to
-										either feature if they are in the app all the time, validating the assumption
-										that persistent exposure of these reinforcement features will reduce the
-										effectiveness in the
-										long run.</p>
-
-
-									<!-- <div align="center">
+    <!-- <div align="center">
 										<img src="images/wish_gamification/Persona.png"
 											style="  border-radius: 10px;  box-shadow: 0 2px 10px rgba(0,0,0,.2);">
 
@@ -692,438 +224,286 @@
 
 									</div> -->
 
-
-
-
-
-
-									<h5>A new strategy!</h5>
-									<p class="par">Based on the persona and user testing findings, we designed a
-										customized strategy to engage different user groups effectively in the long run:
-									</p>
-
-									<p class="par2">1. For new users, show floating button and the red dot.
-									</p>
-
-									<p class="par2">2. For power users who interact with Blitz Buy on a regular
-										basis, only
-										show red dot for people who interact with BB on a regular basis </p>
-									<p class="par2">3. For existing users who haven't use it for a while, take out
-										the red
-										dot
-										and show floating button</p>
-
-									<div style="height: 50px;"></div>
-
-
-
-
-
-
-									<h6>Project 2: Visual & Incentives Revamp</h6>
-
-
-
-									<p class="par">In the first project, we managed to increase the traffic to the Blitz
-										Buy game.
-										However, the game itself has become stale over the years and lack the level of
-										excitement to hook up more active players.</p>
-									<p class="par">To give a boost to engagement, we need to <b>refresh the visual</b>
-										and
-										<b>introduce diversified incentives</b> of
-										the blitz buy game
-									</p>
-
-
-
-
-									<h5>Gamification model</h5>
-
-									<p class="par">Before diving into the redesign, I spent some time studying the
-										various gamification principles, models and case studies to identify new
-										opportunities for the Blitz Buy.</p>
-									<p class="par">One of the most comprehensive and most referenced model in
-										gamification is the <a href="https://yukaichou.com/"
-											style="color:#66CC99; float: none; vertical-align: top; margin: 0px">Octalysis
-											framework
-										</a> developed by Yu-kai Chou.
-									</p>
-									<p class=" par">Through an analysis on Blitz Buy using the framework (below), it's
-										becoming clear that Blitz Buy is scoring low in several dimensions. Of
-										course,
-										as a promotional-focused game in a shopping app, its limited by its scope to
-										strive for a high score in
-										in all aspects (e.g. Meaning, Social Pressure). However, we can still see
-										opportunities to improve in a few others, and to give a further boost to the
-										existing strengths.
-
-									</p>
-
-									<div align="center">
-										<img src="images/wish_gamification/Octalysis.png"
-											style="margin-top: 20px; margin-bottom: 10px; width: 1200px; border-radius: 1px;  ">
-										<p class="caption">&#8593; Octalysis model (left) and Octalysis on the current
-											Blitz Buy game (right)</p>
-									</div>
-
-									<h5>Color & Visual Explorations</h5>
-
-									<p class="par">Internally, we have long been seeking an opportunity to refresh the
-										color palette and make the wheel more skeuomorphic to engage users from the
-										first sight. Through the preliminary user testing, we also found out that a
-										majority of new users to this page don’t understand what the keys and numbers
-										represent on the original wheel. Therefore, my goal is to find out a new visual
-										solution that is more appealing and effective in communicating the game
-										mechanism.
-
-									</p>
-									<div align="center">
-
-										<img src="images/wish_gamification/ColorScheme.png"
-											style="margin-top: 20px;width: 1200px; ">
-										<p class="caption">&#8593; Major iterations I did with Blitz Buy New Visuals.
-										</p>
-									</div>
-									<p class="par">I went through 4 major iterations, each round adopting feedback from
-										users as well as team critiques.
-
-									</p>
-									<p class="par">*Fun
-										fact*: Whenever
-										I'm working on this project, the entire team would be attracted by all the
-										colors on my screen, gather around me and offer a wide variety of opinions. As
-										you can guess, this process made
-										me finally become 100% comfortable with showing and receiving
-										critiques on my WIP.
-
-									</p>
-									<br />
-									<br />
-
-
-
-
-									<h5>Gamification exploration</h5>
-
-									<div align="center">
-
-										<img src="images/wish_gamification/Exploration_2.png"
-											style="margin-top: 20px; width: 1200px; ">
-										<p class="caption">&#8593; Game mechanism iteration </p>
-									</div>
-
-									<p class="par">After a few rounds of explorations inspired by a variety of real
-										world games, we evaluated feasibility and landed on V4: Using icons to represent
-										prizes, and showing more variations.
-									</p>
-
-									<p class="par">To diversify the prize, we started by adding 4 new prizes: free gift,
-										category deals, express shipping discount and wishlist discount. We also wanted
-										to introduce an empty slice on the wheel: If a player lands on the slice, they
-										won’t get anything and will be told to try again tomorrow. The goal is to
-										improve the <i>Unpredictability</i> and <i>Avoidance</i> aspect of the game, and
-										to not
-										discourage players, we planned to make the probability very low.
-									</p>
-
-									<div align="center">
-
-
-										<img src="images/wish_gamification/V1.png"
-											style="margin-top: 20px; width: 1200px; ">
-										<p class="caption">&#8593; New Blitz Buy V1 </p>
-									</div>
-
-
-									<p class="par">We ran a round of user testing based on this version below, and found
-										out a few issues:
-
-										All participants reported problem understanding the icons on the wheel just by
-										looking at the icons
-										After reading the explanations, some people still were confused about the
-										difference between category deals and regular deals.
-										Participants think ‘Try again’ is too discouraging...
-
-									</p>
-
-									<p class="par">Based on the feedback, we explored a new angle to intrigue players
-										with the potential of a big prize, while not confusing/overwhelming them with
-										too many abstract prizes. This led us to the version below:
-
-									</p>
-
-
-									<div align="center">
-
-
-										<img src="images/wish_gamification/V2.png"
-											style="margin-top: 20px; width: 1200px; ">
-										<p class="caption">&#8593; New Blitz Buy V2, based on user testing results </p>
-									</div>
-
-									<p class="par"><b>How it works</b>: When entering Blitz Buy, the player will see
-										a
-										half
-										wheel that shows
-										three slices: a gift box, a bill, and a truck icon. The subtitle explained
-										that
-										they can win free gifts, gift card, and free shipping, corresponding with
-										the
-										three icons. The pin has a pulsing light, prompting people to tap and start
-										the
-										game. The wheel will then scale down and ascend to the center of the screen
-										as
-										it begins to spin.
-
-
-									</p>
-
-									<p class="par">When testing this new version with users, we got more positive
-										reactions. All participants thought the new theme is <b>“fun and
-											exciting”</b>.
-										Almost
-										all participants <b>understand the value</b> they could get from the game at
-										first
-										sight of the landing page. Furthermore, all participants thought it was very
-										likely this new game will <b>change how they use Wish</b>.
-
-
-
-									</p>
-
-								</div>
-							</div>
-
-
-
-
-
-
-
-
-
-
-
-							<div style="background-color:#192A32">
-
-								<div class="blog_list" style="padding-top: 20px; ">
-
-									<h5 style="color: #ffffff;">Final Design: Animated Demo & Entire Flow</h5>
-								</div>
-								<div align="center">
-									<img src="images/wish_gamification/BlitzBuy.gif" style=" border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,.2); 
-										margin-top: 50px; width: 350px;">
-									<p class="caption">
-										&#8593; Animated Demo
-									</p>
-								</div>
-
-
-
-								<div align="center">
-
-									<img src="images/wish_gamification/final.png"
-										style="margin-top: 20px; max-width: 95%; ">
-									<p class="caption">&#8593; Final Revamped Blitz Buy Flow </p>
-								</div>
-
-							</div>
-
-
-							<div class="blog_list" style="padding-top: 20px">
-
-								<h5>Reflection </h5>
-
-								<p class="par">Once the new Blitz Buy game is ready to launch, we are going to
-									monitor
-									how the new design
-									performs across our key metrics: <b>Conversion 1</b> (Add to Cart),
-									<b>Conversion
-										2</b>
-									(Checkout), <b>Retention 1</b> (Short term retention, or engagement level). With
-									all
-									the
-									new features introduced to the game, we are also hopeful that Blitz Buy can
-									address
-									the other two metrics in
-									the
-									framework: <b>Retention 2</b> (7+ days long term retention), and <b>Growth</b>
-									(feed
-									scroll,
-									time
-									in app etc.)
-
-
-								</p>
-
-
-								<div align="center" style="margin-bottom: 40px;">
-
-
-
-									<img src="images/wish_gamification/framework2.png"
-										style="margin-top: 20px; width: 1000px ">
-									<p class="caption">&#8593; Incentives Framework </p>
-
-								</div>
-
-								<p class="par">As a next step, we are going to explore ways to further optimize the
-									game following the Octalysis. Currently with the new design, we are able to see
-									improvement
-									on <i>Unpredictability, Scarcity,</i> and <i>Accomplishment</i>. If we can link
-									prizes
-									with the user’s engagement level by introducing streaks and leveling, we can
-									make
-									the game even more effective with the help of <i>Ownership</i> and <i>
-										Avoidance</i>.
-
-
-
-								</p>
-
-
-
-								<div align="center">
-
-
-									<img src="images/wish_gamification/Octalysis_revamped.png"
-										style="margin-top: 20px;max-width: 1000px;  ">
-
-								</div>
-
-
-
-
-							</div>
-
-
-
-
-
-							<p class="par1" style="text-align: center; border-left: 0px; margin-top: 150px">
-								Thank you for reading!</p>
-
-
-
-
-							<div class="clear"></div>
-
-							<br />
-							<br />
-
-
-						</div>
-						<div style=" color: #FFFFFF" id="btn">
-							<div class="row">
-								<div class="col-md-2 col-sm-12" style="margin-top: 20px;" align="center">
-									<!-- <a href="index.htm#port-top" class="btn" >
+    <h5>A new strategy!</h5>
+    <p class="par">
+      Based on the persona and user testing findings, we designed a customized
+      strategy to engage different user groups effectively in the long run:
+    </p>
+
+    <p class="par2">1. For new users, show floating button and the red dot.</p>
+
+    <p class="par2">
+      2. For power users who interact with Blitz Buy on a regular basis, only
+      show red dot for people who interact with BB on a regular basis
+    </p>
+    <p class="par2">
+      3. For existing users who haven't use it for a while, take out the red dot
+      and show floating button
+    </p>
+
+    <div style="height: 50px"></div>
+
+    <h6>Project 2: Visual & Incentives Revamp</h6>
+
+    <p class="par">
+      In the first project, we managed to increase the traffic to the Blitz Buy
+      game. However, the game itself has become stale over the years and lack
+      the level of excitement to hook up more active players.
+    </p>
+    <p class="par">
+      To give a boost to engagement, we need to <b>refresh the visual</b>
+      and
+      <b>introduce diversified incentives</b> of the blitz buy game
+    </p>
+
+    <h5>Gamification model</h5>
+
+    <p class="par">
+      Before diving into the redesign, I spent some time studying the various
+      gamification principles, models and case studies to identify new
+      opportunities for the Blitz Buy.
+    </p>
+    <p class="par">
+      One of the most comprehensive and most referenced model in gamification is
+      the
+      <a
+        href="https://yukaichou.com/"
+        style="color: #66cc99; float: none; vertical-align: top; margin: 0px"
+        >Octalysis framework
+      </a>
+      developed by Yu-kai Chou.
+    </p>
+    <p class="par">
+      Through an analysis on Blitz Buy using the framework (below), it's
+      becoming clear that Blitz Buy is scoring low in several dimensions. Of
+      course, as a promotional-focused game in a shopping app, its limited by
+      its scope to strive for a high score in in all aspects (e.g. Meaning,
+      Social Pressure). However, we can still see opportunities to improve in a
+      few others, and to give a further boost to the existing strengths.
+    </p>
+
+    <div align="center">
+      <img
+        src="/assets/images/wish_gamification/Octalysis.png"
+        style="
+          margin-top: 20px;
+          margin-bottom: 10px;
+          width: 1200px;
+          border-radius: 1px;
+        "
+      />
+      <p class="caption">
+        &#8593; Octalysis model (left) and Octalysis on the current Blitz Buy
+        game (right)
+      </p>
+    </div>
+
+    <h5>Color & Visual Explorations</h5>
+
+    <p class="par">
+      Internally, we have long been seeking an opportunity to refresh the color
+      palette and make the wheel more skeuomorphic to engage users from the
+      first sight. Through the preliminary user testing, we also found out that
+      a majority of new users to this page don’t understand what the keys and
+      numbers represent on the original wheel. Therefore, my goal is to find out
+      a new visual solution that is more appealing and effective in
+      communicating the game mechanism.
+    </p>
+    <div align="center">
+      <img
+        src="/assets/images/wish_gamification/ColorScheme.png"
+        style="margin-top: 20px; width: 1200px"
+      />
+      <p class="caption">
+        &#8593; Major iterations I did with Blitz Buy New Visuals.
+      </p>
+    </div>
+    <p class="par">
+      I went through 4 major iterations, each round adopting feedback from users
+      as well as team critiques.
+    </p>
+    <p class="par">
+      *Fun fact*: Whenever I'm working on this project, the entire team would be
+      attracted by all the colors on my screen, gather around me and offer a
+      wide variety of opinions. As you can guess, this process made me finally
+      become 100% comfortable with showing and receiving critiques on my WIP.
+    </p>
+    <br />
+    <br />
+
+    <h5>Gamification exploration</h5>
+
+    <div align="center">
+      <img
+        src="/assets/images/wish_gamification/Exploration_2.png"
+        style="margin-top: 20px; width: 1200px"
+      />
+      <p class="caption">&#8593; Game mechanism iteration</p>
+    </div>
+
+    <p class="par">
+      After a few rounds of explorations inspired by a variety of real world
+      games, we evaluated feasibility and landed on V4: Using icons to represent
+      prizes, and showing more variations.
+    </p>
+
+    <p class="par">
+      To diversify the prize, we started by adding 4 new prizes: free gift,
+      category deals, express shipping discount and wishlist discount. We also
+      wanted to introduce an empty slice on the wheel: If a player lands on the
+      slice, they won’t get anything and will be told to try again tomorrow. The
+      goal is to improve the <i>Unpredictability</i> and <i>Avoidance</i> aspect
+      of the game, and to not discourage players, we planned to make the
+      probability very low.
+    </p>
+
+    <div align="center">
+      <img
+        src="/assets/images/wish_gamification/V1.png"
+        style="margin-top: 20px; width: 1200px"
+      />
+      <p class="caption">&#8593; New Blitz Buy V1</p>
+    </div>
+
+    <p class="par">
+      We ran a round of user testing based on this version below, and found out
+      a few issues: All participants reported problem understanding the icons on
+      the wheel just by looking at the icons After reading the explanations,
+      some people still were confused about the difference between category
+      deals and regular deals. Participants think ‘Try again’ is too
+      discouraging...
+    </p>
+
+    <p class="par">
+      Based on the feedback, we explored a new angle to intrigue players with
+      the potential of a big prize, while not confusing/overwhelming them with
+      too many abstract prizes. This led us to the version below:
+    </p>
+
+    <div align="center">
+      <img
+        src="/assets/images/wish_gamification/V2.png"
+        style="margin-top: 20px; width: 1200px"
+      />
+      <p class="caption">
+        &#8593; New Blitz Buy V2, based on user testing results
+      </p>
+    </div>
+
+    <p class="par">
+      <b>How it works</b>: When entering Blitz Buy, the player will see a half
+      wheel that shows three slices: a gift box, a bill, and a truck icon. The
+      subtitle explained that they can win free gifts, gift card, and free
+      shipping, corresponding with the three icons. The pin has a pulsing light,
+      prompting people to tap and start the game. The wheel will then scale down
+      and ascend to the center of the screen as it begins to spin.
+    </p>
+
+    <p class="par">
+      When testing this new version with users, we got more positive reactions.
+      All participants thought the new theme is <b>“fun and exciting”</b>.
+      Almost all participants <b>understand the value</b> they could get from
+      the game at first sight of the landing page. Furthermore, all participants
+      thought it was very likely this new game will
+      <b>change how they use Wish</b>.
+    </p>
+  </div>
+</div>
+
+<div style="background-color: #192a32">
+  <div class="blog_list" style="padding-top: 20px">
+    <h5 style="color: #ffffff">Final Design: Animated Demo & Entire Flow</h5>
+  </div>
+  <div align="center">
+    <img
+      src="/assets/images/wish_gamification/BlitzBuy.gif"
+      style="
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        margin-top: 50px;
+        width: 350px;
+      "
+    />
+    <p class="caption">&#8593; Animated Demo</p>
+  </div>
+
+  <div align="center">
+    <img
+      src="/assets/images/wish_gamification/final.png"
+      style="margin-top: 20px; max-width: 95%"
+    />
+    <p class="caption">&#8593; Final Revamped Blitz Buy Flow</p>
+  </div>
+</div>
+
+<div class="blog_list" style="padding-top: 20px">
+  <h5>Reflection</h5>
+
+  <p class="par">
+    Once the new Blitz Buy game is ready to launch, we are going to monitor how
+    the new design performs across our key metrics: <b>Conversion 1</b> (Add to
+    Cart),
+    <b>Conversion 2</b>
+    (Checkout), <b>Retention 1</b> (Short term retention, or engagement level).
+    With all the new features introduced to the game, we are also hopeful that
+    Blitz Buy can address the other two metrics in the framework:
+    <b>Retention 2</b> (7+ days long term retention), and <b>Growth</b>
+    (feed scroll, time in app etc.)
+  </p>
+
+  <div align="center" style="margin-bottom: 40px">
+    <img
+      src="/assets/images/wish_gamification/framework2.png"
+      style="margin-top: 20px; width: 1000px"
+    />
+    <p class="caption">&#8593; Incentives Framework</p>
+  </div>
+
+  <p class="par">
+    As a next step, we are going to explore ways to further optimize the game
+    following the Octalysis. Currently with the new design, we are able to see
+    improvement on <i>Unpredictability, Scarcity,</i> and <i>Accomplishment</i>.
+    If we can link prizes with the user’s engagement level by introducing
+    streaks and leveling, we can make the game even more effective with the help
+    of <i>Ownership</i> and <i> Avoidance</i>.
+  </p>
+
+  <div align="center">
+    <img
+      src="/assets/images/wish_gamification/Octalysis_revamped.png"
+      style="margin-top: 20px; max-width: 1000px"
+    />
+  </div>
+</div>
+
+<p class="par1" style="text-align: center; border-left: 0px; margin-top: 150px">
+  Thank you for reading!
+</p>
+
+<div class="clear"></div>
+
+<br />
+<br />
+
+<div style="color: #ffffff" id="btn">
+  <div class="row">
+    <div class="col-md-2 col-sm-12" style="margin-top: 20px" align="center">
+      <!-- <a href="index.htm#port-top" class="btn" >
 
      
           Back to Portfolio
 
 
   </a> -->
-								</div>
+    </div>
 
-								<div class="col-md-6">
-								</div>
-								<div class="col-md-4 col-sm-12" style="margin-top: 20px;float: center" align="center">
-
-									<a href="wishbrands.html" class="btn">
-
-
-										Next: Wish Brands Experience
-
-
-									</a>
-								</div>
-
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<!--!start footer-->
-
-
-
-
-
-
-
-
-
-
-				<!---->
-
-
-
-
-			</div>
-		</div>
-	</div>
-	</div>
-
-	<script type="text/javascript">
-
-		$(function () {
-
-			$('.progressive-image').each(function () {
-
-				var image = new Image();
-				var previewImage = $(this).find('.loadingImage');
-				var newImage = $(this).find('.overlay');
-
-				image.onload = function () {
-					newImage.css('background-image', 'url(' + image.src + ')');
-					newImage.css('opacity', '1');
-					console.log('complete');
-				};
-
-				image.src = previewImage.data('image');
-
-			});
-
-		});
-	</script>
-
-	<!-- <script src="src/js/jquery.swipebox.js"></script>
-
-	<script type="text/javascript">
-		; (function ($) {
-
-			$('.swipebox').swipebox();
-
-		})(jQuery);
-	</script> -->
-
-	<!-- start footer copy -->
-
-	<div class="footer_bg">
-		<div class="wrap">
-
-			<div class="wrapper">
-
-				<div class="copy">
-
-					<br />
-					<br />
-
-					<p style="color: #FFFFFF">&copy; 2021. Yiran MA. All rights reserved.</p>
-					<br />
-
-				</div>
-
-			</div>
-
-		</div>
-	</div>
-
-
-
-
-
-</body>
-
-</html>
+    <div class="col-md-6"></div>
+    <div
+      class="col-md-4 col-sm-12"
+      style="margin-top: 20px; float: center"
+      align="center"
+    >
+      <a href="wishbrands.html" class="btn"> Next: Wish Brands Experience </a>
+    </div>
+  </div>
+</div>
