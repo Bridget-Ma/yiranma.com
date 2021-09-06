@@ -1,0 +1,498 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<title>Details</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- google fonts -->
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+<!-- end google fonts -->
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- light box -->
+
+<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.lightbox.js"></script>
+
+<script type="text/javascript">
+
+    $(function() {
+
+        $('.blog_para p a').lightBox();
+
+    });
+
+</script>
+
+<!--nav-->
+
+<script>
+
+		$(function() {
+
+			var pull 		= $('#pull');
+
+				menu 		= $('nav ul');
+
+				menuHeight	= menu.height();
+
+
+
+			$(pull).on('click', function(e) {
+
+				e.preventDefault();
+
+				menu.slideToggle();
+
+			});
+
+
+
+			$(window).resize(function(){
+
+        		var w = $(window).width();
+
+        		if(w > 320 && menu.is(':hidden')) {
+
+        			menu.removeAttr('style');
+
+        		}
+
+    		});
+
+		});
+
+</script>
+
+</head>
+
+<body>
+
+<div class="body">
+
+<div class="wrap">
+
+<div class="wrapper">
+
+	<!-- start header-->
+
+	<div class="header">
+
+		<div class="logo">
+
+			<a href="index.htm"><img src="images/logo.png" alt=""></a>
+
+		</div>
+
+		<div class="cssmenu">
+
+			<ul>
+
+			  	<li class="active"><a href="index.htm">Home</a></li>
+
+				<li><a href="portfolio.html">Portfolio</a></li>
+
+				<li><a href="blog.html">Blog</a></li>
+
+				<li class="has-sub"><a href="about.html">About</a></li>
+
+				<li class="last"><a href="contact.html">Contact</a></li>
+
+				<div class="clear"></div>
+
+			 </ul>
+
+		</div>
+
+		<div class="clear"></div>
+
+		<div class="top-nav">
+
+		<nav class="clearfix">
+
+				<ul>
+
+					<li><a href="index.htm">Home</a></li>
+
+					<li><a href="portfolio.html">Portfolio</a></li>
+
+					<li><a href="blog.html">Blog</a></li>
+
+					<li ><a href="about.html">About</a></li>
+
+					<li ><a href="contact.html">Contact</a></li>
+
+				</ul>
+
+				<a href="#" id="pull">Menu</a>
+
+			</nav>
+
+		</div>
+
+	</div>
+
+    <!-- start content -->
+
+	 <div class="main1">
+
+	 	 <div class="content">
+
+	 	 	<h2>PocketHearty: iPhone-based ECG device</h2>
+
+	 	 </div>
+
+		<div class="blog">
+
+			<div class="blog_list">
+
+				<h4><a href="">Independent Project</a></h4>
+
+				<h5>Position: Team Lead
+
+</a></h5>
+<h5>Key words: iOS developing, Aggregate System, Project Management, UI design</a><h5>
+				<div class="blog_para">
+             
+               <br /> 
+               
+               <h5>Design Motivations</a><h>
+               <p class="para1">
+  The severity of cardiovascular disease is beyond imagination in China, with over 290 million patients reported in the year of 2014. The resource of public health care is limited for these people. If their conditions are not highly dangerous, most of them will still go to work and not be able to monitor heart conditions on a day-to-day basis. This fact drives us to realize the solution of a mobile-based ECG device.
+</p>
+
+					<div align=center><img src="images/PHimage/needs.jpg" alt="" width="693" height="472" ></div>
+
+				<br />	
+                <br />	
+                <br />	
+<h5>Product Ideas</a><h5>
+<p class="para1">
+  We name the product PocketHearty in the wish that it will become a portable companion to care for the user’s heart conditions.
+</p>
+<img src="images/PHimage/sketch of product.png" alt="" width="406" height="245" align="center"><img src="images/PHimage/Structure.png" alt="" width="468" height="193"align="center">
+<h5>
+<br />
+                     
+                    <div align=center></div>
+                    <p>                     
+                    <p>                     
+                  <p><br />
+                    <h5>
+                    <p>interaction diagram</a><h5>
+                    </p>
+                    <p>                      <br />
+                      
+                    </p>
+                    
+                    <div align=center><img class="test" src="images/PHimage/low-fi.gif" alt="" width="611" height="846"></div>
+                    <script src="js/jquery-1.11.0.min.js"></script> 
+<script src="js/jquey-bigic.js"></script> 
+<script>
+	$(function(){
+		$('img').bigic();
+	});
+</script> 
+                     <br />
+                      <br />
+                       <br />
+                     <h5>hi-fi prototype</p>
+                     <p></a>
+                     <h5>
+                    <br />
+                     
+                    <div align=center><img src="images/PHimage/hi-fi.gif" alt="" width="624" height="981"></div>
+                     <br />
+                      <br />
+                       <br />
+                    <h5>Features</a><h5>
+                     </p>
+                  <p class="para1">
+                    The result of a traditional ECG test contains a lot of information that are hard to interpret by ordinary people. Besides, only professionals could give reasonable diagnoses according to other essential factors, such as the patient’s age and gender.
+                  </p>
+<p class="para1">
+To present results in a more personalized and straightforward way, we introduced 2 new indexes: heart age and tiredness. Though the two are not strictly medical indexes, they are based on scientific algorithms to show the relative health condition of users. In order to make the results even more explicit, we offer A to E levels in addition to simple values. According to the level, our system will give further health tips to help users understand the condition of their health and how to care for them selves.
+
+</p>
+<div align=center><img src="images/PHimage/feature1.png" alt="" width="395" height="326">
+                    
+                    <img src="images/PHimage/feature2.png" alt="" width="404" height="328">
+                  </div><br />
+                    <br />
+                    <br />
+                    
+                    
+ <p class="para1">
+  On the other hand, we understand that family members and doctors will be concerned about every test results of the patients. In many similar apps, primary users could press ”share” to send information to others via SNS or emails. However, this approach is not so efficient since it still requires tedious operations and often ignored by primary users.
+  </p>
+<p class="para1">
+Thus we offer an special version which is designed for family members /doctors. Having been authorized by primary users, they could check the test history of the patient users and get informed of any situation in no time.
+</p>
+<br />
+                    <br />
+                    <br />
+<h5>Final Product Display</a><h5>
+<br/>
+<br/>
+<div align=center><img src="images/PHimage/display.gif" alt="" width="666" height="374"></div>
+
+
+
+<br />
+                    <br />
+                    <br />
+                  <div class="read_more">
+
+						<a class="btn" href="details.html">Read More</a>
+
+					</div>
+
+					<div class="clear"></div>
+
+				</div>
+
+			 </div>
+
+			</div>
+
+		</div>
+
+ 	 </div>
+
+</div>
+
+</div>
+
+
+	
+<!---->
+
+
+
+  <!-- start foorter -->
+
+<div class="footer_bg">
+
+<div class="wrap">
+
+<div class="wrapper">
+<div class="grids_of_4">
+	<article class="portfolio">
+		<div class="grid_1_of_4 images_1_of_4">
+  			<a href="portfolio.html"><img src="images/pic1.jpg" title="Project1" alt=""/></a>
+            <div class="portfolio-overlay second">
+			<a href="#"><h3 class="entry-title">QUALITY</h3></a>
+		</div>
+                   
+					
+		</div>
+                    
+		
+	</article>
+    
+
+		
+        
+                   
+          
+	
+		<div class="grid_1_of_4 images_1_of_4">
+
+					 <a href="#"><img src="images/pic2.jpg" title="Project2" alt=""/></a>
+
+					</div>
+
+		<div class="grid_1_of_4 images_1_of_4">
+
+					 <a href="#"><img src="images/pic3.jpg" title="Project3" alt=""/></a>
+
+					 </div>
+
+				<div class="grid_1_of_4 images_1_of_4">
+
+					 <a href="#"><img src="images/pic4.jpg" title="Project4" alt=""/></a>
+				</div>
+
+				<div class="clear"></div>
+
+	  </div>
+
+	<div class="footer">
+
+		<div class="span_1_of_3">
+
+			<h3>Contact Us</h3>
+
+			<div class="footer_grid">
+
+				<div class="foot_img">
+
+					<img src="images/home.png" alt="" />
+
+				</div>
+
+				<div class="foot_text">
+
+					<p>500 Lorem Ipsum Dolor Sit,</p>
+
+					<p>22-56-2-9 Sit Amet, Lorem,</p>
+
+					<p>USA</p>
+
+				</div>	
+
+				<div class="clear"></div>	
+
+			</div>
+
+			<div class="footer_grid">
+
+				<div class="foot_img">
+
+					<img src="images/call.png" alt="" />
+
+				</div>
+
+				<div class="foot_text">
+
+					<p>(416) 431-4437</p>
+
+				</div>		
+
+				<div class="clear"></div>	
+
+			</div>
+
+			<a href=""><h4 class="mail">info(at)mycompany.com</h4></a>
+
+			<div class="foot_nav">
+
+				<ul>
+
+					<li><a href="#"><img src="images/soc_icon1.png" alt="" /></a></li>
+
+					<li><a href="#"><img src="images/soc_icon2.png" alt="" /></a></li>
+
+					<li><a href="#"><img src="images/soc_icon3.png" alt="" /></a></li>
+
+					<li><a href="#"><img src="images/soc_icon4.png" alt="" /></a></li>
+
+					<div class="clear"></div>
+
+				</ul>
+
+				
+
+			</div>
+
+		</div>
+
+		<div class="span_1_of_3">
+
+			<h3>Latest Tweets</h3>
+
+			<div class="footer_grid">
+
+				<div class="foot_img">
+
+					<img src="images/twitter.png" alt="" />
+
+				</div>
+
+				<div class="foot_text">
+
+					<p>Confucius: Lorem Ipsum is simply dummy text of the printing.<br /> <b>#famousquotes</b></p>
+
+					<h4>8 days ago</h4>
+
+				</div>		
+
+				<div class="clear"></div>	
+
+			</div>			
+
+			<div class="footer_grid">
+
+				<div class="foot_img">
+
+					<img src="images/twitter.png" alt="" />
+
+				</div>
+
+				<div class="foot_text">
+
+					<p>Bruce Lee: Lorem Ipsum is simply dummy text of the printing.<br /> <b>#famousquotes</b></p>
+
+					<h4>1 hour ago</h4>
+
+				</div>		
+
+				<div class="clear"></div>	
+
+			</div>	
+
+		</div>
+
+		<div class="span_1_of_3">
+
+			<h3>Latest Posts</h3>
+
+			<a href=""><h5 class="fountain">Starting a new journey today</h5></a>
+
+			<a href=""><h5 class="fountain">The life of a web designer</h5></a>
+
+			<a href=""><h5 class="fountain">Your guide to navigating Around to wordoress</h5></a>
+
+			<a href=""><h5 class="fountain">introduction to HTML5 and CSS3</h5></a>
+
+			<a href=""><h5 class="fountain">The life of a web designer</h5></a>
+
+		</div>
+
+		<div class="clear"></div>
+
+	</div>
+
+</div>
+
+</div>
+
+</div>
+
+  <!-- start footer copy -->
+
+<div class="wrap">
+
+<div class="wrapper">
+
+	<div class="copy">	
+
+		<p class="w3-link">Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+
+	</div>
+
+</div>
+
+</div>
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+
+</body>
+
+</html>

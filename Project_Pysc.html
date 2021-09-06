@@ -1,0 +1,645 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+  <title>Yiran MA | Portfolio</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+
+  <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+  <!-- end google fonts -->
+
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <!--Google Analytics-->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-90414112-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <!--nav-->
+
+  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/animate.js"></script>
+
+  <script>
+
+
+
+    $(function () {
+
+      var pull = $('#pull');
+
+      menu = $('nav ul');
+
+      menuHeight = menu.height();
+
+
+
+      $(pull).on('click', function (e) {
+
+        e.preventDefault();
+
+        menu.slideToggle();
+
+      });
+
+
+
+      $(window).resize(function () {
+
+        var w = $(window).width();
+
+        if (w > 320 && menu.is(':hidden')) {
+
+          menu.removeAttr('style');
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+  <style type="text/css">
+    .par {
+
+      margin-left: 18%;
+      margin-right: 18%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 13pt;
+
+    }
+
+    .par1 {
+
+      margin-left: 22%;
+      margin-right: 22%;
+      font-size: 18pt;
+      font-weight: 200;
+      font-style: italic;
+      line-height: 1.5;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      color: #6D6D6D;
+
+
+    }
+
+    .par2 {
+
+      margin-left: 22%;
+      margin-right: 22%;
+      font-size: 13pt;
+      font-weight: 500;
+      /*font-style: italic;*/
+      line-height: 1.5;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-left: 3px solid rgba(0, 0, 0, .84);
+      padding-bottom: 2px;
+      padding-left: 20px;
+
+
+    }
+
+    .par3 {
+
+      margin-left: 18%;
+      margin-right: 18%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 13pt;
+
+    }
+
+    .blog_list h5 {
+
+      float: center;
+      text-align: center;
+      margin-top: 80px;
+      margin-bottom: 60px;
+
+    }
+
+    .blog_list h7 {
+
+      margin-left: 18%;
+
+    }
+
+    .caption {
+
+      margin-left: 20%;
+      margin-right: 20%;
+      text-align: center;
+      margin-top: 5px;
+      font-size: 11pt;
+      /*  font-style: italic;*/
+      font-weight: 300;
+      color: #969696;
+      margin-bottom: 40px;
+
+
+    }
+
+    @media only screen and (max-width: 820px) {
+
+      .par {
+
+        margin-left: 2%;
+        margin-top: 20px;
+        margin-right: 2%;
+        margin-bottom: 20px;
+        font-size: 13pt;
+
+      }
+    }
+  </style>
+
+</head>
+
+<body onload="showPage()" id="body" class="animate-bottom">
+
+
+  <div class="body">
+
+    <div class="wrap">
+
+      <div class="wrapper">
+
+        <!-- start header-->
+
+        <div class="header1">
+
+          <div class="logo">
+
+            <a href="index.htm"><img src="images/mylogo.png" alt=""></a>
+
+          </div>
+
+          <div class="cssmenu">
+
+            <ul>
+
+              <li><a href="index.htm">Home</a></li>
+
+              <li class="active"><a href="index.htm#port-top">Portfolio</a></li>
+
+              <li><a href="about.html">About Me</a></li>
+
+              <div class="clear"></div>
+
+
+            </ul>
+
+          </div>
+
+          <div class="clear"></div>
+
+          <div class="top-nav">
+
+            <nav class="clearfix">
+
+              <ul>
+
+                <li><a href="index.htm">Home</a></li>
+
+                <li><a href="index.htm#port-top">Portfolio</a></li>
+
+                <li><a href="about.html">About Me</a></li>
+
+              </ul>
+
+              <a href="#" id="pull">Menu</a>
+
+            </nav>
+
+          </div>
+
+        </div>
+
+        <!-- start content -->
+
+        <div class="main1">
+
+          <div class="content">
+
+
+
+
+
+            <div class="blog" id="top">
+
+              <img src="images/Pysc/header.png" style="margin-top: 20px">
+
+              <div class="blog_list">
+
+                <!-- <h2>User study: Understanding how HCI students share knowledge </h2>
+      
+<div class="clear">
+ <hr size="0.5" noshade="noshade" color="#CCCCCC"/>
+</div>
+
+				<h4>HCI Research Course Project</h4>
+                <h6>Team: Yiran Ma & <a href="http://www.prism.gatech.edu/~alambeth3/" style="font-style:normal; font-variant:normal">Amelia Lambeth</a>
+</h6>
+			  <h6>Keywords: interview, competitive analysis, survey, data analysis, empathy map</h6> -->
+                <div class="blog_para">
+
+                  <br />
+
+                  <div>
+                    <h5>Problem</a>
+                      <h5>
+                  </div>
+
+
+
+                  <p class="par">
+                  </p>
+
+                  <p class="par">
+                    This user study is driven by a design scenario: The program chair thinks a one-stop-shop should be
+                    developed to cater for every student’s needs specific to the program: acquiring information,
+                    preparing for career, and communicating with peers and faculties. But does a one-stop-shop really
+                    reflect their needs? What pertinent needs do HCI students really have? </p>
+                  <p class="par">
+
+
+                  </p>
+
+
+                  <div>
+                    <h5>Process</h5>
+                  </div>
+
+                  <div class="col-md-12 col-sm-12">
+                    <a href="images/Pysc/ResearchProcess.png" class="b-link-stripe b-animate-go   swipebox"
+                      title="Research Process"><img src="images/Pysc/ResearchProcess.png" alt="" width="99%"></a>
+                  </div>
+
+
+
+
+                  <h7> Competitive analysis</h7>
+
+                  <p class="par">
+                    Objective:To learn more about the behaviors of students, this study takes a deep look into existing
+                    tools that are mostly used by MS-HCI students, as well as review existing research findings on
+                    knowledge sharing among academic peers. </p>
+
+                  <p class="par">
+                    Procedure: A 1 to 5 scale is given to each sub-measurement to every tool we study, with 5 being the
+                    most satisfying case (The ratings are given from an objective perspective, based on the experience
+                    and observation of researchers). A sum for each basic measurement is calculated and depicted with
+                    different shades of color.
+                  </p>
+                  <div align=center>
+                    <img src="images/Pysc/CompetitiveAnalysis.png" width="90%">
+                  </div>
+                  <br />
+                  <p class="par">
+                    Generally, slack has great performance in all four criteria, serving as a good start point for
+                    solving the current problem. On the other hand, there are more specialized methods that has a better
+                    performance in individual criteria. Thus, we need to collect more data on HCI students’ opinions and
+                    problems with different methods, as well as to research on if an application like Slack is a good
+                    solution.
+                  </p>
+
+
+
+                  <h7> Literature Review</h7>
+                  <p class="par">
+                    Based on the literature review, we think a peer-to-peer, web-based application whereby which users
+                    can easily retrieve and contribute information to a communal knowledge pool in a positive group
+                    setting will be an effective means to address HCI Masters’ students’ need to find and share
+                    information that lies within the community and can be accessed by communication with members of the
+                    group.
+                  </p>
+
+
+
+                  <h7> Interview</h7>
+
+                  <p class="par">A semi-structured interview is conducted with 5 people in our user group, each of which
+                    takes 30 minutes. They have a diverse background and experiences in the program. We hope to
+                    understand our users’ information seeking and communication habits.
+
+                  </p>
+
+
+
+                  <h7> Affinity Mapping</h7>
+
+
+                  <div>
+                    <p class="par"> During our interviews, interviewees’ answers were recorded in text and audio and
+                      translated to digital text for review and application to a digital affinity map.</p>
+                    <p class="par">In the first draft of affinity map, we picked out informative points from our
+                      interview notes and organize them on post-its using an online collaboration tool, MURAL. Different
+                      colors of square posts indicate different interviewees. The blue posts indicate a rough category
+                      of all the information.</p>
+                  </div>
+                  <div align="center" style="margin-bottom: 30px">
+                    <a href="images/Pysc/AffinityMapping1.png" class="b-link-stripe b-animate-go   swipebox"
+                      title="Affinity Mapping Phase1"><img src="images/Pysc/AffinityMapping1.png" alt=""
+                        width="40%"></a>
+                  </div>
+
+
+
+                  <p class="par" style="margin-top: 30px">The first draft of affinity map has given us much insight into
+                    how HCI students communicate, collaborate, and seek /share information. However, the three
+                    categories, communication, collaboration and info-seeking are not clearly divided, thus making the
+                    affinity map ambiguous. We want to further analyzing the current data so as to find a narrower
+                    problem scope.</p>
+                  <p class="par">Based on the problem space, all the user needs could be treated as HCI students’ need
+                    for knowledge sharing (in a specific scope). There are many interfaces available for knowledge
+                    sharing: It could be face-to-face chatting with peers or meeting with professors; it could be a
+                    search engine; it could also be an IM or collaboration tool. Thus, our focus should be on providing
+                    a solution to help students achieve the maximum efficiency of knowledge sharing through an optimized
+                    utilization of these interfaces.</p>
+                  <p class="par">With this in mind, we re-organized the affinity map with three categories under the
+                    theme of knowledge sharing: needs, tendencies (of utilizing different interfaces), and frustrations.
+                  </p>
+
+
+
+
+
+                  <div align="center">
+                    <a href="images/Pysc/AffinityMapping2.png" class="b-link-stripe b-animate-go   swipebox"
+                      title="Affinity Mapping Phase2"><img src="images/Pysc/AffinityMapping2.png" alt=""
+                        width="85%"></a>
+                  </div>
+
+
+                  <br />
+
+
+                  <p class="par">From this affinity map we could have a clearer understanding of user’s behavior
+                    patterns. The following chart shows some important findings through this affinity map:</p>
+
+
+
+                  <div style="font-size:13px; width: 80%; margin-left: 10%; margin-top: 30px">
+                    <table class="table ">
+                      <thead class="thead-inverse">
+                        <tr>
+                          <th width="20%" style="font-weight:800">Knowledge Sharing Needs</th>
+
+                          <th width="29%" style="font-weight:800">Current Tendencies</th>
+                          <th width="41%" style="font-weight:800">Frustrations</th>
+
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>&nbsp;</p>
+                            <ul type="disc">
+                              <li>Class assignments </li>
+                              <li>Masters project </li>
+                              <li>General HCI program questions </li>
+                              <li>Projects </li>
+                              <li>Local Infos </li>
+                              <li>Social &amp; Professional events </li>
+                              <li>Course advising </li>
+                              <li>Career advising </li>
+                            </ul>
+                          </td>
+                          <td>
+                            <p>&nbsp;</p>
+                            <p>Some of the needs corresponds well with certain interfaces. <br>
+                              While still some needs have no predetermined or unclear sources. </p>
+                          </td>
+                          <td>
+                            <ul type="disc">
+                              <li>The common platform (Slack) is disorganized, making it difficult to find,
+                                &nbsp;retrieve or share information</li>
+                              <li>Questions asked (in chat groups or Slack channels) are not answered in a timely manner
+                                due to inadequate exposure to right crowd</li>
+                              <li>It is difficult to find info about courses </li>
+                              <li>Using different IM products poses inconvenience </li>
+                            </ul>
+                          </td>
+                        </tr>
+
+                    </table>
+                  </div>
+                  <br />
+
+
+                  <h7> Survey</h7>
+
+                  <p class="par"> To learn more about our user groups’ needs and problems, we planned a survey to:</p>
+                  <p class="par2">
+                    Verify HCI students’ knowledge sharing needs</p>
+                  <p class="par2"> Identify what platforms users currently use and prefer to use when sharing knowledge
+                    of particular topics</p>
+                  <p class="par2"> Measure satisfaction levels towards current knowledge sharing processes</p>
+
+
+
+
+
+                  <p class="par">In the secondary survey, we wanted to see if users had problems with Slack and if so,
+                    what those problems are, in case a feasible solution to our design problem will be most effective if
+                    distributed on an already-established communication method. We randomly sampled 33 MS-HCI students
+                    from the user group.
+                  </p>
+
+
+                  <h7> Empathy Map</h7>
+                  <br />
+                  <div align="center">
+
+                    <a href="images/Pysc/EmpathyMap.png" class="b-link-stripe b-animate-go   swipebox"
+                      title="Empathy Map"><img src="images/Pysc/EmpathyMap.png" alt="" width="90%" /></a>
+                  </div>
+                  <br />
+                  <h5> Solutions</h5>
+
+                  <p class="par"><strong style="font-weight:600; font-style:oblique">Solution idea #1- Leveraging a
+                      current communication system</strong> </p>
+
+
+                  <p class="par"> Many people prefer to ask questions online in a group (HCI currently uses Slack) but
+                    are unhappy with difficulty getting information. Interviews have suggested that Slack’s
+                    message/conversation structure is disorganized and spread across channels, and the user is given the
+                    task of finding the answers their peers post. </p>
+                  <p class="par"> We propose a plug-in extension for Slack that imposes a visual hierarchy on messages
+                    using indentation and/or color to allow users to group related messages in an easy-to-read format
+                    (general design guidelines demonstrate a positive correlation between increased organization and
+                    readability/ease of use). This plug-in could also determine message visibility by relevance to the
+                    user based on a particular user’s activity and keywords.
+                  </p>
+                  <div class="row" align="center">
+
+                    <a href="images/Pysc/solution1.png" class="b-link-stripe b-animate-go   swipebox"
+                      title="Solution1"><img src="images/Pysc/solution1.png" alt="" width="80%" /></a>
+
+                  </div>
+                  <br />
+
+
+                  <p class="par"><strong style="font-weight:600; font-style:oblique">Solution idea #2 - Connecting
+                      students with the faculty knowledge base</strong>
+                  </p>
+                  <p class="par"> Three proposed solutions to bridge the communication gap between students and
+                    faculty/staff and fulfill users’ need for information from the faculty/staff knowledge base. A
+                    directory of colleagues related to HCI faculty/staff to answer student questions (left); a walk-up
+                    help desk staffed by volunteer second-year HCI students (middle); remote office hours with faculty
+                    via telephone.</p>
+                  <div class="row" align="center">
+                    <a href="images/Pysc/solution2.png" class="b-link-stripe b-animate-go   swipebox"
+                      title="Solution2"><img src="images/Pysc/solution2.png" alt="" width="80%" /></a>
+
+                  </div>
+
+
+
+
+
+                </div>
+                <br />
+                <br />
+
+                <!-- <div class="read_more" align="left">
+
+            <a class="btn" href="index.htm#port-top">Back to Portfolio</a>
+                        </div>   -->
+
+
+                <div style="  color: #FFFFFF" id="btn">
+                  <div class="row">
+                    <div class="col-md-2 col-sm-12" style="margin-top: 20px;" align="center">
+                      <a href="index.htm#port-top" class="btn">
+
+
+                        Back to Portfolio
+
+
+                      </a>
+                    </div>
+
+                    <div class="col-md-8">
+                    </div>
+                    <div class="col-md-2 col-sm-12" style="margin-top: 20px;float: center" align="center">
+                      <a href="gallery.html#top" class="btn">
+
+
+                        NEXT UP: Photo Gallery
+
+
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+
+          <!--!start footer-->
+
+
+
+        </div>
+
+        <div class="clear"></div>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!---->
+
+
+
+
+
+
+  </div>
+
+  <!-- start footer copy -->
+
+  <div class="footer_bg">
+    <div class="wrap">
+
+      <div class="wrapper">
+
+        <div class="copy">
+
+          <br />
+          <br />
+
+          <p style="color: #FFFFFF">&copy; 2018. Yiran MA. All rights reserved.</p>
+          <br />
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>
+
+
+</body>
+
+</html>

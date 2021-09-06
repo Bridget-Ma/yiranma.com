@@ -1,0 +1,1902 @@
+# Webalizer V2.23-05 Incremental Data - 06/12/2017 00:40:18
+2017 6 12 0 40 18
+1229 1229 1 889 0 0 299169274 15 2 1
+1 561 561 11 12
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+668 668 151126077 1 4 1
+561 561 148043197 1 11 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+561 561 148043197 11
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+2 2 1492396 0
+153 153 36482389 0
+513 513 113151292 4
+0
+0
+0
+1229
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/home/bridgetma/.trash/images.1/pic7.jpg
+0 1 0 19485 0 0
+/home/bridgetma/.cpanel/datastore/apache_DIRINDEX
+0 1 0 493 0 0
+/home/bridgetma/.trash/images/KMimage/prototype1.png
+0 1 0 144325 0 0
+/home/bridgetma/public_html/images/KMimage/c3.png
+0 2 0 149246 0 0
+/home/bridgetma/public_html/images/graphic/19.jpg
+0 2 0 97398 0 0
+/home/bridgetma/public_html/images/KMimage/TutorialPrototype.png
+0 2 0 2975632 0 0
+/home/bridgetma/logs/ftp.bridget-ma.com-ftp_log-Dec-2016.gz
+0 1 0 4207 0 0
+/home/bridgetma/.cphorde/horde.sqlite
+0 1 0 462848 0 0
+/home/bridgetma/.trash/images.1/tools_icon.png
+0 1 0 527 0 0
+/home/bridgetma/public_html/images/p2.jpg
+0 2 0 14704 0 0
+/home/bridgetma/public_html/images/Potluck/ProblemSpace.png
+0 2 0 109576 0 0
+/home/bridgetma/public_html/images/gallery/25a.jpg
+0 2 0 38556 0 0
+/home/bridgetma/public_html/images/about.jpg
+0 2 0 81764 0 0
+/home/bridgetma/.trash/images/b1.jpg
+0 1 0 31987 0 0
+/home/bridgetma/tmp/webalizer/ctry_usage_201612.png
+0 1 0 2296 0 0
+/home/bridgetma/public_html/images/graphic/17.jpg
+0 2 0 108196 0 0
+/home/bridgetma/.trash/images/mail_h.png
+0 1 0 459 0 0
+/home/bridgetma/public_html/images/gallery/37.jpg
+0 1 0 1048716 0 0
+/home/bridgetma/.trash/images/gallery/18.jpg
+0 1 0 79397 0 0
+/home/bridgetma/tmp/webalizerftp/daily_usage_201703.png
+0 1 0 2711 0 0
+/home/bridgetma/public_html/images/menu.png
+0 2 0 5794 0 0
+/home/bridgetma/.trash/images/lightbox-ico-loading.gif
+0 1 0 3990 0 0
+/home/bridgetma/public_html/css/swipebox.css
+0 2 0 8650 0 0
+/home/bridgetma/.trash/images/p4.jpg
+0 1 0 10874 0 0
+/home/bridgetma/public_html/images/pic11.jpg
+0 2 0 22316 0 0
+/home/bridgetma/public_html/images/lightbox-btn-close.gif
+0 2 0 672 0 0
+/home/bridgetma/public_html/images/gallery/34.jpg
+0 1 0 948657 0 0
+/home/bridgetma/.trash/images/arrows.png
+0 1 0 3654 0 0
+/home/bridgetma/public_html/images/b1.jpg
+0 2 0 224382 0 0
+/home/bridgetma/public_html/css/iconfont.woff
+0 2 0 9032 0 0
+/home/bridgetma/.trash/Project_MN.html
+0 1 0 14476 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/css/bootstrap.css
+0 2 0 305592 0 0
+/home/bridgetma/logs/ftp.bridget-ma.com-ftp_log-Feb-2017.gz
+0 1 0 10435 0 0
+/home/bridgetma/.trash/images/pic8.jpg
+0 1 0 22347 0 0
+/home/bridgetma/public_html/images/nav-icon.png
+0 2 0 468 0 0
+/home/bridgetma/public_html/images/loading.gif
+0 2 0 16952 0 0
+/home/bridgetma/tmp/webalizerftp/usage_201702.html
+0 1 0 63065 0 0
+/home/bridgetma/public_html/images/PHimage/feature2.png
+0 2 0 206884 0 0
+/home/bridgetma/.trash/bridgetmaadmin/.ftpquota
+0 1 0 4 0 0
+/home/bridgetma/.trash/images.1/RSimage/report.pdf
+0 1 0 5677053 0 0
+/home/bridgetma/.trash/contact.html.1
+0 1 0 7064 0 0
+/home/bridgetma/public_html/images/headright.png
+0 2 0 57112 0 0
+/home/bridgetma/.trash/images.1/gallery/15.jpg
+0 1 0 106408 0 0
+/home/bridgetma/public_html/images/Potluck/PrimaryPersona.png
+0 2 0 86872 0 0
+/home/bridgetma/.trash/images/RSimage/link.png
+0 1 0 24123 0 0
+/home/bridgetma/.trash/images/lightbox-btn-close.gif
+0 1 0 336 0 0
+/home/bridgetma/.trash/images.1/gallery/3.jpg
+0 1 0 127203 0 0
+/home/bridgetma/.trash/images/gallery/a2.jpg
+0 1 0 20541 0 0
+/home/bridgetma/public_html/images/soc_icon1.png
+0 2 0 2698 0 0
+/home/bridgetma/.trash/images.1/PHimage/link.png
+0 1 0 30723 0 0
+/home/bridgetma/.trash/images/gallery/11.jpg
+0 1 0 28913 0 0
+/home/bridgetma/.trash/images.1/banner.png
+0 1 0 51207 0 0
+/home/bridgetma/.trash/images.1/gallery/25.jpg
+0 1 0 1658304 0 0
+/home/bridgetma/public_html/images/graphic/8.jpg
+0 2 0 117870 0 0
+/home/bridgetma/public_html/images/FGimage/link.png
+0 2 0 14704 0 0
+/home/bridgetma/.trash/images.1/5.jpg
+0 1 0 3142 0 0
+/home/bridgetma/.trash/images.1/gallery/7.jpg
+0 1 0 58015 0 0
+/home/bridgetma/public_html/images/banner.png
+0 2 0 102414 0 0
+/home/bridgetma/logs/bridget-ma.com-Jan-2017.gz
+0 1 0 93829 0 0
+/home/bridgetma/.trash/images/graphic/14.png
+0 1 0 74625 0 0
+/home/bridgetma/public_html/css/bootstrap.css
+0 2 0 254144 0 0
+/home/bridgetma/.cpanel/datastore/_usr_sbin_pure-ftpd_--help
+0 1 0 1216 0 0
+/home/bridgetma/public_html/images/Pysc/ResearchProcess.png
+0 2 0 261874 0 0
+/home/bridgetma/public_html/images/FGimage/FG_formulation.png
+0 2 0 95286 0 0
+/home/bridgetma/.trash/images.1/gallery/05.jpg
+0 1 0 35103 0 0
+/home/bridgetma/.trash/images/graphic/9.jpg
+0 1 0 34434 0 0
+/home/bridgetma/public_html/images/FGimage/persona1.png
+0 2 0 80466 0 0
+/home/bridgetma/public_html/images/KMimage/prototype2.png
+0 2 0 626714 0 0
+/home/bridgetma/.cpanel/caches/filesys/___home___bridgetma
+0 1 0 240 0 0
+/home/bridgetma/public_html/images/home.png
+0 2 0 888 0 0
+/home/bridgetma/public_html/images/gallery/a2.jpg
+0 2 0 41082 0 0
+/home/bridgetma/.trash/images.1/PHimage/PH_hifi.png
+0 1 0 107636 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/css/bootstrap.css.map
+0 2 0 778574 0 0
+/home/bridgetma/public_html/images/sin.jpg
+0 2 0 888972 0 0
+/home/bridgetma/.trash/GraphicDesign.html
+0 1 0 6961 0 0
+/home/bridgetma/.trash/images/gallery/17.jpg
+0 1 0 32467 0 0
+/home/bridgetma/.trash/home.html.1
+0 1 0 1963 0 0
+/home/bridgetma/public_html/images/gallery/20a.jpg
+0 2 0 752040 0 0
+/home/bridgetma/.trash/images/PHimage/sketch_of_product.png
+0 1 0 59704 0 0
+/home/bridgetma/.trash/js/jquery-1.11.0.min.js
+0 1 0 96306 0 0
+/home/bridgetma/.trash/images.1/graphic/2.jpg
+0 1 0 42587 0 0
+/home/bridgetma/public_html/images/Potluck/HCIposterlarge.jpg
+0 2 0 11525812 0 0
+/home/bridgetma/public_html/images/gallery/6.jpg
+0 2 0 116504 0 0
+/home/bridgetma/.trash/js.1/waypoints.min.js
+0 1 0 8051 0 0
+/home/bridgetma/tmp/webalizer/hourly_usage_201612.png
+0 1 0 2212 0 0
+/home/bridgetma/.trash/images/MNimage/UI.png
+0 1 0 78226 0 0
+/home/bridgetma/public_html/images/FGimage/FinalReport.pdf
+0 2 0 8220342 0 0
+/home/bridgetma/.trash/images.1/gallery/13.jpg
+0 1 0 50110 0 0
+/home/bridgetma/.trash/images.1/gallery/21a.jpg
+0 1 0 606131 0 0
+/home/bridgetma/.trash/images/gallery/010.jpg
+0 1 7449355557182139764 14952 0 0
+/home/bridgetma/public_html/js/waypoints.min.js
+0 2 0 16102 0 0
+/home/bridgetma/.trash/images/4.jpg
+0 1 0 2922 0 0
+/home/bridgetma/.trash/images.1/gallery/06.jpg
+0 1 0 30395 0 0
+/home/bridgetma/.trash/images.1/graphic/7.jpg
+0 1 0 56270 0 0
+/home/bridgetma/.cpanel/datastore/ftp_LISTSTORE
+0 1 0 419 0 0
+/home/bridgetma/public_html/js/jquey-bigic.js
+0 2 0 17974 0 0
+/home/bridgetma/public_html/images/gallery/19.jpg
+0 2 0 121648 0 0
+/home/bridgetma/.trash/images/pic10.jpg
+0 1 0 35980 0 0
+/home/bridgetma/public_html/images/KMimage/客脉圈交互流程v1.jpg
+0 2 0 11969430 0 0
+/home/bridgetma/tmp/webalizer/ctry_usage_201706.png
+0 1 0 2271 0 0
+/home/bridgetma/.trash/images.1/pic4.jpg
+0 1 0 15112 0 0
+/home/bridgetma/public_html/images/Potluck/TAsmall.png
+0 2 0 148012 0 0
+/home/bridgetma/tmp/webalizerftp/webalizer.hist
+0 1 0 2915 0 0
+/home/bridgetma/public_html/images/graphic/13.jpg
+0 2 0 211798 0 0
+/home/bridgetma/.trash/images.1/PHimage/needs.png
+0 1 0 147527 0 0
+/home/bridgetma/.trash/images/MNimage/MN_getup.png
+0 1 0 6459 0 0
+/home/bridgetma/public_html/images/p6.jpg
+0 2 0 21212 0 0
+/home/bridgetma/public_html/images/Pysc/solution2.png
+0 2 0 686702 0 0
+/home/bridgetma/public_html/images/PHimage/sketch_of_product.png
+0 2 0 272638 0 0
+/home/bridgetma/.trash/images/gallery/24a.jpg
+0 1 0 12224 0 0
+/home/bridgetma/public_html/css/zoom.css
+0 2 0 3364 0 0
+/home/bridgetma/.trash/images/PHimage/display.gif
+0 1 0 3489512 0 0
+/home/bridgetma/.trash/images/gallery/6.jpg
+0 1 0 58252 0 0
+/home/bridgetma/public_html/images/RSimage/link.jpg
+0 2 0 118988 0 0
+/home/bridgetma/public_html/images/gallery/20.jpg
+0 2 0 75716 0 0
+/home/bridgetma/public_html/images/Pysc/AffinityMapping2.png
+0 2 0 979994 0 0
+/home/bridgetma/public_html/images/logo.png
+0 2 0 1730 0 0
+/home/bridgetma/.trash/js/jquery.min.js
+0 1 0 92643 0 0
+/home/bridgetma/.trash/images.1/gallery/9.jpg
+0 1 0 38167 0 0
+/home/bridgetma/public_html/images/b3.jpg
+0 2 0 305566 0 0
+/home/bridgetma/public_html/images/gallery/26.jpg
+0 2 0 3249784 0 0
+/home/bridgetma/tmp/webalizer/usage_201705.html
+0 1 0 140166 0 0
+/home/bridgetma/.trash/images.1/pic6.jpg
+0 1 0 20738 0 0
+/home/bridgetma/.trash/images/graphic/16.jpg
+0 1 0 31985 0 0
+/home/bridgetma/.trash/images.1/MNimage/logo.png
+0 1 0 21672 0 0
+/home/bridgetma/.trash/images.1/gallery/24.jpg
+0 1 0 825135 0 0
+/home/bridgetma/.trash/images/PHimage/feature1.png
+0 1 0 75348 0 0
+/home/bridgetma/.trash/images/pic7.jpg
+0 1 0 19485 0 0
+/home/bridgetma/.trash/images/pic9.jpg
+0 1 0 33649 0 0
+/home/bridgetma/.trash/说明.htm.1
+0 1 0 3177 0 0
+/home/bridgetma/public_html/images/gallery/02.jpg
+0 2 0 78424 0 0
+/home/bridgetma/.trash/images.1/loading.gif
+0 1 0 8476 0 0
+/home/bridgetma/public_html/css/iconfont.eot
+0 2 0 14476 0 0
+/home/bridgetma/.trash/images.1/KMimage/persona.jpg
+0 1 0 200576 0 0
+/home/bridgetma/.trash/images.1/MNimage/lowfi_2.png
+0 1 0 23081 0 0
+/home/bridgetma/tmp/awstats/awstats122016.bridget-ma.com.txt
+0 1 0 15364 0 0
+/home/bridgetma/.trash/images.1/FGimage/link.png
+0 1 0 7352 0 0
+/home/bridgetma/.trash/images/2.jpg
+0 1 0 3048 0 0
+/home/bridgetma/.trash/images.1/p5.jpg
+0 1 0 13737 0 0
+/home/bridgetma/public_html/images/head.png
+0 2 0 75372 0 0
+/home/bridgetma/.gemrc
+0 1 0 141 0 0
+/home/bridgetma/.trash/images.1/PHimage/low-fi.jpg
+0 1 0 1337398 0 0
+/home/bridgetma/.trash/images.1/MNimage/MN_getup.png
+0 1 0 6459 0 0
+/home/bridgetma/.trash/images.1/mail.png
+0 1 0 462 0 0
+/home/bridgetma/logs/bridget-ma.com-Dec-2016.gz
+0 1 0 44717 0 0
+/home/bridgetma/tmp/webalizerftp/usage_201703.html
+0 1 0 59168 0 0
+/home/bridgetma/public_html/images/gallery/8.jpg
+0 2 0 94502 0 0
+/home/bridgetma/.trash/css/component.css
+0 1 0 8744 0 0
+/home/bridgetma/public_html/images/pic1.jpg
+0 2 0 24630 0 0
+/home/bridgetma/.trash/js/waypoints.min.js
+0 1 0 8051 0 0
+/home/bridgetma/.trash/images/gallery_icon.png
+0 1 0 503 0 0
+/home/bridgetma/.trash/images.1/gallery/1.jpg
+0 1 0 77171 0 0
+/home/bridgetma/.trash/images.1/gallery/04.jpg
+0 1 0 21305 0 0
+/home/bridgetma/.trash/images.1/MNimage/MN_sleep.png
+0 1 0 6817 0 0
+/home/bridgetma/.trash/images.1/MNimage/low-fi.pdf
+0 1 0 2433784 0 0
+/home/bridgetma/logs/bridget-ma.com-May-2017.gz
+0 1 0 78649 0 0
+/home/bridgetma/public_html/images/gallery/28.jpg
+0 2 0 3921532 0 0
+/home/bridgetma/.trash/images/call.png
+0 1 8387223562010911278 420 0 0
+/home/bridgetma/.trash/images.1/mylogo1.png
+0 1 0 3706 0 0
+/home/bridgetma/public_html/images/headright1.png
+0 2 0 80844 0 0
+/home/bridgetma/tmp/awstats/awstats.bridget-ma.com.conf
+0 1 0 23745 0 0
+/home/bridgetma/.trash/
+0 2 0 12335 1 0
+/home/bridgetma/.trash/js/jquery.swipebox.min.js
+0 1 0 7212 0 0
+/home/bridgetma/public_html/details.html
+0 2 0 23400 0 0
+/home/bridgetma/.trash/layout-styles.css
+0 1 0 4442 0 0
+/home/bridgetma/logs/bridget-ma.com-Feb-2017.gz
+0 1 0 90160 0 0
+/home/bridgetma/.trash/images/facebook_icon.png
+0 1 0 478 0 0
+/home/bridgetma/.trash/Gallery.html
+0 1 0 12858 0 0
+/home/bridgetma/.trash/images/RSimage/formula.png
+0 1 0 14367 0 0
+/home/bridgetma/.cpanel/datastore/ports_GETSSHPORT
+0 1 0 2 0 0
+/home/bridgetma/public_html/images/PHimage/low-fi.gif
+0 2 0 413564 0 0
+/home/bridgetma/.trash/Project_FG.html
+0 1 0 11115 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/css/bootstrap.min.css
+0 2 0 242410 0 0
+/home/bridgetma/public_html/js/easing.js
+0 2 0 9796 0 0
+/home/bridgetma/public_html/images/FGimage/persona3.png
+0 2 0 75728 0 0
+/home/bridgetma/.trash/images/pic2.jpg
+0 1 0 11900 0 0
+/home/bridgetma/public_html/images/gallery/46.jpg
+0 1 0 1225120 0 0
+/home/bridgetma/public_html/images/p3.jpg
+0 2 0 31862 0 0
+/home/bridgetma/public_html/images/cog_icon.png
+0 2 0 1050 0 0
+/home/bridgetma/.trash/images/graphic/11.jpg
+0 1 0 36719 0 0
+/home/bridgetma/.trash/images.1/gallery/a2.jpg
+0 1 0 20541 0 0
+/home/bridgetma/public_html/images/MNimage/low-fi.pdf
+0 2 0 4867568 0 0
+/home/bridgetma/tmp/webalizerftp/daily_usage_201702.png
+0 1 0 2797 0 0
+/home/bridgetma/public_html/images/tv.png
+0 2 0 180986 0 0
+/home/bridgetma/public_html/images/up.png
+0 2 0 7646 0 0
+/home/bridgetma/public_html/images/nav-icon_2.png
+0 2 0 288 0 0
+/home/bridgetma/public_html/images/PHimage/low-fi.html
+0 2 0 726 0 0
+/home/bridgetma/tmp/webalizer/ctry_usage_201704.png
+0 1 0 2292 0 0
+/home/bridgetma/public_html/images/left.png
+0 2 0 6040 0 0
+/home/bridgetma/.trash/images/gallery/21a.jpg
+0 1 0 606131 0 0
+/home/bridgetma/public_html/js/	<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/1.5.6/jquery.mixitup.min.js"
+		integrity="sha512-UmZ15zGovMYyCpLp2ZA/sDpaDSorklcTAW3Rd0767fRDWT8WmLqhzr5kisseQmKtk4qIAxxjWV83fwKp3ncmkQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+0 2 0 28144 0 0
+/home/bridgetma/public_html/images/MNimage/MN_getup.png
+0 2 0 12918 0 0
+/home/bridgetma/.trash/images/gallery/30a.jpg
+0 1 0 42621 0 0
+/home/bridgetma/.trash/images.1/graphic/14.jpg
+0 1 0 49330 0 0
+/home/bridgetma/public_html/portfolio.html
+0 2 0 20538 0 0
+/home/bridgetma/public_html/kemai.html
+0 2 0 38112 0 0
+/home/bridgetma/.trash/images.1/top-arrow.png
+0 1 0 3147 0 0
+/home/bridgetma/public_html/images/co.png
+0 2 0 4144 0 0
+/home/bridgetma/public_html/images/pi5.jpg
+0 2 0 169738 0 0
+/home/bridgetma/.trash/images/FGimage/persona3.png
+0 1 0 37864 0 0
+/home/bridgetma/.trash/images/gallery/25.jpg
+0 2 0 2332608 0 0
+/home/bridgetma/.trash/images/graphic/14.jpg
+0 1 0 49330 0 0
+/home/bridgetma/public_html/images/Potluck/AMsmall.png
+0 2 0 539028 0 0
+/home/bridgetma/.trash/images/gallery/24.jpg
+0 1 0 825135 0 0
+/home/bridgetma/logs/ftp.bridget-ma.com-ftp_log-Mar-2017.gz
+0 1 0 4252 0 0
+/home/bridgetma/public_html/js/move-top.js
+0 2 0 2668 0 0
+/home/bridgetma/.trash/images/PHimage/link.jpg
+0 1 0 78745 0 0
+/home/bridgetma/.trash/js/jquery-1.9.1.min.js
+0 1 0 92596 0 0
+/home/bridgetma/tmp/webalizerftp/hourly_usage_201612.png
+0 1 0 1740 0 0
+/home/bridgetma/.trash/images/p3.jpg
+0 1 0 15931 0 0
+/home/bridgetma/public_html/images/fountain.png
+0 2 0 854 0 0
+/home/bridgetma/public_html/js/jquery.min.js
+0 2 0 185286 0 0
+/home/bridgetma/public_html/Untitled-1.html
+0 2 0 30472 0 0
+/home/bridgetma/public_html/bridgetmaadmin/.ftpquota
+0 2 0 8 0 0
+/home/bridgetma/.trash/images/5.jpg
+0 1 8391181790012994657 3142 0 0
+/home/bridgetma/.trash/images/graphic/2.jpg
+0 1 0 42587 0 0
+/home/bridgetma/public_html/images/close.png
+0 2 0 2508 0 0
+/home/bridgetma/.trash/images/pic4.jpg
+0 1 0 15112 0 0
+/home/bridgetma/public_html/images/head2.png
+0 2 0 77092 0 0
+/home/bridgetma/public_html/images/MNimage/link.jpg
+0 2 0 58860 0 0
+/home/bridgetma/tmp/webalizerftp/ctry_usage_201703.png
+0 1 0 2279 0 0
+/home/bridgetma/public_html/images/PHimage/needs.jpg
+0 2 0 938680 0 0
+/home/bridgetma/.trash/images.1/graphic/5.jpg
+0 1 0 64716 0 0
+/home/bridgetma/.trash/images/gallery/4.jpg
+0 1 0 26211 0 0
+/home/bridgetma/tmp/webalizerftp/daily_usage_201612.png
+0 1 0 2830 0 0
+/home/bridgetma/.trash/404.shtml
+0 1 0 1784 0 0
+/home/bridgetma/public_html/images/gallery/3.jpg
+0 2 0 254406 0 0
+/home/bridgetma/.trash/images/pic5.jpg
+0 1 0 26427 0 0
+/home/bridgetma/.trash/PocketHearty.html
+0 1 0 11100 0 0
+/home/bridgetma/.trash/images/graphic/6.jpg
+0 1 0 67170 0 0
+/home/bridgetma/.trash/images/p1.jpg
+0 1 0 12017 0 0
+/home/bridgetma/tmp/webalizer/daily_usage_201706.png
+0 1 0 3254 0 0
+/home/bridgetma/.trash/images/gallery/22.jpg
+0 1 0 41840 0 0
+/home/bridgetma/public_html/images/pic9.jpg
+0 2 0 67298 0 0
+/home/bridgetma/.trash/js.1/zoom.min.js
+0 1 0 3675 0 0
+/home/bridgetma/.trash/portfolio.html.1
+0 1 0 6898 0 0
+/home/bridgetma/.trash/images.1/graphic/8.jpg
+0 1 0 58935 0 0
+/home/bridgetma/public_html/404.shtml
+0 2 0 3568 0 0
+/home/bridgetma/tmp/awstats/awstats022017.bridget-ma.com.txt
+0 1 0 21456 0 0
+/home/bridgetma/.trash/images.1/RSimage/heatmap.png
+0 1 0 92084 0 0
+/home/bridgetma/.trash/images.1/gallery/20.jpg
+0 1 0 37858 0 0
+/home/bridgetma/.trash/images.1/MNimage/morning_night.pdf
+0 1 0 5041811 0 0
+/home/bridgetma/public_html/css/component.css
+0 2 0 17488 0 0
+/home/bridgetma/public_html/images/KMimage/persona2.jpg
+0 2 0 370084 0 0
+/home/bridgetma/tmp/webalizerftp/usage_201612.html
+0 1 0 58215 0 0
+/home/bridgetma/.trash/images.1/MNimage/storyboard.png
+0 1 0 165844 0 0
+/home/bridgetma/public_html/images/gallery/44.jpg
+0 1 0 239652 0 0
+/home/bridgetma/public_html/images/Potluck/Potluck-10.png
+0 2 0 13448 0 0
+/home/bridgetma/public_html/images/arrows.png
+0 2 0 7308 0 0
+/home/bridgetma/.trash/images.1/PHimage/display.html
+0 1 0 366 0 0
+/home/bridgetma/public_html/images/Potluck/AM1.JPG
+0 2 0 1917452 0 0
+/home/bridgetma/.trash/home.html
+0 1 0 2044 0 0
+/home/bridgetma/public_html/images/gallery/06.jpg
+0 2 0 60790 0 0
+/home/bridgetma/.trash/images/pic1.jpg
+0 1 0 12315 0 0
+/home/bridgetma/tmp/webalizer/usage_201612.html
+0 1 0 114773 0 0
+/home/bridgetma/.trash/images/pic11.jpg
+0 1 0 11158 0 0
+/home/bridgetma/.trash/images/nav-icon.png
+0 1 0 234 0 0
+/home/bridgetma/.trash/images.1/gallery/09.jpg
+0 1 0 23503 0 0
+/home/bridgetma/public_html/images/KMimage/android.svg
+0 2 0 5334 0 0
+/home/bridgetma/.cpanel/datastore/ssl_FETCHINSTALLEDHOSTS
+0 1 0 173 0 0
+/home/bridgetma/.trash/images/gallery/25a.jpg
+0 1 0 19278 0 0
+/home/bridgetma/tmp/webalizerftp/usage_201701.html
+0 1 0 68885 0 0
+/home/bridgetma/public_html/images/Potluck/low-fi-prototype-small.png
+0 2 0 81240 0 0
+/home/bridgetma/.trash/js.1/jquery-1.9.1.min.js
+0 1 0 92596 0 0
+/home/bridgetma/.trash/images/gallery/28a.jpg
+0 1 0 42574 0 0
+/home/bridgetma/public_html/images/pic8.jpg
+0 2 0 44694 0 0
+/home/bridgetma/public_html/images/Potluck/Potluck-05.png
+0 2 0 7530 0 0
+/home/bridgetma/.trash/images/gallery/8.jpg
+0 1 0 47251 0 0
+/home/bridgetma/public_html/images/Pysc/link.png
+0 2 0 22980 0 0
+/home/bridgetma/.trash/images/gallery/22a.jpg
+0 1 0 461912 0 0
+/home/bridgetma/.md5sum
+0 1 0 33 0 0
+/home/bridgetma/.trash/images.1/pic3.jpg
+0 1 0 16290 0 0
+/home/bridgetma/.trash/images.1/icons.svg
+0 1 0 1431 0 0
+/home/bridgetma/.cl.selector/defaults.cfg
+0 1 0 571 0 0
+/home/bridgetma/.trash/images/banner.jpg
+0 1 0 162128 0 0
+/home/bridgetma/public_html/images/gallery/30a.jpg
+0 2 0 85242 0 0
+/home/bridgetma/.trash/images.1/left.png
+0 1 0 3020 0 0
+/home/bridgetma/tmp/webalizer/ctry_usage_201703.png
+0 1 0 2279 0 0
+/home/bridgetma/public_html/images/det_pic.jpg
+0 2 0 217520 0 0
+/home/bridgetma/.trash/images.1/gallery/22a.jpg
+0 1 0 461912 0 0
+/home/bridgetma/.trash/images.1/gallery/02.jpg
+0 1 0 39212 0 0
+/home/bridgetma/.trash/Project_FG.html.1
+0 1 0 10728 0 0
+/home/bridgetma/.trash/css.1/style.css
+0 1 0 34305 0 0
+/home/bridgetma/.trash/images.1/KMimage/link.jpg
+0 1 0 39350 0 0
+/home/bridgetma/public_html/images/user_icon.png
+0 2 0 860 0 0
+/home/bridgetma/public_html/images/graphic/5.jpg
+0 2 0 129432 0 0
+/home/bridgetma/.trash/images.1/PHimage/Structure.png
+0 1 0 55350 0 0
+/home/bridgetma/public_html/images/PHimage/link.jpg
+0 2 0 157490 0 0
+/home/bridgetma/.trash/images/p2.jpg
+0 1 0 7352 0 0
+/home/bridgetma/.trash/images.1/RSimage/formula.png
+0 1 0 14367 0 0
+/home/bridgetma/public_html/preloader.gif
+0 2 0 5090 0 0
+/home/bridgetma/public_html/images/FGimage/FG_subjects.png
+0 2 0 86322 0 0
+/home/bridgetma/public_html/images/gallery/26a.jpg
+0 2 0 115044 0 0
+/home/bridgetma/public_html/images/gallery/15.jpg
+0 2 0 212816 0 0
+/home/bridgetma/.trash/images.1/gallery/2.jpg
+0 1 0 23929 0 0
+/home/bridgetma/.trash/images/graphic/5.jpg
+0 1 0 64716 0 0
+/home/bridgetma/public_html/images/Potluck/grid.png
+0 2 0 209998 0 0
+/home/bridgetma/.cpanel/datastore/ftp_SESSIONS
+0 1 0 272 0 0
+/home/bridgetma/.trash/images/nav-icon_2.png
+0 1 0 144 0 0
+/home/bridgetma/.trash/css.1/zoom.css
+0 1 0 1682 0 0
+/home/bridgetma/public_html/images/gallery/45.jpg
+0 1 0 833332 0 0
+/home/bridgetma/.trash/contact.html
+0 1 0 7454 0 0
+/home/bridgetma/public_html/images/KMimage/persona.jpg
+0 2 0 401152 0 0
+/home/bridgetma/public_html/images/Potluck/Potluck-08.png
+0 2 0 3830 0 0
+/home/bridgetma/public_html/images/graphic/16.jpg
+0 2 0 63970 0 0
+/home/bridgetma/public_html/js/uisearch.js
+0 2 0 12496 0 0
+/home/bridgetma/.trash/images.1/lightbox-ico-loading.gif
+0 1 0 3990 0 0
+/home/bridgetma/.cpanel/caches/filesys/___
+0 1 0 197 0 0
+/home/bridgetma/public_html/images/gallery/12.jpg
+0 2 0 125636 0 0
+/home/bridgetma/.trash/images.1/graphic/1.jpg
+0 1 0 31366 0 0
+/home/bridgetma/.trash/images.1/gallery/28a.jpg
+0 1 0 42574 0 0
+/home/bridgetma/tmp/webalizer/ctry_usage_201701.png
+0 1 0 2293 0 0
+/home/bridgetma/.bash_profile
+0 1 0 230 0 0
+/home/bridgetma/.trash/images.1/lightbox-btn-close.gif
+0 1 0 336 0 0
+/home/bridgetma/public_html/images/Potluck/ARMenu.png
+0 2 0 1850134 0 0
+/home/bridgetma/public_html/images/KMimage/c1.png
+0 2 0 652798 0 0
+/home/bridgetma/public_html/images/pi1.jpg
+0 2 0 149160 0 0
+/home/bridgetma/public_html/images/gallery/IMG_4989.jpg
+0 2 0 3921532 0 0
+/home/bridgetma/public_html/images/top-arrow.png
+0 2 0 6294 0 0
+/home/bridgetma/.cpanel/email_accounts.json
+0 1 7449355557182139764 0 0 0
+/home/bridgetma/.trash/images.1/banner.jpg
+0 1 0 162128 0 0
+/home/bridgetma/public_html/images/KMimage/kemaicircle.jpg
+0 2 0 306866 0 0
+/home/bridgetma/public_html/images/headright2.png
+0 2 0 57188 0 0
+/home/bridgetma/public_html/images/Potluck/Potluck-04.png
+0 2 0 5730 0 0
+/home/bridgetma/.trash/images/graphic/7.jpg
+0 1 0 56270 0 0
+/home/bridgetma/public_html/css/demo.css
+0 2 0 13288 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map
+0 2 0 95412 0 0
+/home/bridgetma/.cpanel/nvdata/_frontend_gl_paper_lantern_stats_lastvisit.html
+0 1 0 88 0 0
+/home/bridgetma/.trash/portfolio.html
+0 1 0 7219 0 0
+/home/bridgetma/public_html/images/pic4.jpg
+0 2 0 30224 0 0
+/home/bridgetma/.cpanel/datastore/all_iplist.db
+0 1 0 137 0 0
+/home/bridgetma/public_html/images/b2.jpg
+0 2 0 179512 0 0
+/home/bridgetma/tmp/awstats/awstats012017.bridget-ma.com.txt
+0 1 0 22687 0 0
+/home/bridgetma/.trash/images.1/mylogo.png
+0 1 0 11281 0 0
+/home/bridgetma/.trash/images/PHimage/low-fi.html
+0 1 0 363 0 0
+/home/bridgetma/public_html/images/graphic/2.jpg
+0 2 0 85174 0 0
+/home/bridgetma/public_html/images/Potluck/Potluck-03.png
+0 2 0 10620 0 0
+/home/bridgetma/public_html/images/Potluck/Ideas.png
+0 1 0 28956 0 0
+/home/bridgetma/.trash/images/KMimage/prototype2.png
+0 1 0 313357 0 0
+/home/bridgetma/.trash/images.1/graphic/3.jpg
+0 1 0 44729 0 0
+/home/bridgetma/.trash/preloader.gif.1
+0 1 0 2545 0 0
+/home/bridgetma/public_html/images/graphic/9.jpg
+0 2 0 68868 0 0
+/home/bridgetma/public_html/images/Potluck/IMG_6862.JPG
+0 2 0 2714224 0 0
+/home/bridgetma/public_html/images/gallery/10.jpg
+0 2 0 134952 0 0
+/home/bridgetma/.trash/research.html.1
+0 1 0 13742 0 0
+/home/bridgetma/.trash/images/graphic/1.jpg
+0 1 0 31366 0 0
+/home/bridgetma/.trash/images.1/gallery/23a.jpg
+0 1 0 25211 0 0
+/home/bridgetma/.trash/images.1/pic2.jpg
+0 1 0 11900 0 0
+/home/bridgetma/tmp/awstats/awstats032017.bridget-ma.com.txt
+0 1 0 22775 0 0
+/home/bridgetma/.trash/js.1/modernizr.custom.js
+0 1 0 8499 0 0
+/home/bridgetma/public_html/images/PHimage/hi-fi.gif
+0 2 0 314410 0 0
+/home/bridgetma/.trash/images.1/gallery/28.jpg
+0 1 0 1960766 0 0
+/home/bridgetma/.trash/images/p7.jpg
+0 1 0 14947 0 0
+/home/bridgetma/.trash/images.1/PHimage/needs.jpg
+0 1 0 469340 0 0
+/home/bridgetma/.trash/images.1/gallery_icon.png
+0 1 0 503 0 0
+/home/bridgetma/.trash/images/right.png
+0 1 0 3004 0 0
+/home/bridgetma/public_html/images/RSimage/formula.png
+0 2 0 28734 0 0
+/home/bridgetma/public_html/images/pi2.jpg
+0 2 0 138234 0 0
+/home/bridgetma/public_html/images/gallery/41.jpg
+0 4 0 2847234 0 0
+/home/bridgetma/.trash/images.1/RSimage/FisherLSD.png
+0 1 0 163892 0 0
+/home/bridgetma/.trash/images/KMimage/persona2.jpg
+0 1 0 185042 0 0
+/home/bridgetma/public_html/images/1.jpg
+0 2 0 3632 0 0
+/home/bridgetma/.trash/images/gallery/04.jpg
+0 1 0 21305 0 0
+/home/bridgetma/.trash/images/FGimage/persona2.png
+0 1 0 42237 0 0
+/home/bridgetma/.trash/css.1/swipebox.css
+0 1 0 4325 0 0
+/home/bridgetma/public_html/images/PHimage/low-fi.jpg
+0 2 0 2674796 0 0
+/home/bridgetma/.trash/js.1/jquey-bigic.js
+0 1 0 8987 0 0
+/home/bridgetma/.trash/images/MNimage/logo.png
+0 1 0 21672 0 0
+/home/bridgetma/.trash/images/gallery/02.jpg
+0 1 0 39212 0 0
+/home/bridgetma/.trash/images.1/pic8.jpg
+0 1 0 22347 0 0
+/home/bridgetma/.trash/images/loading.gif
+0 1 0 8476 0 0
+/home/bridgetma/public_html/Project_FG.html
+0 2 0 28802 0 0
+/home/bridgetma/.trash/images.1/gallery/07.jpg
+0 1 0 20391 0 0
+/home/bridgetma/public_html/images/Potluck/ideas2.png
+0 2 0 282066 0 0
+/home/bridgetma/public_html/images/gallery/17.jpg
+0 2 0 64934 0 0
+/home/bridgetma/.trash/images.1/graphic/16.jpg
+0 1 0 31985 0 0
+/home/bridgetma/tmp/webalizer/daily_usage_201701.png
+0 1 0 4115 0 0
+/home/bridgetma/.trash/images/gallery/9.jpg
+0 1 0 38167 0 0
+/home/bridgetma/.trash/images.1/PHimage/low-fi.gif
+0 1 0 206782 0 0
+/home/bridgetma/public_html/images/PHimage/link.png
+0 2 0 61446 0 0
+/home/bridgetma/.trash/images/tools_icon.png
+0 1 0 527 0 0
+/home/bridgetma/public_html/images/Potluck/sketching.png
+0 2 0 368946 0 0
+/home/bridgetma/.trash/PocketHearty.html.1
+0 1 0 10684 0 0
+/home/bridgetma/.trash/images.1/gallery/10.jpg
+0 1 0 67476 0 0
+/home/bridgetma/public_html/images/graphic/12.jpg
+0 2 0 116186 0 0
+/home/bridgetma/.trash/images.1/wordpress_icon.png
+0 1 0 655 0 0
+/home/bridgetma/.trash/images/FGimage/FG_formulation.png
+0 1 0 47643 0 0
+/home/bridgetma/public_html/images/KMimage/o2.png
+0 2 0 457608 0 0
+/home/bridgetma/public_html/images/gallery/09.jpg
+0 2 0 47006 0 0
+/home/bridgetma/.trash/images.1/logo.png
+0 1 0 3926 0 0
+/home/bridgetma/tmp/webalizer/daily_usage_201702.png
+0 1 0 4101 0 0
+/home/bridgetma/.trash/images.1/KMimage/persona2.jpg
+0 1 0 185042 0 0
+/home/bridgetma/public_html/images/RSimage/heatmap.png
+0 2 0 184168 0 0
+/home/bridgetma/public_html/Project_Pysc.html
+0 2 0 41376 0 0
+/home/bridgetma/public_html/images/gallery/08.jpg
+0 2 0 61380 0 0
+/home/bridgetma/.trash/images/graphic/10.jpg
+0 1 0 59687 0 0
+/home/bridgetma/public_html/images/Pysc/EmpathyMap.png
+0 2 0 266418 0 0
+/home/bridgetma/public_html/images/s2.png
+0 2 0 13290 0 0
+/home/bridgetma/public_html/images/fountain_h.png
+0 2 0 928 0 0
+/home/bridgetma/public_html/images/mylogo.png
+0 2 0 22562 0 0
+/home/bridgetma/.trash/images/head.png
+0 1 0 36840 0 0
+/home/bridgetma/public_html/images/5.jpg
+0 2 0 6284 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg
+0 2 0 217476 0 0
+/home/bridgetma/.trash/images.1/FGimage/persona3.png
+0 1 0 37864 0 0
+/home/bridgetma/.trash/images/gallery/20.jpg
+0 1 0 37858 0 0
+/home/bridgetma/.trash/images.1/gallery/26a.jpg
+0 1 0 57522 0 0
+/home/bridgetma/.trash/images.1/gallery/a3.jpg
+0 1 0 12492 0 0
+/home/bridgetma/.cpanel/caches/statcache_persistant
+0 1 0 916 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css
+0 2 0 46828 0 0
+/home/bridgetma/.trash/images.1/gallery/19.jpg
+0 1 0 60824 0 0
+/home/bridgetma/.trash/images/gallery/14.jpg
+0 1 0 102624 0 0
+/home/bridgetma/.trash/js.1/jquery.min.js
+0 1 0 92643 0 0
+/home/bridgetma/.trash/images/gallery/27.jpg
+0 1 0 446911 0 0
+/home/bridgetma/.cpanel/caches/dynamicui/gl_paper_lantern_en_.cache
+0 1 8387223562010911278 40102 0 0
+/home/bridgetma/.trash/js/zoom.min.js
+0 1 0 3675 0 0
+/home/bridgetma/.trash/images/FGimage/process.png
+0 1 0 425811 0 0
+/home/bridgetma/tmp/webalizer/usage_201611.html
+0 1 0 112278 0 0
+/home/bridgetma/.trash/images/FGimage/FinalReport.pdf
+0 1 0 4110171 0 0
+/home/bridgetma/.trash/images/PHimage/low-fi.jpg
+0 1 0 1337398 0 0
+/home/bridgetma/.trash/images.1/MNimage/link.jpg
+0 1 0 29430 0 0
+/home/bridgetma/.trash/images.1/head.png
+0 1 0 36840 0 0
+/home/bridgetma/public_html/images/PHimage/feature1.png
+0 2 0 150696 0 0
+/home/bridgetma/tmp/webalizerftp/
+0 1 0 6049 0 0
+/home/bridgetma/public_html/images/gallery/36.jpg
+0 1 0 696826 0 0
+/home/bridgetma/public_html/images/MNimage/morning_night.pdf
+0 2 0 10083622 0 0
+/home/bridgetma/public_html/images/FGimage/persona2.png
+0 2 0 84474 0 0
+/home/bridgetma/.trash/images/gallery/03.jpg
+0 1 0 20313 0 0
+/home/bridgetma/etc/ftpquota
+0 1 0 0 0 1
+/home/bridgetma/.trash/images/RSimage/FisherLSD.png
+0 1 0 163892 0 0
+/home/bridgetma/.trash/images.1/nav-icon_2.png
+0 1 0 144 0 0
+/home/bridgetma/public_html/images/gallery/14.jpg
+0 2 0 205248 0 0
+/home/bridgetma/tmp/awstats/awstats062017.bridget-ma.com.txt
+0 1 0 12535 0 0
+/home/bridgetma/public_html/js/jquery-1.11.0.min.js
+0 2 0 192612 0 0
+/home/bridgetma/.trash/preloader.gif
+0 1 0 2545 0 0
+/home/bridgetma/.trash/images.1/KMimage/prototype2.png
+0 1 0 313357 0 0
+/home/bridgetma/tmp/webalizer/hourly_usage_201706.png
+0 1 0 2107 0 0
+/home/bridgetma/.bashrc
+0 1 0 124 0 0
+/home/bridgetma/public_html/images/Potluck/AM.png
+0 2 0 318138 0 0
+/home/bridgetma/tmp/webalizerftp/hourly_usage_201701.png
+0 1 0 1863 0 0
+/home/bridgetma/.trash/images/p8.jpg
+0 1 0 12422 0 0
+/home/bridgetma/.trash/images.1/det_pic.jpg
+0 1 0 108760 0 0
+/home/bridgetma/.trash/images.1/user_icon.png
+0 1 0 430 0 0
+/home/bridgetma/.trash/images.1/pic1.jpg
+0 1 0 12315 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/css/bootstrap.min.css.map
+0 2 0 1084388 0 0
+/home/bridgetma/.trash/images.1/sc-icon.png
+0 1 0 21220 0 0
+/home/bridgetma/.trash/images/fountain_h.png
+0 1 0 464 0 0
+/home/bridgetma/.trash/images/graphic/13.jpg
+0 1 0 105899 0 0
+/home/bridgetma/public_html/Gallery.html
+0 1 0 13559 0 0
+/home/bridgetma/tmp/webalizer/hourly_usage_201703.png
+0 1 0 2167 0 0
+/home/bridgetma/.trash/css/swipebox.css
+0 1 0 4325 0 0
+/home/bridgetma/public_html/images/gallery/31.jpg
+0 1 0 687947 0 0
+/home/bridgetma/public_html/images/mylogo1.png
+0 2 0 7412 0 0
+/home/bridgetma/public_html/images/graphic/11.jpg
+0 2 0 73438 0 0
+/home/bridgetma/.trash/images.1/gallery/010.jpg
+0 1 0 14952 0 0
+/home/bridgetma/public_html/images/Pysc/CompetitiveAnalysis.png
+0 2 0 251250 0 0
+/home/bridgetma/.trash/images.1/FGimage/persona1.png
+0 1 0 40233 0 0
+/home/bridgetma/.trash/images.1/graphic/12.jpg
+0 1 0 58093 0 0
+/home/bridgetma/public_html/images/gallery/4.jpg
+0 2 0 52422 0 0
+/home/bridgetma/public_html/images/pi.jpg
+0 2 0 109192 0 0
+/home/bridgetma/logs/bridget-ma.com-Nov-2016.gz
+0 1 0 49699 0 0
+/home/bridgetma/.trash/images/gallery/30.jpg
+0 1 0 2107610 0 0
+/home/bridgetma/.trash/images.1/PHimage/sketch_of_product.png
+0 1 0 59704 0 0
+/home/bridgetma/.cpanel/fileupload-bnMRekMA8QAounfn5018912.log
+0 1 0 203 0 0
+/home/bridgetma/public_html/images/gallery/9.jpg
+0 2 0 76334 0 0
+/home/bridgetma/.trash/images/RSimage/link.jpg
+0 1 0 59494 0 0
+/home/bridgetma/.trash/images.1/gallery/30.jpg
+0 1 0 2107610 0 0
+/home/bridgetma/public_html/images/gallery/24.jpg
+0 2 0 1650270 0 0
+/home/bridgetma/logs/bridget-ma.com-Mar-2017.gz
+0 1 0 57178 0 0
+/home/bridgetma/.trash/images.1/gallery/IMG_5170.jpg
+0 1 0 882596 0 0
+/home/bridgetma/public_html/images/gallery/43.jpg
+0 1 7449355557182139764 226457 0 0
+/home/bridgetma/public_html/images/gallery/23a.jpg
+0 2 0 50422 0 0
+/home/bridgetma/.trash/css.1/component.css
+0 1 0 8744 0 0
+/home/bridgetma/.trash/images/KMimage/survey.jpg
+0 1 0 34892 0 0
+/home/bridgetma/.trash/images.1/FGimage/persona2.png
+0 1 0 42237 0 0
+/home/bridgetma/.trash/images/gallery/12.jpg
+0 1 0 62818 0 0
+/home/bridgetma/.trash/images.1/gallery/26.jpg
+0 1 0 1624892 0 0
+/home/bridgetma/.trash/images/PHimage/display.html
+0 1 0 366 0 0
+/home/bridgetma/.trash/images/FGimage/FG_subjects.png
+0 1 0 43161 0 0
+/home/bridgetma/.trash/images/gallery/7.jpg
+0 1 0 58015 0 0
+/home/bridgetma/public_html/images/right.png
+0 2 0 6008 0 0
+/home/bridgetma/.trash/images.1/2.jpg
+0 1 0 3048 0 0
+/home/bridgetma/public_html/images/gallery/47.jpg
+0 1 8103214271061191020 1466185 0 0
+/home/bridgetma/.trash/images/MNimage/lowfi_1.png
+0 1 0 21311 0 0
+/home/bridgetma/public_html/images/gallery/5.jpg
+0 2 0 86594 0 0
+/home/bridgetma/.trash/images.1/p4.jpg
+0 1 0 10874 0 0
+/home/bridgetma/.trash/kemai.html
+0 1 0 9760 0 0
+/home/bridgetma/.trash/GraphicDesign.html.1
+0 1 0 6627 0 0
+/home/bridgetma/.trash/images/gallery/IMG_4989.jpg
+0 1 0 1960766 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/js/bootstrap.js
+0 2 0 144168 0 0
+/home/bridgetma/public_html/images/KMimage/ios.svg
+0 2 0 2618 0 0
+/home/bridgetma/.trash/images/PHimage/PH_hifi.png
+0 1 0 107636 0 0
+/home/bridgetma/tmp/webalizer/ctry_usage_201702.png
+0 1 0 2300 0 0
+/home/bridgetma/.trash/images/PHimage/low-fi.gif
+0 1 0 206782 0 0
+/home/bridgetma/.trash/images.1/KMimage/prototype1.png
+0 1 0 144325 0 0
+/home/bridgetma/tmp/webalizerftp/ctry_usage_201611.png
+0 1 0 2290 0 0
+/home/bridgetma/public_html/images/Potluck/SurveyFindings.png
+0 2 0 28854 0 0
+/home/bridgetma/public_html/images/KMimage/prototype1.png
+0 2 0 288650 0 0
+/home/bridgetma/public_html/images/img-sprite.png
+0 2 0 35974 0 0
+/home/bridgetma/tmp/webalizer/
+0 1 0 7835 0 0
+/home/bridgetma/.trash/images/FGimage/link.png
+0 1 0 7352 0 0
+/home/bridgetma/.trash/images/gallery/08.jpg
+0 1 8387223562010911278 30690 0 0
+/home/bridgetma/tmp/webalizer/hourly_usage_201701.png
+0 1 0 2174 0 0
+/home/bridgetma/public_html/images/gallery/27.jpg
+0 2 0 893822 0 0
+/home/bridgetma/.trash/images/sc-icon.png
+0 1 0 21220 0 0
+/home/bridgetma/public_html/css/iconfont.ttf
+0 2 0 13912 0 0
+/home/bridgetma/.trash/.trash_restore
+0 1 0 100 0 0
+/home/bridgetma/public_html/images/facebook_icon.png
+0 2 0 956 0 0
+/home/bridgetma/.cpanel/datastore/SYSTEMMIME
+0 1 0 27613 0 0
+/home/bridgetma/.trash/images.1/gallery/IMG_4893.jpg
+0 1 0 446911 0 0
+/home/bridgetma/.trash/css.1/bootstrap.css
+0 1 0 126872 0 0
+/home/bridgetma/public_html/images/Potluck/sprint.png
+0 2 0 166518 0 0
+/home/bridgetma/.trash/images.1/soc_icon1.png
+0 1 0 1349 0 0
+/home/bridgetma/.trash/images.1/RSimage/link.png
+0 1 0 24123 0 0
+/home/bridgetma/public_html/images/gallery/38.jpg
+0 1 0 615815 0 0
+/home/bridgetma/public_html/images/pic2.jpg
+0 2 0 23800 0 0
+/home/bridgetma/tmp/awstats/awstats042017.bridget-ma.com.txt
+0 1 0 26478 0 0
+/home/bridgetma/.trash/images.1/PHimage/feature2.png
+0 1 0 103442 0 0
+/home/bridgetma/.trash/images.1/gallery/29a.jpg
+0 1 0 14990 0 0
+/home/bridgetma/.cpanel/caches/config/_etc_trueuserowners___4009258670
+0 1 0 20336 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2
+0 2 0 36056 0 0
+/home/bridgetma/tmp/webalizer/usage_201703.html
+0 1 0 123207 0 0
+/home/bridgetma/.trash/images.1/graphic/11.jpg
+0 1 0 36719 0 0
+/home/bridgetma/.trash/images/gallery/09.jpg
+0 1 0 23503 0 0
+/home/bridgetma/public_html/images/gallery/a3.jpg
+0 2 0 24984 0 0
+/home/bridgetma/public_html/images/gallery/04.jpg
+0 2 0 42610 0 0
+/home/bridgetma/.trash/images.1/gallery/20a.jpg
+0 1 0 376020 0 0
+/home/bridgetma/public_html/images/PHimage/PH_hifi.png
+0 2 0 215272 0 0
+/home/bridgetma/public_html/images/pic6.jpg
+0 2 0 41476 0 0
+/home/bridgetma/public_html/contact.html
+0 2 0 14908 0 0
+/home/bridgetma/.trash/images/PHimage/needs.jpg
+0 1 0 469340 0 0
+/home/bridgetma/.trash/images.1/gallery/30a.jpg
+0 1 0 42621 0 0
+/home/bridgetma/.trash/images.1/arrows.png
+0 1 0 3654 0 0
+/home/bridgetma/public_html/images/MNimage/UI.png
+0 2 0 156452 0 0
+/home/bridgetma/.trash/images.1/FGimage/FG_subjects.png
+0 1 0 43161 0 0
+/home/bridgetma/public_html/css/iconfont.css
+0 2 0 1630 0 0
+/home/bridgetma/public_html/Gallery1.html
+0 2 0 3074 0 0
+/home/bridgetma/public_html/images/FGimage/process.png
+0 2 0 851622 0 0
+/home/bridgetma/public_html/images/PHimage/Structure.png
+0 2 0 110700 0 0
+/home/bridgetma/.trash/images.1/1.jpg
+0 1 0 1816 0 0
+/home/bridgetma/tmp/awstats/awstats052017.bridget-ma.com.txt
+0 1 0 21991 0 0
+/home/bridgetma/public_html/images/gallery/29.jpg
+0 2 0 1765192 0 0
+/home/bridgetma/.trash/images.1/gallery/16.jpg
+0 1 0 68448 0 0
+/home/bridgetma/.trash/images.1/PHimage/hi-fi.gif
+0 1 0 157205 0 0
+/home/bridgetma/.trash/images/gallery/23a.jpg
+0 1 0 25211 0 0
+/home/bridgetma/.trash/css/style.css
+0 1 0 34305 0 0
+/home/bridgetma/public_html/images/gallery/35.jpg
+0 1 0 614516 0 0
+/home/bridgetma/tmp/webalizerftp/usage_201611.html
+0 1 0 60898 0 0
+/home/bridgetma/tmp/webalizer/usage_201702.html
+0 1 0 121558 0 0
+/home/bridgetma/.trash/images.1/gallery/27.jpg
+0 1 0 446911 0 0
+/home/bridgetma/.trash/images.1/PHimage/feature1.png
+0 1 0 75348 0 0
+/home/bridgetma/.trash/images/RSimage/report.pdf
+0 1 0 5677053 0 0
+/home/bridgetma/public_html/images/MNimage/logo.png
+0 2 0 43344 0 0
+/home/bridgetma/tmp/webalizerftp/daily_usage_201611.png
+0 1 0 2690 0 0
+/home/bridgetma/tmp/webalizer/usage_201704.html
+0 1 0 146530 0 0
+/home/bridgetma/public_html/images/graphic/14.jpg
+0 2 0 98660 0 0
+/home/bridgetma/.trash/images.1/graphic/15.jpg
+0 1 0 27563 0 0
+/home/bridgetma/public_html/js/iconfont.js
+0 2 0 19878 0 0
+/home/bridgetma/.trash/images.1/gallery/4.jpg
+0 1 0 26211 0 0
+/home/bridgetma/.trash/images.1/graphic/13.jpg
+0 1 0 105899 0 0
+/home/bridgetma/.trash/images/PHimage/needs.png
+0 1 0 147527 0 0
+/home/bridgetma/.trash/images/graphic/4.jpg
+0 1 0 111359 0 0
+/home/bridgetma/public_html/images/lightbox-ico-loading.gif
+0 2 0 7980 0 0
+/home/bridgetma/tmp/webalizer/webalizer.hist
+0 1 0 3000 0 0
+/home/bridgetma/public_html/images/KMimage/o3.png
+0 2 0 400490 0 0
+/home/bridgetma/public_html/images/gallery/30.jpg
+0 2 0 4215220 0 0
+/home/bridgetma/.trash/images/gallery/19.jpg
+0 1 0 60824 0 0
+/home/bridgetma/public_html/images/Potluck/AM2.JPG
+0 2 0 2152216 0 0
+/home/bridgetma/.trash/Gallery.html.1
+0 1 0 12360 0 0
+/home/bridgetma/public_html/images/p4.jpg
+0 2 0 21748 0 0
+/home/bridgetma/public_html/images/graphic/15.jpg
+0 2 0 55126 0 0
+/home/bridgetma/public_html/images/HCIposter.png
+0 2 0 396478 0 0
+/home/bridgetma/.trash/Project_MN.html.1
+0 1 0 13998 0 0
+/home/bridgetma/.trash/js/jquey-bigic.js
+0 1 0 8987 0 0
+/home/bridgetma/public_html/js/iconfont.eot
+0 2 0 12268 0 0
+/home/bridgetma/tmp/webalizerftp/hourly_usage_201611.png
+0 1 0 1728 0 0
+/home/bridgetma/public_html/images/KMimage/icon.png
+0 2 0 189436 0 0
+/home/bridgetma/public_html/images/CV.pdf
+0 2 0 4039466 0 0
+/home/bridgetma/public_html/images/graphic/6.jpg
+0 2 0 134340 0 0
+/home/bridgetma/public_html/images/wordpress_icon.png
+0 2 0 1310 0 0
+/home/bridgetma/.trash/images/soc_icon1.png
+0 1 0 1349 0 0
+/home/bridgetma/.trash/css/normalize.css
+0 1 0 1825 0 0
+/home/bridgetma/public_html/images/search.png
+0 2 0 6506 0 0
+/home/bridgetma/public_html/images/Potluck/HCIposterlarge.png
+0 2 0 759972 0 0
+/home/bridgetma/logs/bridget-ma.com-Jun-2017.gz
+0 1 0 20417 0 0
+/home/bridgetma/.trash/images/pic3.jpg
+0 1 0 16290 0 0
+/home/bridgetma/.trash/images.1/p2.jpg
+0 1 0 7352 0 0
+/home/bridgetma/.trash/images.1/home.png
+0 1 0 444 0 0
+/home/bridgetma/public_html/images/p7.jpg
+0 2 0 29894 0 0
+/home/bridgetma/.cpanel/datastore/reseller_SORTEDRESELLERSUSERS_bridgetma
+0 1 8103214271061191020 199 0 0
+/home/bridgetma/public_html/images/s1.png
+0 2 0 11542 0 0
+/home/bridgetma/public_html/images/graphic/1.jpg
+0 2 0 62732 0 0
+/home/bridgetma/public_html/images/gallery/23.jpg
+0 2 0 1209576 0 0
+/home/bridgetma/.cpanel/datastore/apache_FETCHTYPES
+0 1 0 520 0 0
+/home/bridgetma/tmp/webalizerftp/hourly_usage_201702.png
+0 1 0 1768 0 0
+/home/bridgetma/.trash/images.1/PHimage/low-fi.html
+0 1 0 363 0 0
+/home/bridgetma/.trash/images/gallery/21.jpg
+0 1 0 31828 0 0
+/home/bridgetma/public_html/images/call.png
+0 2 0 840 0 0
+/home/bridgetma/public_html/images/RSimage/report.pdf
+0 2 0 11354106 0 0
+/home/bridgetma/public_html/css/style.css
+0 2 0 89450 0 0
+/home/bridgetma/public_html/images/Potluck/IMG_6859.JPG
+0 2 0 3120668 0 0
+/home/bridgetma/.trash/js/jquery.min_2.js
+0 1 0 83100 0 0
+/home/bridgetma/.trash/images/gallery/26.jpg
+0 1 0 1624892 0 0
+/home/bridgetma/public_html/images/icons.svg
+0 2 0 2862 0 0
+/home/bridgetma/public_html/images/pic5.jpg
+0 2 0 52854 0 0
+/home/bridgetma/.trash/images/logo.png
+0 1 0 3926 0 0
+/home/bridgetma/.trash/images/MNimage/link.jpg
+0 1 0 29430 0 0
+/home/bridgetma/public_html/images/graphic/18.jpg
+0 2 0 174142 0 0
+/home/bridgetma/.trash/images.1/gallery/18.jpg
+0 1 0 79397 0 0
+/home/bridgetma/.trash/images.1/graphic/6.jpg
+0 1 0 67170 0 0
+/home/bridgetma/.trash/images/about.jpg
+0 1 0 40882 0 0
+/home/bridgetma/.trash/images.1/gallery/23.jpg
+0 1 0 604788 0 0
+/home/bridgetma/.trash/images.1/close.png
+0 1 0 1254 0 0
+/home/bridgetma/public_html/images/gallery/29a.jpg
+0 2 0 29980 0 0
+/home/bridgetma/.trash/说明.htm
+0 1 0 3299 0 0
+/home/bridgetma/.trash/images/mylogo1.png
+0 1 0 3706 0 0
+/home/bridgetma/public_html/images/Pysc/solution1.png
+0 2 0 528684 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/js/npm.js
+0 2 0 992 0 0
+/home/bridgetma/public_html/images/se.png
+0 2 0 6544 0 0
+/home/bridgetma/public_html/images/MNimage/lowfi_2.png
+0 2 0 46162 0 0
+/home/bridgetma/public_html/images/gallery/28a.jpg
+0 2 0 85148 0 0
+/home/bridgetma/.trash/images.1/gallery/a1.jpg
+0 1 0 11946 0 0
+/home/bridgetma/tmp/webalizer/daily_usage_201703.png
+0 1 0 4134 0 0
+/home/bridgetma/public_html/images/gallery/33.jpg
+0 1 267 543739 0 0
+/home/bridgetma/public_html/images/p5.jpg
+0 2 0 27474 0 0
+/home/bridgetma/.trash/images/det_pic.jpg
+0 1 0 108760 0 0
+/home/bridgetma/.trash/images/FGimage/persona1.png
+0 1 0 40233 0 0
+/home/bridgetma/public_html/images/s3.png
+0 2 0 10146 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff
+0 2 0 46848 0 0
+/home/bridgetma/.trash/images.1/PHimage/display.gif
+0 1 0 3489512 0 0
+/home/bridgetma/.trash/images/gallery/07.jpg
+0 1 0 20391 0 0
+/home/bridgetma/public_html/images/pic10.jpg
+0 2 0 71960 0 0
+/home/bridgetma/.cpanel/nvdata/optionselect_filemanager
+0 1 0 26 0 0
+/home/bridgetma/.trash/images.1/about.jpg
+0 1 0 40882 0 0
+/home/bridgetma/.trash/images/gallery/IMG_4893.jpg
+0 1 0 446911 0 0
+/home/bridgetma/tmp/webalizerftp/ctry_usage_201702.png
+0 1 0 2300 0 0
+/home/bridgetma/public_html/images/graphic/3.jpg
+0 2 0 89458 0 0
+/home/bridgetma/.trash/images/mylogo.png
+0 1 0 11281 0 0
+/home/bridgetma/.trash/images/gallery/a1.jpg
+0 1 0 11946 0 0
+/home/bridgetma/public_html/images/gallery/11.jpg
+0 2 0 57826 0 0
+/home/bridgetma/.trash/images.1/gallery/12.jpg
+0 1 0 62818 0 0
+/home/bridgetma/public_html/js/jquery-1.9.1.min.js
+0 2 0 185192 0 0
+/home/bridgetma/.trash/images/gallery/26a.jpg
+0 1 0 57522 0 0
+/home/bridgetma/public_html/images/gallery/IMG_4893.jpg
+0 2 0 893822 0 0
+/home/bridgetma/public_html/images/graphic/10.jpg
+0 2 0 119374 0 0
+/home/bridgetma/public_html/images/p1.jpg
+0 3 0 36051 0 0
+/home/bridgetma/public_html/images/gallery/07.jpg
+0 2 0 40782 0 0
+/home/bridgetma/.trash/images.1/nav-icon.png
+0 1 0 234 0 0
+/home/bridgetma/public_html/images/RSimage/link.png
+0 2 0 48246 0 0
+/home/bridgetma/public_html/images/KMimage/c2.png
+0 2 0 460960 0 0
+/home/bridgetma/.cpanel/nvdata/optionselect_password-protect
+0 1 0 26 0 0
+/home/bridgetma/.trash/images/PHimage/hi-fi.gif
+0 1 0 157205 0 0
+/home/bridgetma/tmp/webalizer/hourly_usage_201704.png
+0 1 0 2153 0 0
+/home/bridgetma/.trash/images/gallery/IMG_5170.jpg
+0 1 0 882596 0 0
+/home/bridgetma/.trash/images.1/right.png
+0 1 0 3004 0 0
+/home/bridgetma/.trash/css.1/normalize.css
+0 1 0 1825 0 0
+/home/bridgetma/.trash/images.1/gallery/11.jpg
+0 1 0 28913 0 0
+/home/bridgetma/public_html/js/modernizr.custom.js
+0 2 0 16998 0 0
+/home/bridgetma/tmp/webalizer/daily_usage_201704.png
+0 1 0 4056 0 0
+/home/bridgetma/.trash/images.1/gallery/08.jpg
+0 1 0 30690 0 0
+/home/bridgetma/.trash/images.1/mail_h.png
+0 1 0 459 0 0
+/home/bridgetma/tmp/webalizer/daily_usage_201612.png
+0 1 0 3977 0 0
+/home/bridgetma/public_html/images/pic7.jpg
+0 2 0 38970 0 0
+/home/bridgetma/.trash/images/gallery/5.jpg
+0 1 0 43297 0 0
+/home/bridgetma/public_html/images/gallery/0h.jpg
+0 1 0 732700 0 0
+/home/bridgetma/tmp/webalizer/hourly_usage_201611.png
+0 1 0 2118 0 0
+/home/bridgetma/.trash/images/home.png
+0 1 0 444 0 0
+/home/bridgetma/.trash/images/graphic/3.jpg
+0 1 0 44729 0 0
+/home/bridgetma/.trash/images.1/gallery/29.jpg
+0 1 0 882596 0 0
+/home/bridgetma/public_html/images/p8.jpg
+0 2 0 24844 0 0
+/home/bridgetma/.trash/images/MNimage/low-fi.pdf
+0 1 0 2433784 0 0
+/home/bridgetma/.trash/images.1/gallery/6.jpg
+0 1 0 58252 0 0
+/home/bridgetma/.trash/images.1/gallery/01.jpg
+0 1 0 30108 0 0
+/home/bridgetma/public_html/layout-styles.css
+0 2 0 8884 0 0
+/home/bridgetma/public_html/js/jquery.min_2.js
+0 2 0 166200 0 0
+/home/bridgetma/.cpanel/datastore/_Cpanel::Quota.pm__bridgetma
+0 1 0 79 0 0
+/home/bridgetma/.trash/images.1/gallery/17.jpg
+0 1 0 32467 0 0
+/home/bridgetma/public_html/images/Potluck/AM.jpg
+0 2 0 18441782 0 0
+/home/bridgetma/public_html/images/gallery/42.jpg
+0 1 0 597829 0 0
+/home/bridgetma/public_html/images/gallery/40.jpg
+0 4 0 5642238 0 0
+/home/bridgetma/public_html/images/footer_top.png
+0 2 0 434 0 0
+/home/bridgetma/.trash/images/3.jpg
+0 1 0 2869 0 0
+/home/bridgetma/public_html/images/gallery/01.jpg
+0 2 0 60216 0 0
+/home/bridgetma/public_html/images/gallery/05.jpg
+0 2 0 70206 0 0
+/home/bridgetma/.trash/images.1/MNimage/lowfi_1.png
+0 1 0 21311 0 0
+/home/bridgetma/public_html/说明.htm
+0 2 0 6598 0 0
+/home/bridgetma/public_html/images/4.jpg
+0 2 0 5844 0 0
+/home/bridgetma/public_html/images/gallery/21.jpg
+0 2 0 63656 0 0
+/home/bridgetma/.trash/images/MNimage/lowfi_2.png
+0 1 0 23081 0 0
+/home/bridgetma/logs/ftp.bridget-ma.com-ftp_log-Jan-2017.gz
+0 1 0 10674 0 0
+/home/bridgetma/.trash/images/PHimage/link.png
+0 1 0 30723 0 0
+/home/bridgetma/.trash/images.1/CV.pdf
+0 1 0 826876 0 0
+/home/bridgetma/public_html/images/Potluck/low-fi-prototype.png
+0 2 0 403068 0 0
+/home/bridgetma/tmp/webalizerftp/webalizer.current
+0 1 0 8954 0 0
+/home/bridgetma/.trash/images/graphic/8.jpg
+0 1 0 58935 0 0
+/home/bridgetma/.trash/images/gallery/27a.jpg
+0 1 0 13294 0 0
+/home/bridgetma/logs/ftp.bridget-ma.com-ftp_log-Nov-2016.gz
+0 1 0 29286 0 0
+/home/bridgetma/tmp/awstats/awstats112016.bridget-ma.com.txt
+0 1 0 17094 0 0
+/home/bridgetma/public_html/images/gallery/16.jpg
+0 2 0 136896 0 0
+/home/bridgetma/tmp/webalizer/ctry_usage_201611.png
+0 1 0 2290 0 0
+/home/bridgetma/.trash/images/CV.pdf
+0 1 0 826876 0 0
+/home/bridgetma/public_html/images/pi3.jpg
+0 2 0 163056 0 0
+/home/bridgetma/public_html/js/classie.js
+0 2 0 3830 0 0
+/home/bridgetma/.trash/images/gallery/20a.jpg
+0 1 0 376020 0 0
+/home/bridgetma/.trash/images/gallery/13.jpg
+0 1 92 50110 0 0
+/home/bridgetma/public_html/images/MNimage/MN_sleep.png
+0 2 0 13634 0 0
+/home/bridgetma/.trash/images/MNimage/MN_sleep.png
+0 1 0 6817 0 0
+/home/bridgetma/.trash/images.1/fountain_h.png
+0 1 0 464 0 0
+/home/bridgetma/.trash/images.1/facebook_icon.png
+0 1 0 478 0 0
+/home/bridgetma/public_html/images/gallery/39.jpg
+0 1 0 949888 0 0
+/home/bridgetma/public_html/images/Potluck/SecondaryPersona1.png
+0 2 0 79182 0 0
+/home/bridgetma/.trash/images.1/graphic/10.jpg
+0 1 0 59687 0 0
+/home/bridgetma/public_html/images/Potluck/DesignProcess.png
+0 2 0 32556 0 0
+/home/bridgetma/.trash/images/KMimage/persona.jpg
+0 1 0 200576 0 0
+/home/bridgetma/.trash/images/left.png
+0 1 0 3020 0 0
+/home/bridgetma/.trash/images/gallery/3.jpg
+0 1 0 127203 0 0
+/home/bridgetma/public_html/images/mail_h.png
+0 2 0 918 0 0
+/home/bridgetma/.trash/images/RSimage/heatmap.png
+0 1 0 92084 0 0
+/home/bridgetma/public_html/images/Potluck/CI.jpg
+0 2 0 1956840 0 0
+/home/bridgetma/.trash/images.1/gallery/IMG_4989.jpg
+0 1 0 1960766 0 0
+/home/bridgetma/.trash/images/wordpress_icon.png
+0 1 0 655 0 0
+/home/bridgetma/.trash/images.1/FGimage/FinalReport.pdf
+0 1 0 4110171 0 0
+/home/bridgetma/public_html/images/KMimage/website.svg
+0 2 0 14668 0 0
+/home/bridgetma/.subaccounts/storage.sqlite
+0 1 0 4096 0 0
+/home/bridgetma/public_html/Project_MN.html
+0 2 0 35650 0 0
+/home/bridgetma/.trash/images/graphic/15.jpg
+0 1 0 27563 0 0
+/home/bridgetma/public_html/js/zoom.min.js
+0 2 0 7350 0 0
+/home/bridgetma/.trash/images/MNimage/morning_night.pdf
+0 1 0 5041811 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf
+0 2 0 90808 0 0
+/home/bridgetma/.trash/images/gallery/15.jpg
+0 1 0 106408 0 0
+/home/bridgetma/.trash/js.1/jquery-1.11.0.min.js
+0 1 0 96306 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/css/bootstrap-theme.css
+0 2 0 53438 0 0
+/home/bridgetma/public_html/images/gallery/21a.jpg
+0 2 0 1212262 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map
+0 2 0 51296 0 0
+/home/bridgetma/.trash/images.1/RSimage/link.jpg
+0 1 0 59494 0 0
+/home/bridgetma/.trash/images/gallery/1.jpg
+0 1 0 77171 0 0
+/home/bridgetma/public_html/images/Potluck/SecondaryPersona2.png
+0 2 0 112196 0 0
+/home/bridgetma/public_html/images/pic3.jpg
+0 2 0 32580 0 0
+/home/bridgetma/public_html/images/PHimage/display.gif
+0 2 0 6979024 0 0
+/home/bridgetma/public_html/images/Potluck/QDA.png
+0 2 0 33932 0 0
+/home/bridgetma/tmp/webalizerftp/daily_usage_201701.png
+0 1 0 3051 0 0
+/home/bridgetma/public_html/images/banner.jpg
+0 2 0 324256 0 0
+/home/bridgetma/.trash/images.1/KMimage/survey.jpg
+0 1 0 34892 0 0
+/home/bridgetma/public_html/images/gallery/24a.jpg
+0 2 0 24448 0 0
+/home/bridgetma/public_html/images/sc-icon.png
+0 2 0 42440 0 0
+/home/bridgetma/.trash/images/footer_top.png
+0 1 7449355557182139764 217 0 0
+/home/bridgetma/tmp/webalizer/daily_usage_201611.png
+0 1 0 3717 0 0
+/home/bridgetma/.trash/images/top-arrow.png
+0 1 0 3147 0 0
+/home/bridgetma/.trash/images/icons.svg
+0 1 0 1431 0 0
+/home/bridgetma/.trash/images.1/gallery/14.jpg
+0 1 0 102624 0 0
+/home/bridgetma/public_html/images/gallery_icon.png
+0 2 0 1006 0 0
+/home/bridgetma/.trash/images.1/p7.jpg
+0 1 0 14947 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/js/bootstrap.min.js
+0 2 0 74102 0 0
+/home/bridgetma/.trash/images.1/p6.jpg
+0 1 0 10606 0 0
+/home/bridgetma/.trash/images.1/3.jpg
+0 1 0 2869 0 0
+/home/bridgetma/public_html/images/KMimage/link.jpg
+0 2 0 78700 0 0
+/home/bridgetma/.trash/kemai.html.1
+0 1 0 9336 0 0
+/home/bridgetma/.trash/research.html
+0 1 0 14250 0 0
+/home/bridgetma/.trash/js/modernizr.custom.js
+0 1 0 8499 0 0
+/home/bridgetma/public_html/images/Potluck/banner.png
+0 2 0 186484 0 0
+/home/bridgetma/.trash/images/pic6.jpg
+0 1 0 20738 0 0
+/home/bridgetma/.trash/images/gallery/29.jpg
+0 1 0 882596 0 0
+/home/bridgetma/.trash/images.1/FGimage/process.png
+0 1 0 425811 0 0
+/home/bridgetma/.trash/images.1/graphic/4.jpg
+0 1 0 111359 0 0
+/home/bridgetma/.trash/images.1/gallery/22.jpg
+0 1 0 41840 0 0
+/home/bridgetma/tmp/webalizerftp/ctry_usage_201701.png
+0 1 0 2293 0 0
+/home/bridgetma/public_html/images/graphic/7.jpg
+0 2 0 112540 0 0
+/home/bridgetma/public_html/css/normalize.css
+0 2 0 3650 0 0
+/home/bridgetma/tmp/webalizer/usage_201701.html
+0 1 0 122755 0 0
+/home/bridgetma/.trash/images/gallery/a3.jpg
+0 1 0 12492 0 0
+/home/bridgetma/public_html/images/gallery/27a.jpg
+0 2 0 26588 0 0
+/home/bridgetma/public_html/images/Potluck/ideas1.JPG
+0 2 0 2714224 0 0
+/home/bridgetma/.trash/images.1/footer_top.png
+0 1 0 217 0 0
+/home/bridgetma/public_html/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot
+0 2 0 40254 0 0
+/home/bridgetma/.trash/images.1/pic11.jpg
+0 1 0 11158 0 0
+/home/bridgetma/public_html/images/gallery/13.jpg
+0 2 0 100220 0 0
+/home/bridgetma/.trash/images.1/gallery/5.jpg
+0 1 0 43297 0 0
+/home/bridgetma/public_html/css/iconfont.svg
+0 2 0 11326 0 0
+/home/bridgetma/tmp/webalizer/daily_usage_201705.png
+0 1 0 4092 0 0
+/home/bridgetma/.trash/images.1/4.jpg
+0 1 0 2922 0 0
+/home/bridgetma/public_html/images/me.png
+0 2 0 11382 0 0
+/home/bridgetma/public_html/images/2.jpg
+0 2 0 6096 0 0
+/home/bridgetma/.trash/images.1/gallery/27a.jpg
+0 1 0 13294 0 0
+/home/bridgetma/.trash/images.1/call.png
+0 1 0 420 0 0
+/home/bridgetma/.trash/images/KMimage/icon.png
+0 1 0 94718 0 0
+/home/bridgetma/.trash/images.1/gallery/8.jpg
+0 1 0 47251 0 0
+/home/bridgetma/tmp/webalizerftp/ctry_usage_201612.png
+0 1 0 2296 0 0
+/home/bridgetma/.trash/images.1/PHimage/link.jpg
+0 1 0 78745 0 0
+/home/bridgetma/public_html/
+0 1 0 13675 1 0
+/home/bridgetma/.trash/images/gallery/2.jpg
+0 1 0 23929 0 0
+/home/bridgetma/public_html/images/graphic/4.jpg
+0 2 0 222718 0 0
+/home/bridgetma/tmp/webalizerftp/hourly_usage_201703.png
+0 1 0 1674 0 0
+/home/bridgetma/public_html/images/graphic/14.png
+0 2 0 149250 0 0
+/home/bridgetma/public_html/images/Potluck/UserNeeds.png
+0 2 0 26258 0 0
+/home/bridgetma/public_html/images/gallery/1.jpg
+0 2 0 154342 0 0
+/home/bridgetma/.trash/images/gallery/23.jpg
+0 1 0 604788 0 0
+/home/bridgetma/.trash/images/gallery/16.jpg
+0 1 0 68448 0 0
+/home/bridgetma/public_html/images/Pysc/AffinityMapping1.png
+0 2 0 810138 0 0
+/home/bridgetma/.trash/images.1/fountain.png
+0 1 0 427 0 0
+/home/bridgetma/public_html/images/gallery/2.jpg
+0 2 0 47858 0 0
+/home/bridgetma/.trash/images/PHimage/feature2.png
+0 1 0 103442 0 0
+/home/bridgetma/.trash/images.1/gallery/25a.jpg
+0 1 0 19278 0 0
+/home/bridgetma/.trash/images.1/p8.jpg
+0 1 0 12422 0 0
+/home/bridgetma/public_html/images/logo_2.png
+0 2 0 11712 0 0
+/home/bridgetma/public_html/images/gallery/010.jpg
+0 2 0 29904 0 0
+/home/bridgetma/.trash/images/gallery/10.jpg
+0 1 0 67476 0 0
+/home/bridgetma/.trash/images.1/pic5.jpg
+0 1 0 26427 0 0
+/home/bridgetma/.trash/css/zoom.css
+0 1 0 1682 0 0
+/home/bridgetma/tmp/webalizer/usage_201706.html
+0 1 0 99120 0 0
+/home/bridgetma/tmp/webalizer/usage.png
+0 1 0 2713 0 0
+/home/bridgetma/.trash/images/banner.png
+0 1 0 51207 0 0
+/home/bridgetma/.trash/js.1/jquery.swipebox.min.js
+0 1 0 7212 0 0
+/home/bridgetma/.trash/images.1/pic9.jpg
+0 1 0 33649 0 0
+/home/bridgetma/public_html/images/gallery/25.jpg
+0 2 0 3316608 0 0
+/home/bridgetma/.trash/images/1.jpg
+0 1 0 1816 0 0
+/home/bridgetma/public_html/images/gallery/a1.jpg
+0 2 0 23892 0 0
+/home/bridgetma/public_html/css/iconfont.js
+0 2 0 27792 0 0
+/home/bridgetma/.trash/images.1/MNimage/UI.png
+0 1 0 78226 0 0
+/home/bridgetma/.trash/images/gallery/01.jpg
+0 1 0 30108 0 0
+/home/bridgetma/public_html/GraphicDesign.html
+0 2 0 17090 0 0
+/home/bridgetma/etc/cacheid
+0 1 0 9 0 0
+/home/bridgetma/public_html/images/Potluck/HCIposter.png
+0 2 0 396478 0 0
+/home/bridgetma/.trash/images.1/pic10.jpg
+0 1 0 35980 0 0
+/home/bridgetma/.trash/images/mail.png
+0 1 0 462 0 0
+/home/bridgetma/public_html/images/gallery/22a.jpg
+0 2 0 923824 0 0
+/home/bridgetma/public_html/images/3.jpg
+0 2 0 5738 0 0
+/home/bridgetma/.trash/images/gallery/28.jpg
+0 1 0 1960766 0 0
+/home/bridgetma/.trash/images/p6.jpg
+0 1 0 10606 0 0
+/home/bridgetma/.trash/images/gallery/05.jpg
+0 1 0 35103 0 0
+/home/bridgetma/.trash/details.html
+0 1 8391181790012994657 11700 0 0
+/home/bridgetma/public_html/images/PHimage/display.html
+0 2 0 732 0 0
+/home/bridgetma/public_html/images/gallery/22.jpg
+0 2 0 83680 0 0
+/home/bridgetma/public_html/images/gallery/IMG_5170.jpg
+0 3 0 1765192 0 0
+/home/bridgetma/.trash/images.1/gallery/24a.jpg
+0 1 0 12224 0 0
+/home/bridgetma/public_html/images/mail.png
+0 2 0 924 0 0
+/home/bridgetma/public_html/images/KMimage/banner.jpg
+0 2 0 360928 0 0
+/home/bridgetma/.trash/Gallery1.html.1
+0 1 0 1498 0 0
+/home/bridgetma/.trash/images.1/gallery/03.jpg
+0 1 0 20313 0 0
+/home/bridgetma/public_html/images/Potluck/link.jpg
+0 2 0 208058 0 0
+/home/bridgetma/.cpanel/nvdata.cache
+0 1 0 406 0 0
+/home/bridgetma/.trash/images.1/KMimage/icon.png
+0 1 0 94718 0 0
+/home/bridgetma/.cpanel/contactinfo
+0 1 0 444 0 0
+/home/bridgetma/.trash/images/gallery/06.jpg
+0 1 0 30395 0 0
+/home/bridgetma/public_html/images/gallery/03.jpg
+0 2 0 40626 0 0
+/home/bridgetma/.trash/images/close.png
+0 1 0 1254 0 0
+/home/bridgetma/.trash/images/KMimage/link.jpg
+0 1 0 39350 0 0
+/home/bridgetma/.trash/images.1/p3.jpg
+0 1 0 15931 0 0
+/home/bridgetma/tmp/webalizer/ctry_usage_201705.png
+0 1 0 2270 0 0
+/home/bridgetma/public_html/js/jquery.swipebox.min.js
+0 2 0 14424 0 0
+/home/bridgetma/public_html/images/Potluck/TA.png
+0 2 0 376966 0 0
+/home/bridgetma/tmp/webalizer/webalizer.current
+0 1 0 22369 0 0
+/home/bridgetma/public_html/Project_Potluck.html
+0 1 0 46152 0 0
+/home/bridgetma/public_html/images/KMimage/o1.png
+0 2 0 197152 0 0
+/home/bridgetma/.trash/images/fountain.png
+0 1 0 427 0 0
+/home/bridgetma/public_html/images/pi4.jpg
+0 2 0 157226 0 0
+/home/bridgetma/.trash/js.1/jquery.min_2.js
+0 1 0 83100 0 0
+/home/bridgetma/.trash/images.1/b1.jpg
+0 1 0 31987 0 0
+/home/bridgetma/.trash/css/bootstrap.css
+0 1 0 126872 0 0
+/home/bridgetma/.trash/images/user_icon.png
+0 1 0 430 0 0
+/home/bridgetma/.trash/images.1/graphic/14.png
+0 1 0 74625 0 0
+/home/bridgetma/.trash/images/PHimage/Structure.png
+0 1 0 55350 0 0
+/home/bridgetma/.trash/home.html.2
+0 1 0 1963 0 0
+/home/bridgetma/.trash/images.1/graphic/9.jpg
+0 1 0 34434 0 0
+/home/bridgetma/public_html/images/PHimage/needs.png
+0 2 0 295054 0 0
+/home/bridgetma/tmp/webalizerftp/usage.png
+0 1 0 2479 0 0
+/home/bridgetma/public_html/images/MNimage/storyboard.png
+0 2 0 331688 0 0
+/home/bridgetma/.trash/details.html.1
+0 1 0 11203 0 0
+/home/bridgetma/public_html/PocketHearty.html
+0 2 0 36176 0 0
+/home/bridgetma/.trash/images.1/cog_icon.png
+0 1 0 525 0 0
+/home/bridgetma/public_html/images/MNimage/lowfi_1.png
+0 2 0 42622 0 0
+/home/bridgetma/.trash/images/MNimage/storyboard.png
+0 1 0 165844 0 0
+/home/bridgetma/public_html/research.html
+0 2 0 35476 0 0
+/home/bridgetma/public_html/images/KMimage/客脉圈交互流程v1副本.jpg
+0 2 668 8977942 0 0
+/home/bridgetma/public_html/images/KMimage/survey.jpg
+0 2 0 69784 0 0
+/home/bridgetma/.trash/images/cog_icon.png
+0 1 0 525 0 0
+/home/bridgetma/.trash/images/gallery/29a.jpg
+0 1 0 14990 0 0
+/home/bridgetma/.trash/Gallery1.html
+0 1 0 1537 0 0
+/home/bridgetma/.trash/images/graphic/12.jpg
+0 1 0 58093 0 0
+/home/bridgetma/.trash/images.1/FGimage/FG_formulation.png
+0 1 0 47643 0 0
+/home/bridgetma/public_html/images/RSimage/FisherLSD.png
+0 2 0 327784 0 0
+/home/bridgetma/.trash/images.1/gallery/21.jpg
+0 1 0 31828 0 0
+/home/bridgetma/.trash/images/p5.jpg
+0 1 0 13737 0 0
+/home/bridgetma/public_html/images/KMimage/ios_(1).svg
+0 2 0 3420 0 0
+/home/bridgetma/.cpanel/nvdata/x3finder
+0 1 0 3 0 0
+/home/bridgetma/tmp/webalizer/hourly_usage_201705.png
+0 1 0 2208 0 0
+/home/bridgetma/public_html/images/gallery/7.jpg
+0 2 0 116030 0 0
+/home/bridgetma/tmp/webalizer/hourly_usage_201702.png
+0 1 0 2241 0 0
+/home/bridgetma/.trash/images.1/p1.jpg
+0 1 0 12017 0 0
+/home/bridgetma/public_html/images/tools_icon.png
+0 2 0 1054 0 0
+/home/bridgetma/public_html/images/gallery/18.jpg
+0 2 0 158794 0 0
+# End Of Table - urls
+# -sites- (monthly)
+108.233.85.184
+0 1229 1229 299169274 2 1497226821
+/home/bridgetma/tmp/webalizerftp/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+108.233.85.184
+0 561 561 148043197 1 1497226821
+/home/bridgetma/tmp/webalizerftp/
+# End Of Table - sites (daily)
+# -referrers- 
+# End Of Table - referrers
+# -agents- 
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+bridgetma
+0 1229 1229 299169274 3 1497226821
+# End Of Table - usernames
