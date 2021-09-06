@@ -1,279 +1,16 @@
-<!DOCTYPE HTML>
-
-<html>
-
-<head>
-
-	<title>Yiran MA | Gallery</title>
-	<link rel="icon" type="image/png" href="images/logo.png">
-
-
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700" rel="stylesheet">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!--Google Analytics-->
-	<script>
-		(function (i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date(); a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-		ga('create', 'UA-90414112-1', 'auto');
-		ga('send', 'pageview');
-
-	</script>
-	<!-- Google fonts -->
-	<script src="js/animate.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-		integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.3/jquery.scrollTo.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/jquery.localscroll@2.0.0/jquery.localScroll.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/1.5.6/jquery.mixitup.min.js"
-		integrity="sha512-UmZ15zGovMYyCpLp2ZA/sDpaDSorklcTAW3Rd0767fRDWT8WmLqhzr5kisseQmKtk4qIAxxjWV83fwKp3ncmkQ=="
-		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-		integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-		crossorigin="anonymous"></script>
-	<!---<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>--->
-
-	<!---<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>--->
-
-	<!---<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>--->
-
-	<!-- end google fonts -->
-
-	<link href="/assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700" rel="stylesheet">
-	<!--nav-->
-
-	<script src="js/animate.js"></script>
-
-	<!-- <link rel="stylesheet" href="css/swipebox.css"> -->
-
-	<!-- <link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" /> -->
-
-	<script>
-
-		$(function () {
-
-			var pull = $('#pull');
-
-			menu = $('nav ul');
-
-			menuHeight = menu.height();
-
-
-
-			$(pull).on('click', function (e) {
-
-				e.preventDefault();
-
-				menu.slideToggle();
-
-			});
-
-
-
-			$(window).resize(function () {
-
-				var w = $(window).width();
-
-				if (w > 320 && menu.is(':hidden')) {
-
-					menu.removeAttr('style');
-
-				}
-
-			});
-
-		});
-
-
-
-
-	</script>
-	<script>
-		window.onload = function () {
-			imgLocation('container', 'box')
-		}
-
-		// How many pictures are there to display
-		function imgLocation(parent, content) {
-			// Take out all the contents under contained
-			var cparent = document.getElementById(parent)  //Gets the label of the container box
-			var ccontent = getChildElemnt(cparent, content)//The picture is placed in the box in the container box, so we need to define a function getChildElemnt() to get the picture in the box
-
-			var imgWidth = ccontent[0].offsetWidth//Get the fixed width we set for each image in css
-			var num = Math.floor(document.documentElement.clientWidth / imgWidth) //Get the width of the browser body and calculate how many pictures we can put at most
-			cparent.style.cssText = `width: ${imgWidth * num} px`
-
-			//Display pictures
-			var BoxHeightArr = []
-			for (var i = 0; i < ccontent.length; i++) {
-				if (i < num) {  //Let's fill the first row first
-					BoxHeightArr[i] = ccontent[i].offsetHeight //Here we store the height of each column through boxhightarr [] array
-				} else { //For the rest of the images, we choose the one with the lowest height first
-					var minHeight = Math.min.apply(null, BoxHeightArr) //Through the Math.min The minimum value method in () is applied to the array to find the column with the lowest height
-					var minIndex = getMinHeightLocation(BoxHeightArr, minHeight) //After determining the column with the lowest height, we can calculate the position of the column by writing a function
-
-					//Finally, position our picture relative to the container box and put it under each column
-					ccontent[i].style.position = 'absolute'
-					ccontent[i].style.top = minHeight + 'px'
-					ccontent[i].style.left = ccontent[minIndex].offsetLeft + 'px'
-					//Finally, don't forget to update the height of each column
-					BoxHeightArr[minIndex] = BoxHeightArr[minIndex] + ccontent[i].offsetHeight
-
-				}
-			}
-			// console.log(BoxHeightArr);
-		}
-
-
-		function getChildElemnt(parent, content) {
-			const contentArr = []
-			const allContent = parent.getElementsByTagName('*')//The built-in function getElementsByTagName() takes out all the elements in the container
-			// console.log(allContent);
-			for (var i = 0; i < allContent.length; i++) {//But in all the elements of the container, all we need is all the IMGs, so we write a for loop to filter out the IMGs and store them in an array
-				if (allContent[i].className == content) {
-					contentArr.push(allContent[i])
-				}
-			}
-			// console.log(contentArr);
-			return contentArr
-		}
-		//Gets the position subscript function of the minimum column with the highest column height
-		function getMinHeightLocation(BoxHeightArr, minHeight) {
-			for (var i in BoxHeightArr) {
-				if (BoxHeightArr[i] === minHeight) {
-					return i
-				}
-			}
-		}</script>
-
-</head>
-
-<body onload="showPage()" id="body" class="animate-bottom">
-
-	<div class="body">
-
-		<div class="wrap">
-
-			<div class="wrapper">
-
-				<!-- start header-->
-
-				<div class="header1">
-
-					<div class="logo">
-
-						<a href="index.htm"><img src="images/mylogo.png" alt=""></a>
-
-					</div>
-
-					<div class="cssmenu">
-
-						<ul>
-
-							<li><a href="index.htm">Home</a></li>
-
-							<li class="active"><a href="index.htm#port-top">Portfolio</a></li>
-
-							<!-- <li ><a href="GraphicDesign.html">Graphics</a></li> -->
-
-							<!-- <li  class="active"><a href="Gallery.html">Gallery</a></li> -->
-
-							<li><a href="about.html">About Me</a></li>
-
-							<div class="clear"></div>
-
-						</ul>
-
-					</div>
-
-					<div class="clear"></div>
-
-					<div class="top-nav">
-
-						<nav class="clearfix">
-
-							<ul>
-
-								<li><a href="index.htm">Home</a></li>
-
-								<li><a href="index.htm#port-top">Portfolio</a></li>
-
-								<!-- <li><a href="GraphicDesign.html">Graphics</a></li> -->
-
-								<!-- <li ><a href="Gallery.html">Gallery</a></li> -->
-
-								<li><a href="about.html">About Me</a></li>
-
-							</ul>
-
-
-							<a href="#" id="pull">Menu</a>
-
-						</nav>
-
-					</div>
-
-				</div>
-
-				<!-- start banner -->
-
-				<div class="banner">
-
-					<!--<img src="images/banner.png" alt="" />-->
-
-
-
-				</div>
-
-				<!-- start content -->
-
-				<div class="main">
-
-					<div class="blog_list">
-
-
-
-
-						<div class="clear"></div>
-
-
-						<div style="height: 20px"></div>
-
-
-						<div class="clear" style="height: 50px"></div>
-
-
-
-
-
-
-
-						<!-- <div class="grids_of_4">
+---
+layout: post
+---
+<div class="blog_list">
+	<div class="clear"></div>
+	<div style="height: 20px"></div>
+	<div class="clear" style="height: 50px"></div>
+	<!-- <div class="grids_of_4">
 
 							<div class="grid_2_of_4 images_2_of_4">
 
-								<t class="img1"><a href="images/gallery/18.jpg" class="swipebox"
-										title="Hutong | Photographed in Beijing, China"><img src="images/gallery/18.jpg"
+								<t class="img1"><a href="/assets/images/gallery/18.jpg" class="swipebox"
+										title="Hutong | Photographed in Beijing, China"><img src="/assets/images/gallery/18.jpg"
 											alt="" /></a></t>
 
 								<br />
@@ -283,10 +20,10 @@
 
 
 
-								<t class="img1"><a href="images/gallery/8.jpg"
+								<t class="img1"><a href="/assets/images/gallery/8.jpg"
 										class="b-link-stripe b-animate-go   swipebox"
 										title="A Journey | Photographed in DunHuang, China"><img
-											src="images/gallery/8.jpg" alt="" /></a></t>
+											src="/assets/images/gallery/8.jpg" alt="" /></a></t>
 
 
 
@@ -294,10 +31,10 @@
 
 							<div class="grid_2_of_4 images_2_of_4">
 
-								<t class="img1"><a href="images/gallery/19.jpg"
+								<t class="img1"><a href="/assets/images/gallery/19.jpg"
 										class="b-link-stripe b-animate-go   swipebox"
 										title="High Noon | Photographed in Pheonix Ancient City, China"><img
-											src="images/gallery/19.jpg" alt="" /></a></t>
+											src="/assets/images/gallery/19.jpg" alt="" /></a></t>
 
 
 							</div>
@@ -308,64 +45,56 @@
 
 						</div> -->
 
-						<div class="row" style="padding-bottom: 100px">
-							<div class="column">
-								<img src="images/gallery/52.jpg" alt="">
-								<img src="images/gallery/54.jpg" alt="">
-								<img src="images/gallery/56.jpg" alt="">
-								<img src="images/gallery/53.jpg" alt="">
-								<img src="images/gallery/55.jpg" alt="">
-								<img src="images/gallery/19.jpg" alt="">
+	<div class="row" style="padding-bottom: 100px">
+		<div class="column">
+			<img src="/assets/images/gallery/52.jpg" alt="">
+			<img src="/assets/images/gallery/54.jpg" alt="">
+			<img src="/assets/images/gallery/56.jpg" alt="">
+			<img src="/assets/images/gallery/53.jpg" alt="">
+			<img src="/assets/images/gallery/55.jpg" alt="">
+			<img src="/assets/images/gallery/19.jpg" alt="">
 
-							</div>
-							<div class="column">
-								<img src="images/gallery/57.jpg" alt="">
-								<img src="images/gallery/40.jpg" alt="">
-								<img src="images/gallery/51.jpg" alt="">
-								<img src="images/gallery/1.jpg" alt="">
-								<img src="images/gallery/52.jpg" alt="">
-								<img src="images/gallery/27.jpg" alt="">
-								<img src="images/gallery/39.jpg" alt="">
-								<!-- <img src="images/gallery/29.jpg" alt=""> -->
-								<!-- <img src="images/gallery/36.jpg" alt=""> -->
-							</div>
-							<div class="column">
-								<img src="images/gallery/28.jpg" alt="">
-								<img src="images/gallery/6.jpg" alt="">
-								<img src="images/gallery/9.jpg" alt="">
-								<img src="images/gallery/10.jpg" alt="">
-								<img src="images/gallery/24.jpg" alt="">
-								<img src="images/gallery/23.jpg" alt="">
-								<img src="images/gallery/25.jpg" alt="">
-								<img src="images/gallery/20.jpg" alt="">
-								<!-- <img src="images/gallery/34.jpg" alt=""> -->
-								<!-- <img src="images/gallery/32.jpg" alt=""> -->
-								<!-- <img src="images/gallery/33.jpg" alt=""> -->
-							</div>
-							<div class="column">
-								<img src="images/gallery/30.jpg" alt="">
-								<img src="images/gallery/42.jpg" alt="">
-								<img src="images/gallery/50.jpg" alt="">
-								<img src="images/gallery/48.jpg" alt="">
-								<img src="images/gallery/49.jpg" alt="">
-								<img src="images/gallery/47.jpg" alt="">
-								<img src="images/gallery/21.jpg" alt="">
-								<img src="images/gallery/22.jpg" alt="">
-								<!-- <img src="images/gallery/35.jpg" alt=""> -->
-								<!-- <img src="images/gallery/31.jpg" alt=""> -->
-							</div>
+		</div>
+		<div class="column">
+			<img src="/assets/images/gallery/57.jpg" alt="">
+			<img src="/assets/images/gallery/40.jpg" alt="">
+			<img src="/assets/images/gallery/51.jpg" alt="">
+			<img src="/assets/images/gallery/1.jpg" alt="">
+			<img src="/assets/images/gallery/52.jpg" alt="">
+			<img src="/assets/images/gallery/27.jpg" alt="">
+			<img src="/assets/images/gallery/39.jpg" alt="">
+			<!-- <img src="/assets/images/gallery/29.jpg" alt=""> -->
+			<!-- <img src="/assets/images/gallery/36.jpg" alt=""> -->
+		</div>
+		<div class="column">
+			<img src="/assets/images/gallery/28.jpg" alt="">
+			<img src="/assets/images/gallery/6.jpg" alt="">
+			<img src="/assets/images/gallery/9.jpg" alt="">
+			<img src="/assets/images/gallery/10.jpg" alt="">
+			<img src="/assets/images/gallery/24.jpg" alt="">
+			<img src="/assets/images/gallery/23.jpg" alt="">
+			<img src="/assets/images/gallery/25.jpg" alt="">
+			<img src="/assets/images/gallery/20.jpg" alt="">
+			<!-- <img src="/assets/images/gallery/34.jpg" alt=""> -->
+			<!-- <img src="/assets/images/gallery/32.jpg" alt=""> -->
+			<!-- <img src="/assets/images/gallery/33.jpg" alt=""> -->
+		</div>
+		<div class="column">
+			<img src="/assets/images/gallery/30.jpg" alt="">
+			<img src="/assets/images/gallery/42.jpg" alt="">
+			<img src="/assets/images/gallery/50.jpg" alt="">
+			<img src="/assets/images/gallery/48.jpg" alt="">
+			<img src="/assets/images/gallery/49.jpg" alt="">
+			<img src="/assets/images/gallery/47.jpg" alt="">
+			<img src="/assets/images/gallery/21.jpg" alt="">
+			<img src="/assets/images/gallery/22.jpg" alt="">
+			<!-- <img src="/assets/images/gallery/35.jpg" alt=""> -->
+			<!-- <img src="/assets/images/gallery/31.jpg" alt=""> -->
+		</div>
+	</div>
+	<div class="clear"></div>
 
-
-
-						</div>
-
-
-
-
-
-						<div class="clear"></div>
-
-						<!-- <script src="src/js/jquery.swipebox.js"></script>
+	<!-- <script src="src/js/jquery.swipebox.js"></script>
 
 						<script type="text/javascript">
 							; (function ($) {
@@ -376,68 +105,28 @@
 						</script> -->
 
 
-						<div style=" margin-bottom: 100px; color: #FFFFFF" id="btn">
-							<div class="row">
-								<div class="col-md-2 col-sm-12" style="margin-top: 20px;" align="center">
-									<a href="index.htm#port-top" class="btn">
+	<div style=" margin-bottom: 100px; color: #FFFFFF" id="btn">
+		<div class="row">
+			<div class="col-md-2 col-sm-12" style="margin-top: 20px;" align="center">
+				<a href="index.htm#port-top" class="btn">
 
 
-										Back to Portfolio
+					Back to Portfolio
 
 
-									</a>
-								</div>
-
-								<div class="col-md-7">
-								</div>
-								<div class="col-md-3 col-sm-12" style="margin-top: 20px;float: center" align="center">
-									<a href="Sketches.html" class="btn" style="float: center">
-
-
-										NEXT UP: Sketches
-
-
-									</a>
-
-
-
-								</div>
-
-
-							</div>
-						</div>
-					</div>
-
-
-
-				</div>
+				</a>
 			</div>
-
-
-
-
-			<div class="footer_bg">
-				<div class="wrap">
-
-					<div class="wrapper">
-
-						<div class="copy">
-
-							<br />
-							<br />
-
-							<p style="color: #FFFFFF">&copy; 2018. Yiran MA. All rights reserved.</p>
-							<br />
-
-						</div>
-
-					</div>
-
-				</div>
+			<div class="col-md-7">
 			</div>
+			<div class="col-md-3 col-sm-12" style="margin-top: 20px;float: center" align="center">
+				<a href="Sketches.html" class="btn" style="float: center">
 
 
+					NEXT UP: Sketches
 
-</body>
 
-</html>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
