@@ -1059,7 +1059,7 @@ div#portfoliolist2 {
 	font-size: 1.2em;
 	color: #666666;
 	-webkit-text-stroke: 0.2px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -1209,21 +1209,21 @@ div#portfoliolist2 {
 	font-size: 1.2em;
 	color: #666666;
 	-webkit-text-stroke: 0.2px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 }
 .images_1_of_3  p{
 	margin-top:4%;
 	font-size: 1em;
 	color:#777777;
 	line-height: 1.8em;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 }
 .images_1_of_3  p span{
 	text-transform:uppercase;
 }
 /* start footer */
 .footer_bg{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	background: #555555; /*url('../images/footer_top.png') repeat-x;	*/
 	padding-left: 8%;
 	padding-right: 8%;
@@ -1340,7 +1340,7 @@ div#portfoliolist2 {
 }
 /* start footer copy */
 .copy{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	text-align: center;
 }
 .copy p{
@@ -1407,7 +1407,7 @@ p.para2{
 	font-weight: 400;
 	color: #666666;
 	/*-webkit-text-stroke: 0.2px;*/
-	/*font-family: 'Ubuntu', sans-serif;*/
+	/*font-family: sans-serif;*/
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -1429,7 +1429,7 @@ p.para2{
 	font-size: 1.6em;
 	color: #66CC99;
 	/*-webkit-text-stroke: 0.2px;*/
-/*	font-family: 'Ubuntu', sans-serif;*/
+	font-family: sans-serif;
 	font-weight: 900;
 	/*text-align: center;*/
 	cursor: default;
@@ -1509,7 +1509,7 @@ p.para2{
 	/*background-color:#66CC99; 
 	padding: 5px;
 	border-radius: 3px;*/
-/*	font-family: 'Ubuntu', sans-serif;*/
+/*	font-family: sans-serif;*/
 }
 .blog_para{
 	margin: 2% 0;
@@ -1529,7 +1529,7 @@ p.para2{
 .btn{
 	color: #ffffff;
 	display: inline-block;
-/*	font-family: 'Ubuntu', sans-serif;*/
+/*	font-family: sans-serif;*/
 	font-size: 15px;
 	line-height: 1.5em;
 	padding: 12px 24px;
@@ -1555,7 +1555,7 @@ p.para2{
 	color: #ffffff;
 	background: #66CC99;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	font-size: 15px;
 	line-height: 1.5em;
 	padding: 12px 24px;
@@ -1600,14 +1600,14 @@ form{
 	padding:5px 0;
 }
 .contact-form span label{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	color: #666666;
 	display: block;
 	font-size: 0.8725em;
 	padding-bottom: 5px;
 }
 .contact-form input[type="text"], .contact-form textarea {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	background: #FFFFFF;
 	border: 1px solid #E7E7E7;
 	color: rgba(85, 81, 81, 0.84);
@@ -1628,7 +1628,7 @@ form{
 	color: #ffffff;
 	background: #FF61A0;
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	font-size: 15px;
 	line-height: 1.5em;
 	padding: 12px 24px;
@@ -1766,7 +1766,7 @@ form{
 .port{
 	float:left;
 	color:#a2a3a3;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	font-size:3em;
 }
 .works,.service,.meet {
@@ -1948,7 +1948,7 @@ left: 114px;
 	font-size: 1.3em;
 	color: #666666;
 	-webkit-text-stroke: 0.2px;
-/*	font-family: 'Ubuntu', sans-serif;*/
+/*	font-family: sans-serif;*/
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -2461,7 +2461,7 @@ body {
 	padding-bottom: 0px;
 	padding-left: 0;
 	padding-right: 0;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 }
 
 .content h3 a{
@@ -2476,7 +2476,7 @@ body {
 	padding-top: 5px;
 	color: #666666;
 	-webkit-text-stroke: 0.2px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -2489,7 +2489,7 @@ body {
 	font-size: 1em;
 	color: #666666;
 	-webkit-text-stroke: 0.2px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -2504,7 +2504,7 @@ body {
 	font-size: 1.0em;
 	color: #666666;
 	-webkit-text-stroke: 0.2px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -2618,7 +2618,7 @@ body {
 @media only screen and (max-width: 320px) {
 	
 	body {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	font-size: 0.8em;
 	background: #ffffff;
 	color: #333333;
@@ -2657,7 +2657,7 @@ body {
 	padding-bottom: 0px;
 	padding-left: 0;
 	padding-right: 0;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 }
 
 .blog_list h4{
@@ -2666,7 +2666,7 @@ body {
 	font-size: 1.0em;
 	color: #666666;
 	-webkit-text-stroke: 0.2px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -2682,7 +2682,7 @@ body {
 	font-size: 1.0em;
 	color: #666666;
 	-webkit-text-stroke: 0.2px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: sans-serif;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
