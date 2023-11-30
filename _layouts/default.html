@@ -1,110 +1,134 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap &family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>{{ page.title }}</title>
-  <link rel="icon" type="image/png" href="assets/images/logo.png" />
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap &family=Shadows+Into+Light&display=swap"
-    rel="stylesheet" />
+    <!-- end google fonts -->
+    <meta property="og:image" content="assets/images/thumbnail.jpg" />
+    <meta property="og:description" content="Yiran's Portfolio" />
+    <meta property="og:url" content="http://bridget-ma.com/" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link
+      href="assets/css/style.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    {% if page.is_post %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/css/swipebox.min.css" integrity="sha512-ih6Xht3ics+Ewow1rR+nSCuWB1Xm3Mul7o+PR71VK6mQ7IWUgypDUo0zEQTUnk717zH6VhvqVCcKLQVGzuE4mQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="assets/css/post.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    {% endif %}
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+      integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.3/jquery.scrollTo.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.localscroll@2.0.0/jquery.localScroll.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/1.5.6/jquery.mixitup.min.js"
+      integrity="sha512-UmZ15zGovMYyCpLp2ZA/sDpaDSorklcTAW3Rd0767fRDWT8WmLqhzr5kisseQmKtk4qIAxxjWV83fwKp3ncmkQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!--Google Analytics-->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-  <!-- end google fonts -->
-  <meta property="og:image" content="assets/images/thumbnail.jpg" />
-  <meta property="og:description" content="Yiran's Portfolio" />
-  <meta property="og:url" content="http://bridget-ma.com/" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
-  {% if page.is_post %}
-  <link href="assets/css/swipebox.css" rel="stylesheet" type="text/css" media="all" />
-  <link href="assets/css/post.css" rel="stylesheet" type="text/css" media="all" />
-  {% endif %}
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.3/jquery.scrollTo.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery.localscroll@2.0.0/jquery.localScroll.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/1.5.6/jquery.mixitup.min.js"
-    integrity="sha512-UmZ15zGovMYyCpLp2ZA/sDpaDSorklcTAW3Rd0767fRDWT8WmLqhzr5kisseQmKtk4qIAxxjWV83fwKp3ncmkQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!--Google Analytics-->
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i["GoogleAnalyticsObject"] = r;
-      (i[r] =
-        i[r] ||
-        function () {
-          (i[r].q = i[r].q || []).push(arguments);
-        }),
-        (i[r].l = 1 * new Date());
-      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m);
-    })(
-      window,
-      document,
-      "script",
-      "https://www.google-analytics.com/analytics.js",
-      "ga"
-    );
-
-    ga("create", "UA-90414112-1", "auto");
-    ga("send", "pageview");
-  </script>
-  <script>
-    function validatePass() {
-      if (prompt("Password", "") == "202100") {
-        window.open(
-          "https://drive.google.com/file/d/1AiVk4EhagaP7KfpEYtrgg7xZgLITpbom/view?usp=sharing"
-        );
-      } else {
-        alert("wrong password!!");
-        return false;
-      }
-    }
-  </script>
-  <!--nav-->
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $("#btn").localScroll({ duration: 800 });
-    });
-  </script>
-  <script>
-    $(function () {
-      var pull = $("#pull");
-
-      menu = $("nav ul");
-
-      menuHeight = menu.height();
-
-      $(pull).on("click", function (e) {
-        e.preventDefault();
-
-        menu.slideToggle();
-      });
-
-      $(window).resize(function () {
-        var w = $(window).width();
-
-        if (w > 320 && menu.is(":hidden")) {
-          menu.removeAttr("style");
+      ga("create", "UA-90414112-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <script>
+      function validatePass() {
+        if (prompt("Password", "") == "202100") {
+          window.open(
+            "https://drive.google.com/file/d/1AiVk4EhagaP7KfpEYtrgg7xZgLITpbom/view?usp=sharing"
+          );
+        } else {
+          alert("wrong password!!");
+          return false;
         }
+      }
+    </script>
+    <!--nav-->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#btn").localScroll({ duration: 800 });
       });
-    });
-  </script>
-</head>
+    </script>
+    <script>
+      $(function () {
+        var pull = $("#pull");
 
-<body style="padding-bottom: 0; margin-bottom: 0">
-  {{content}}
-</body>
+        menu = $("nav ul");
 
+        menuHeight = menu.height();
+
+        $(pull).on("click", function (e) {
+          e.preventDefault();
+
+          menu.slideToggle();
+        });
+
+        $(window).resize(function () {
+          var w = $(window).width();
+
+          if (w > 320 && menu.is(":hidden")) {
+            menu.removeAttr("style");
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body style="padding-bottom: 0; margin-bottom: 0">
+    {{content}}
+  </body>
 </html>
